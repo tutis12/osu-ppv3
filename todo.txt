@@ -1,0 +1,26 @@
+
+	// StaminaStream  float64 // chains of circles
+	// StaminaControl float64 // chains of bursts
+	// StaminaSingles float64 // chains of jumps
+
+	// Singles float64 // jumps
+	// Doubles float64 // doubles
+	// Triples float64 // triples
+	// Quads   float64 // quads
+	// Quints  float64 // quints
+
+	// EvenStream float64 // continue tapping after an even numbered stream
+	// OddStream  float64 // continue tapping after an odd numbered stream
+
+	// Burst float64 // stuff faster than 1/4
+
+	// EvenBurstToSingle float64
+	// OddBurstToSingle  float64
+
+	// EvenBurstToOddBurst  float64
+	// EvenBurstToEvenBurst float64
+	// OddBurstToOddBurst   float64
+	// OddBurstToEvenBurst  float64
+
+	// Sliders              float64
+	// NonStandardSnappings float64
