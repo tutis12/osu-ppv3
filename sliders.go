@@ -68,7 +68,7 @@ func ApproximateSliderPath(slider dotosu.Slider) []Vec {
 
 	// compact collinear/zero-length steps
 	poly = dedupeCollinear(poly)
-	return ConformPolylineToLength(poly, slider.Length)
+	return poly
 }
 
 // --- Bezier (adaptive subdivision, identical strategy to lazer) ---
@@ -337,74 +337,6 @@ func maxi(a, b int) int {
 	return b
 }
 
-// ConformPolylineToLength trims or extends the sampled polyline so that
-// its total length equals target. If extended, it continues in a straight
-// line from the final segment (osu!/lazer behaviour).
-func ConformPolylineToLength(poly []Vec, target float64) []Vec {
-	if len(poly) == 0 {
-		return nil
-	}
-	if target <= 0 {
-		return []Vec{poly[0]}
-	}
-
-	// cumulative lengths
-	cum := make([]float64, len(poly))
-	total := 0.0
-	for i := 1; i < len(poly); i++ {
-		total += math.Hypot(poly[i].X-poly[i-1].X, poly[i].Y-poly[i-1].Y)
-		cum[i] = total
-	}
-
-	// degenerate: all points the same → extend along +X
-	if total <= 1e-12 {
-		head := poly[0]
-		return []Vec{head, {head.X + target, head.Y}} // ← include Vec type
-	}
-
-	// need to TRIM
-	if target < total {
-		// find first segment where cum >= target
-		i := 1
-		for ; i < len(poly) && cum[i] < target; i++ {
-		}
-		prev, next := poly[i-1], poly[i]
-		segLen := cum[i] - cum[i-1]
-		t := (target - cum[i-1]) / segLen
-		p := Vec{
-			X: prev.X + (next.X-prev.X)*t,
-			Y: prev.Y + (next.Y-prev.Y)*t,
-		}
-		out := make([]Vec, 0, i)
-		out = append(out, poly[:i]...)
-		out[i-1] = p // replace last with the trimmed point
-		return out
-	}
-
-	// need to EXTEND (straight line from last segment direction)
-	last := poly[len(poly)-1]
-	// find a previous distinct point to get direction
-	j := len(poly) - 2
-	for j >= 0 && math.Hypot(poly[j].X-last.X, poly[j].Y-last.Y) <= 1e-12 {
-		j--
-	}
-	dir := Vec{X: 1, Y: 0} // fallback if all duplicates
-	if j >= 0 {
-		dir = Vec{X: last.X - poly[j].X, Y: last.Y - poly[j].Y}
-		if l := math.Hypot(dir.X, dir.Y); l > 0 {
-			dir.X, dir.Y = dir.X/l, dir.Y/l
-		} else {
-			dir = Vec{X: 1, Y: 0}
-		}
-	}
-	extra := target - total
-	p := Vec{X: last.X + dir.X*extra, Y: last.Y + dir.Y*extra}
-	out := make([]Vec, len(poly)+1)
-	copy(out, poly)
-	out[len(poly)] = p
-	return out
-}
-
 func GetSliderPosition(poly []Vec, progress float64) Vec {
 	for i := 1; i < len(poly); i++ {
 		dir := Vec{
@@ -421,5 +353,20 @@ func GetSliderPosition(poly []Vec, progress float64) Vec {
 			progress -= l
 		}
 	}
-	return poly[len(poly)-1]
+	if len(poly) < 2 {
+		panic("wtf")
+		//return Vec{poly[0].X + progress, poly[0].Y}
+	}
+	from := poly[len(poly)-1]
+	dir := Vec{
+		X: poly[len(poly)-1].X - poly[len(poly)-2].X,
+		Y: poly[len(poly)-1].Y - poly[len(poly)-2].Y,
+	}
+
+	l := math.Hypot(dir.X, dir.Y)
+
+	return Vec{
+		X: from.X + dir.X*progress/l,
+		Y: from.Y + dir.Y*progress/l,
+	}
 }

@@ -23,7 +23,7 @@ func main() {
 			Rate: 1,
 		},
 	)
-	file, _ := os.Create("../output.txt")
+	file, _ := os.Create("output.txt")
 	defer file.Close()
 
 	bytes, _ := json.MarshalIndent(m, "", "\t")
