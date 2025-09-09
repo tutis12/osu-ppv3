@@ -5,30 +5,36 @@ import (
 	"fmt"
 	"math"
 	"ppv3/dotosu"
+	"sync"
 )
 
 type BeatmapPPInfo struct {
-	Iter              PPIter
-	ApproachRate      float64
-	OverallDifficulty float64
-	Actions           []Action
+	Iter                  PPIter
+	ApproachRate          float64
+	OverallDifficulty     float64
+	OverallDifficulty100s float64
+	OverallDifficulty50s  float64
 }
 
+type BeatmapIdentifier struct {
+	Id   int
+	Mods Modifiers
+}
+
+var cache = make(map[BeatmapIdentifier][]PPIter)
+var cacheLock sync.Mutex
+
 func CalculateBeatmapPPInfo(
-	beatmapID int,
+	beatmap *dotosu.Beatmap,
+	actions []*Action,
 	mods Modifiers,
 	count100s int,
 	count50s int,
 	countMisses int,
+	countSliderEndMisses int,
+	countSliderTickMisses int,
+	countSpinnerMisses int,
 ) (*BeatmapPPInfo, error) {
-	_, beatmap, err := OpenBeatmap(beatmapID)
-	if err != nil {
-		return nil, err
-	}
-	actions, err := ConvertBeatmapToActions(beatmap, mods)
-	if err != nil {
-		return nil, err
-	}
 
 	ar := beatmap.Difficulty.ApproachRate
 
@@ -55,24 +61,67 @@ func CalculateBeatmapPPInfo(
 	window50 := (200 - 10*od) / mods.Rate
 
 	od = (80 - window300) / 6
+	od100 := (140 - window100) / 8
+	od50 := (200 - window50) / 10
 
+	beatmapIdentifier := BeatmapIdentifier{
+		Id:   beatmap.Metadata.BeatmapID,
+		Mods: mods,
+	}
+	cacheLock.Lock()
+	cacheVal := cache[beatmapIdentifier]
+	cacheLock.Unlock()
+	var skillsStart Skills
+	if len(cacheVal) != 0 {
+		bestVal := cacheVal[0]
+		diff := func(iter PPIter) float64 {
+			iter.CalculateProbability(
+				count100s,
+				count50s,
+				countMisses,
+				countSliderEndMisses,
+				countSliderTickMisses,
+				countSpinnerMisses,
+			)
+			return math.Abs(iter.ProbResult - targetProbability)
+		}
+		for _, val := range cacheVal {
+			if diff(val) < diff(bestVal) {
+				bestVal = val
+			}
+		}
+		skillsStart = bestVal.Skills
+	}
 	ppIter := GradientDescent(
+		SkillsToVector(skillsStart),
 		func(skills Skills) PPIter {
 			iter := NewPPIter(
 				skills,
+				ar,
 				window300,
 				window100,
 				window50,
 			)
 			for _, action := range actions {
-				IterateAction(&iter, &action)
+				IterateAction(&iter, action)
 			}
 			iter.CalculateProbability(
 				count100s,
 				count50s,
 				countMisses,
+				countSliderEndMisses,
+				countSliderTickMisses,
+				countSpinnerMisses,
 			)
 			iter.PP = skills.PP()
+
+			cacheLock.Lock()
+			cache[beatmapIdentifier] = append(
+				cache[beatmapIdentifier],
+				iter,
+			)
+			cacheLock.Unlock()
+
 			return iter
 		},
 	)
@@ -103,13 +152,34 @@ func CalculateBeatmapPPInfo(
 		modsStr += "SO"
 	}
 
-	fmt.Printf("%s [%s]\n%s\n%dx100s %dx50s %dxmisses\n%.5fpp\n\n", beatmap.Metadata.Title, beatmap.Metadata.Version, modsStr, count100s, count50s, countMisses, ppIter.PP)
+	if modsStr == "" {
+		modsStr = "NM"
+	}
+
+	fmt.Printf(
+		"%s [%s]\n%s\n%d x 100s\n%d x 50s\n%d x misses \n%d x slider end misses\n%d x slider tick misses\n%d x spinner misses\n%.5fpp\n\n",
+		beatmap.Metadata.Title, beatmap.Metadata.Version,
+		modsStr,
+		count100s, count50s, countMisses,
+		countSliderEndMisses,
+		countSliderTickMisses,
+		countSpinnerMisses,
+		ppIter.PP,
+	)
+
+	cacheLock.Lock()
+	cache[beatmapIdentifier] = append(
+		cache[beatmapIdentifier],
+		ppIter,
+	)
+	cacheLock.Unlock()
 
 	return &BeatmapPPInfo{
-		Iter:              ppIter,
-		ApproachRate:      ar,
-		OverallDifficulty: od,
-		Actions:           actions,
+		Iter:                  ppIter,
+		ApproachRate:          ar,
+		OverallDifficulty:     od,
+		OverallDifficulty100s: od100,
+		OverallDifficulty50s:  od50,
 	}, nil
 }
 
@@ -137,6 +207,10 @@ type Vec struct {
 	X, Y float64
 }
 
+func Distance(a, b Vec) float64 {
+	return math.Hypot(a.X-b.X, a.Y-b.Y)
+}
+
 var CenterPos = Vec{
 	X: 256,
 	Y: 192,
@@ -147,12 +221,16 @@ type Action struct {
 	Time       float64
 	Radius     float64 //circle/sliderhead < sliderend < spinner
 	Clickable  bool
-	Object     dotosu.HitObject
-	SliderPath []Vec `json:"SliderPath,omitzero"`
+	SliderEnd  bool
+	SliderTick bool
+	Spinner    bool
+
+	LastClicks []TimePos
+	LastAims   []TimePos
 }
 
-func ConvertBeatmapToActions(beatmap *dotosu.Beatmap, mods Modifiers) ([]Action, error) {
-	actions := make([]Action, 0, len(beatmap.HitObjects))
+func ConvertBeatmapToActions(beatmap *dotosu.Beatmap, mods Modifiers) ([]*Action, error) {
+	actions := make([]*Action, 0, len(beatmap.HitObjects))
 
 	cs := beatmap.Difficulty.CircleSize
 	if mods.Hardrock {
@@ -170,7 +248,7 @@ func ConvertBeatmapToActions(beatmap *dotosu.Beatmap, mods Modifiers) ([]Action,
 	var lastGreenLine *dotosu.TimingPoint
 objectLoop:
 	for _, object := range beatmap.HitObjects {
-		for timingPointIndex < len(timingPoints) && timingPoints[timingPointIndex].Time <= object.StartTime() {
+		for timingPointIndex < len(timingPoints) && (lastRedLine == nil || timingPoints[timingPointIndex].Time <= object.StartTime()) {
 			timingPoint := timingPoints[timingPointIndex]
 			timingPointIndex++
 
@@ -185,7 +263,7 @@ objectLoop:
 		case dotosu.Circle:
 			actions = append(
 				actions,
-				Action{
+				&Action{
 					Pos: Vec{
 						X: float64(object.PosXY.X),
 						Y: float64(object.PosXY.Y),
@@ -193,7 +271,6 @@ objectLoop:
 					Time:      float64(object.Time),
 					Radius:    csInPixels,
 					Clickable: true,
-					Object:    object,
 				},
 			)
 		case dotosu.Slider:
@@ -209,16 +286,14 @@ objectLoop:
 
 			actions = append(
 				actions,
-				Action{
+				&Action{
 					Pos: Vec{
 						X: float64(object.PosXY.X),
 						Y: float64(object.PosXY.Y),
 					},
-					Time:       float64(object.Time),
-					Radius:     csInPixels,
-					Clickable:  true,
-					Object:     object,
-					SliderPath: samples,
+					Time:      float64(object.Time),
+					Radius:    csInPixels,
+					Clickable: true,
 				},
 			)
 			visualLength := object.Length
@@ -229,17 +304,6 @@ objectLoop:
 			tickLength := visualLength / ticksFloat
 
 			tickTime := beatLength / beatmap.Difficulty.SliderTickRate
-
-			if object.Time == 1100 {
-				fmt.Printf("beatLength: %f\n", beatLength)
-				fmt.Printf("sv: %f\n", sv)
-				fmt.Printf("visualLength: %f\n", visualLength)
-				fmt.Printf("timeLength: %f\n", timeLength)
-				fmt.Printf("ticksFloat: %f\n", ticksFloat)
-				fmt.Printf("ticks: %d\n", ticks)
-				fmt.Printf("tickLength: %f\n", tickLength)
-				fmt.Printf("tickTime: %f\n\n", tickTime)
-			}
 
 			for i := range object.Slides {
 				for j := range ticks {
@@ -258,13 +322,12 @@ objectLoop:
 					}
 					actions = append(
 						actions,
-						Action{
+						&Action{
 							Pos:        GetSliderPosition(samples, progress),
 							Time:       time,
 							Radius:     csInPixels * 2.4,
 							Clickable:  false,
-							Object:     object,
-							SliderPath: samples,
+							SliderTick: true,
 						},
 					)
 				}
@@ -293,13 +356,13 @@ objectLoop:
 				}
 				actions = append(
 					actions,
-					Action{
+					&Action{
 						Pos:        sliderend,
 						Time:       repeatTime,
 						Radius:     csInPixels * 2.4,
 						Clickable:  false,
-						Object:     object,
-						SliderPath: samples,
+						SliderEnd:  i == object.Slides-1,
+						SliderTick: i != object.Slides-1,
 					},
 				)
 			}
@@ -309,12 +372,12 @@ objectLoop:
 			}
 			actions = append(
 				actions,
-				Action{
+				&Action{
 					Pos:       CenterPos,
 					Time:      float64(object.Time+object.EndTime) / 2,
 					Radius:    100, // should be based on od
 					Clickable: false,
-					Object:    object,
+					Spinner:   true,
 				},
 			)
 		default:
@@ -330,6 +393,37 @@ objectLoop:
 	}
 	for i := range actions {
 		actions[i].Time /= mods.Rate
+	}
+
+	const minObjects = 10
+
+	clicks := make([]TimePos, minObjects)
+	aims := make([]TimePos, minObjects)
+	for i := range minObjects {
+		fakeObject := TimePos{
+			Pos:    CenterPos,
+			Radius: csInPixels,
+			Time:   -1e18 + 1e12*float64(i),
+		}
+		clicks[i] = fakeObject
+		aims[i] = fakeObject
+	}
+
+	for i, action := range actions {
+		actions[i].LastClicks = clicks
+		actions[i].LastAims = clicks
+		timePos := TimePos{
+			Pos:    action.Pos,
+			Radius: action.Radius,
+			Time:   action.Time,
+		}
+		if action.Clickable {
+			clicks = append(
+				clicks,
+				timePos,
+			)
+		}
+		aims = append(aims, timePos)
 	}
 
 	return actions, nil

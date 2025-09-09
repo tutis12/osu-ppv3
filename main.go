@@ -17,27 +17,118 @@ import (
 )
 
 func main() {
-	m, err := CalculateBeatmapPPInfo(
-		4922783,
-		Modifiers{
-			Hardrock: true,
-			Rate:     1.5,
-		},
-		0,
-		0,
-		0,
-	)
-	file, _ := os.Create("output.txt")
-	defer file.Close()
-
-	bytes, _ := json.MarshalIndent(m, "", "\t")
-	fmt.Fprintln(file, string(bytes))
+	userId := 17592067
+	_, err := EvalUserScores(userId)
 	if err != nil {
-		fmt.Println(file, err.Error())
+		panic(err)
 	}
 }
 
+type PPRecalc struct {
+	BeatmapID  int
+	Artist     string
+	Title      string
+	Difficulty string
+	PrevPP     float64
+	NewPP      float64
+	Info       *BeatmapPPInfo
+}
+
+func EvalUserScores(userId int) ([]PPRecalc, error) {
+	scores, err := GetBestScores(userId)
+	if err != nil {
+		return nil, err
+	}
+	wg := sync.WaitGroup{}
+	wg.Add(len(scores))
+	recalc := make([]PPRecalc, len(scores))
+	for i, score := range scores {
+		Run(func() {
+			defer wg.Done()
+			mods := Modifiers{
+				Lazer: true,
+
+				Rate:       1.0,
+				Hardrock:   slices.Contains(score.Mods, "HR"),
+				Easy:       slices.Contains(score.Mods, "EZ"),
+				Hidden:     slices.Contains(score.Mods, "HD"),
+				Flashlight: slices.Contains(score.Mods, "FL"),
+				NoFail:     slices.Contains(score.Mods, "NF"),
+				SpunOut:    slices.Contains(score.Mods, "SO"),
+			}
+			if slices.Contains(score.Mods, "DT") {
+				mods.Rate = 1.5
+			}
+			if slices.Contains(score.Mods, "HT") {
+				mods.Rate = 0.75
+			}
+
+			calculate := CalculateScore(
+				score.Beatmap.BeatmapsetID,
+				mods,
+				score.Statistics.Count100,
+				score.Statistics.Count50,
+				score.Statistics.CountMiss,
+				0,
+				0,
+				0,
+			)
+			recalc[i] = PPRecalc{
+				BeatmapID:  score.Beatmap.BeatmapsetID,
+				Artist:     score.BeatmapSet.Artist,
+				Title:      score.BeatmapSet.Title,
+				Difficulty: score.Beatmap.Version,
+				PrevPP:     score.PP,
+				NewPP:      calculate.Iter.PP,
+				Info:       calculate,
+			}
+			json, _ := json.MarshalIndent(recalc[i], "", "\t")
+			fmt.Println(string(json))
+		})
+	}
+	wg.Wait()
+	return recalc, nil
+}
+
+func CalculateScore(
+	beatmapId int,
+	mods Modifiers,
+	count100s int,
+	count50s int,
+	countMisses int,
+	countSliderEndMisses int,
+	countSliderTickMisses int,
+	countSpinnerMisses int,
+) *BeatmapPPInfo {
+	_, beatmap, err := OpenBeatmap(4922783)
+	if err != nil {
+		panic(err)
+	}
+	actions, err := ConvertBeatmapToActions(beatmap, mods)
+	if err != nil {
+		panic(err)
+	}
+
+	info, err := CalculateBeatmapPPInfo(
+		beatmap,
+		actions,
+		mods,
+		count100s,
+		count50s,
+		countMisses,
+		countSliderEndMisses,
+		countSliderTickMisses,
+		countSpinnerMisses,
+	)
+	if err != nil {
+		panic(err.Error())
+	}
+	return info
+}
+
 type Modifiers struct {
+	Lazer bool
+
 	Rate float64
 
 	Hardrock bool

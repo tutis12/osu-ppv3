@@ -4,6 +4,8 @@ import (
 	"math"
 )
 
+const targetProbability = 1.0 / 40
+
 type sample struct {
 	SkillVector [skillCount]float64
 	PPIter      PPIter
@@ -17,10 +19,9 @@ func scaleSkills(skills [skillCount]float64, factor float64) [skillCount]float64
 }
 
 func GradientDescent(
+	start [skillCount]float64,
 	fn func(Skills) PPIter,
 ) PPIter {
-	const targetProbability = 0.1 // try to make probability of result 10%
-
 	scaleSample := func(x sample) sample {
 		var underExists, overExists bool
 		var underSample, overSample sample
@@ -53,7 +54,7 @@ func GradientDescent(
 				overExists = true
 				overSample = nextSample
 			}
-			if math.Abs(nextSample.PPIter.ProbResult-targetProbability) < 1e-5 {
+			if math.Abs(nextSample.PPIter.ProbResult-targetProbability) < 1e-7 {
 				break
 			}
 		}
@@ -74,7 +75,7 @@ func GradientDescent(
 	var ret sample
 	{
 		for i := range skillCount {
-			ret.SkillVector[i] = 1e9
+			ret.SkillVector[i] = max(1, start[i])
 		}
 		ret.PPIter = fn(VectorToSkills(ret.SkillVector))
 		ret = scaleSample(ret)
@@ -86,10 +87,10 @@ func GradientDescent(
 	}
 
 	for delta := maxDelta; delta >= 0.01; delta /= 2 {
-		for _, sign := range []float64{-1, 1} {
-			improved := true
-			for improved {
-				improved = false
+		improved := true
+		for improved {
+			improved = false
+			for _, sign := range []float64{-1, 1} {
 				lastPP := ret.PPIter.PP
 				for i := range skillCount {
 					newSample := sample{
