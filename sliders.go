@@ -116,13 +116,14 @@ func bezierFlatEnough(cp []Vec) bool {
 func bezierSubdivide(cp []Vec) (left, right []Vec) {
 	n := len(cp)
 	buf := make([]Vec, n*(n+1)/2)
-	// First row = control points
+
+	// first row = control points
 	for i := 0; i < n; i++ {
 		buf[i] = cp[i]
 	}
+
 	rowStart := 0
 	nextRowStart := n
-	// Build the de Casteljau triangle
 	for r := 1; r < n; r++ {
 		for i := 0; i < n-r; i++ {
 			a := buf[rowStart+i]
@@ -132,18 +133,21 @@ func bezierSubdivide(cp []Vec) (left, right []Vec) {
 		rowStart = nextRowStart
 		nextRowStart += n - r
 	}
-	// Left: first element of each row; Right: last element of each row (reverse)
+
+	// Left: first element of each row
 	left = make([]Vec, n)
-	right = make([]Vec, n)
 	rowStart = 0
 	for r := 0; r < n; r++ {
 		left[r] = buf[rowStart]
 		rowStart += n - r
 	}
-	rowEnd := n - 1
+
+	// Right: last element of each row, **reversed** (midpoint -> end)
+	right = make([]Vec, n)
 	rowStart = 0
+	rowEnd := n - 1
 	for r := 0; r < n; r++ {
-		right[r] = buf[rowStart+rowEnd]
+		right[n-1-r] = buf[rowStart+rowEnd] // note the reverse index
 		rowStart += n - r
 		rowEnd--
 	}

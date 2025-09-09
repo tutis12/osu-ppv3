@@ -18,10 +18,14 @@ import (
 
 func main() {
 	m, err := CalculateBeatmapPPInfo(
-		4424065,
+		4922783,
 		Modifiers{
-			Rate: 1,
+			Hardrock: true,
+			Rate:     1.5,
 		},
+		0,
+		0,
+		0,
 	)
 	file, _ := os.Create("output.txt")
 	defer file.Close()

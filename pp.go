@@ -8,118 +8,19 @@ import (
 )
 
 type BeatmapPPInfo struct {
-	Actions   []Action
-	Window300 float64
-	Window100 float64
-	Window50  float64
+	Iter              PPIter
+	ApproachRate      float64
+	OverallDifficulty float64
+	Actions           []Action
 }
 
-type Skills struct {
-	Aim     AimSkills
-	Tapping TappingSkills
-}
-
-func VectorToSkills(skillVector [36]float64) Skills {
-	return Skills{
-		Aim: AimSkills{
-			Precision:        skillVector[0],
-			Speed:            skillVector[1],
-			Stamina:          skillVector[2],
-			SpeedIncrease:    skillVector[3],
-			SpeedDecrease:    skillVector[4],
-			SpeedStop:        skillVector[5],
-			FlicksWideAngle:  skillVector[6],
-			FlicksSharpAngle: skillVector[7],
-			FlicksRightAngle: skillVector[8],
-			Cheese:           skillVector[9],
-			AngleIncrease:    skillVector[10],
-			AngleDecrease:    skillVector[11],
-			CW:               skillVector[12],
-			CCW:              skillVector[13],
-			CWChange:         skillVector[14],
-			CWHold:           skillVector[15],
-			Angles:           [18]float64(skillVector[16:34]),
-		},
-		Tapping: TappingSkills{
-			Accuracy: skillVector[34],
-			Speed:    skillVector[35],
-		},
-	}
-}
-
-func SkillsToVector(skills Skills) [36]float64 {
-	return [36]float64{
-		skills.Aim.Precision,
-		skills.Aim.Speed,
-		skills.Aim.Stamina,
-		skills.Aim.SpeedIncrease,
-		skills.Aim.SpeedDecrease,
-		skills.Aim.SpeedStop,
-		skills.Aim.FlicksWideAngle,
-		skills.Aim.FlicksSharpAngle,
-		skills.Aim.FlicksRightAngle,
-		skills.Aim.Cheese,
-		skills.Aim.AngleIncrease,
-		skills.Aim.AngleDecrease,
-		skills.Aim.CW,
-		skills.Aim.CCW,
-		skills.Aim.CWChange,
-		skills.Aim.CWHold,
-		skills.Aim.Angles[0],
-		skills.Aim.Angles[1],
-		skills.Aim.Angles[2],
-		skills.Aim.Angles[3],
-		skills.Aim.Angles[4],
-		skills.Aim.Angles[5],
-		skills.Aim.Angles[6],
-		skills.Aim.Angles[7],
-		skills.Aim.Angles[8],
-		skills.Aim.Angles[9],
-		skills.Aim.Angles[10],
-		skills.Aim.Angles[11],
-		skills.Aim.Angles[12],
-		skills.Aim.Angles[13],
-		skills.Aim.Angles[14],
-		skills.Aim.Angles[15],
-		skills.Aim.Angles[16],
-		skills.Aim.Angles[17],
-		skills.Tapping.Accuracy,
-		skills.Tapping.Speed,
-	}
-}
-
-type AimSkills struct {
-	Precision float64 // high cs
-	Speed     float64 // high bpm
-	Stamina   float64 // long circle chains
-
-	SpeedIncrease float64 // increase cursor speed
-	SpeedDecrease float64 // decrease cursor speed
-	SpeedStop     float64 // hold still / stacks / sliders
-
-	FlicksWideAngle  float64 // wide angle flicks
-	FlicksSharpAngle float64 // sharp angle flicks
-	FlicksRightAngle float64 // right angle flicks
-
-	Cheese float64 // cheese overlaps
-
-	AngleIncrease float64 // increase jump angle
-	AngleDecrease float64 // decrease jump angle
-
-	CW  float64 // clockwise flow
-	CCW float64 // counterclockwise flow
-
-	CWChange float64     // ability to switch circular direction
-	CWHold   float64     // ability to continue circular direction
-	Angles   [18]float64 // increments of 10 degrees
-}
-
-type TappingSkills struct {
-	Accuracy float64 // high od
-	Speed    float64 // high bpm
-}
-
-func CalculateBeatmapPPInfo(beatmapID int, mods Modifiers) (*BeatmapPPInfo, error) {
+func CalculateBeatmapPPInfo(
+	beatmapID int,
+	mods Modifiers,
+	count100s int,
+	count50s int,
+	countMisses int,
+) (*BeatmapPPInfo, error) {
 	_, beatmap, err := OpenBeatmap(beatmapID)
 	if err != nil {
 		return nil, err
@@ -129,6 +30,8 @@ func CalculateBeatmapPPInfo(beatmapID int, mods Modifiers) (*BeatmapPPInfo, erro
 		return nil, err
 	}
 
+	ar := beatmap.Difficulty.ApproachRate
+
 	od := beatmap.Difficulty.OverallDifficulty
 	if mods.Hardrock {
 		od = min(10, od*1.4)
@@ -137,20 +40,106 @@ func CalculateBeatmapPPInfo(beatmapID int, mods Modifiers) (*BeatmapPPInfo, erro
 		od = od / 2
 	}
 
+	if mods.Hardrock {
+		ar = min(10, ar*1.4)
+	}
+	if mods.Easy {
+		ar = ar / 2
+	}
+
+	preempt := ApproachRateToPreempt(ar) / mods.Rate
+	ar = PreemptToAR(preempt)
+
 	window300 := (80 - 6*od) / mods.Rate //+- this
 	window100 := (140 - 8*od) / mods.Rate
 	window50 := (200 - 10*od) / mods.Rate
 
+	od = (80 - window300) / 6
+
+	ppIter := GradientDescent(
+		func(skills Skills) PPIter {
+			iter := NewPPIter(
+				skills,
+				window300,
+				window100,
+				window50,
+			)
+			for _, action := range actions {
+				IterateAction(&iter, &action)
+			}
+			iter.CalculateProbability(
+				count100s,
+				count50s,
+				countMisses,
+			)
+			iter.PP = skills.PP()
+			return iter
+		},
+	)
+
+	modsStr := ""
+	if mods.Rate > 1 {
+		modsStr += fmt.Sprintf("DT(%.2f)", mods.Rate)
+	}
+	if mods.Rate < 1 {
+		modsStr += fmt.Sprintf("HT(%.2f)", mods.Rate)
+	}
+	if mods.Easy {
+		modsStr += "EZ"
+	}
+	if mods.Hardrock {
+		modsStr += "HR"
+	}
+	if mods.Hidden {
+		modsStr += "HD"
+	}
+	if mods.Flashlight {
+		modsStr += "FL"
+	}
+	if mods.NoFail {
+		modsStr += "NF"
+	}
+	if mods.SpunOut {
+		modsStr += "SO"
+	}
+
+	fmt.Printf("%s [%s]\n%s\n%dx100s %dx50s %dxmisses\n%.5fpp\n\n", beatmap.Metadata.Title, beatmap.Metadata.Version, modsStr, count100s, count50s, countMisses, ppIter.PP)
+
 	return &BeatmapPPInfo{
-		Actions:   actions,
-		Window300: window300,
-		Window100: window100,
-		Window50:  window50,
+		Iter:              ppIter,
+		ApproachRate:      ar,
+		OverallDifficulty: od,
+		Actions:           actions,
 	}, nil
+}
+
+func ApproachRateToPreempt(ar float64) float64 {
+	if ar < 5 {
+		return 1200 + 120*(5-ar)
+	} else if ar == 5 {
+		return 1200
+	} else {
+		return 1200 - 150*(ar-5)
+	}
+}
+
+func PreemptToAR(preempt float64) float64 {
+	if preempt > 1200 {
+		return 5 - (preempt-1200)/120
+	} else if preempt == 1200 {
+		return 5
+	} else {
+		return 5 + (1200-preempt)/150
+	}
 }
 
 type Vec struct {
 	X, Y float64
+}
+
+var CenterPos = Vec{
+	X: 256,
+	Y: 192,
 }
 
 type Action struct {
@@ -255,18 +244,23 @@ objectLoop:
 			for i := range object.Slides {
 				for j := range ticks {
 					var progress float64
-					if j%2 == 0 {
+					var time float64
+					if i%2 == 0 {
+						time = float64(object.Time) +
+							float64(i)*timeLength +
+							float64(j+1)*tickTime
 						progress = float64(j+1) * tickLength
 					} else {
+						time = float64(object.Time) +
+							float64(i+1)*timeLength +
+							float64(j-ticks)*tickTime
 						progress = float64(ticks-j) * tickLength
 					}
 					actions = append(
 						actions,
 						Action{
-							Pos: GetSliderPosition(samples, progress),
-							Time: float64(object.Time) +
-								float64(i)*timeLength +
-								float64(j+1)*tickTime,
+							Pos:        GetSliderPosition(samples, progress),
+							Time:       time,
 							Radius:     csInPixels * 2.4,
 							Clickable:  false,
 							Object:     object,
@@ -278,8 +272,8 @@ objectLoop:
 					float64(i+1)*timeLength
 				var sliderend Vec
 				if i == object.Slides-1 {
-					effectiveLength := min(36, timeLength/2)
-					repeatTime -= effectiveLength
+					effectiveLength := timeLength - min(36, timeLength/2)
+					repeatTime -= min(36, timeLength/2)
 					var progress float64
 					if i%2 == 0 {
 						progress = effectiveLength / timeLength * visualLength
@@ -289,7 +283,7 @@ objectLoop:
 					sliderend = GetSliderPosition(samples, progress)
 				} else {
 					if i%2 == 0 {
-						sliderend = samples[len(samples)-1]
+						sliderend = GetSliderPosition(samples, visualLength)
 					} else {
 						sliderend = Vec{
 							X: float64(object.PosXY.X),
@@ -316,10 +310,7 @@ objectLoop:
 			actions = append(
 				actions,
 				Action{
-					Pos: Vec{
-						X: 256,
-						Y: 192,
-					},
+					Pos:       CenterPos,
 					Time:      float64(object.Time+object.EndTime) / 2,
 					Radius:    100, // should be based on od
 					Clickable: false,
