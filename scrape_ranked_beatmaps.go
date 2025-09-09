@@ -6,23 +6,19 @@ import (
 	"fmt"
 	"os"
 	"sync"
-	"sync/atomic"
 )
 
-func ScrapeBeatmaps() {
+func ScrapeBeatmaps(toScrape []int) {
 	wg := sync.WaitGroup{}
-	total := atomic.Uint64{}
-	for id := 761100; id < 5_100_000; id += 50 {
+	for index := 0; index < len(toScrape); index += 50 {
 		wg.Add(1)
 		Run(func() {
 			defer wg.Done()
-			ids := make([]int, 50)
-			for i := range 50 {
-				ids[i] = id + i
+			ids := make([]int, min(50, len(toScrape)-index))
+			for i := range len(ids) {
+				ids[i] = toScrape[i] + i
 			}
 			beatmaps, err := FetchBeatmaps(context.Background(), ids)
-			total.Add(50)
-			fmt.Println(id, "...", id+49, "/", total.Load())
 			if err != nil {
 				panic(err.Error())
 			}

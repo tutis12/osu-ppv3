@@ -2,7 +2,7 @@ package main
 
 import "math"
 
-const NCount = 3
+const NCount = 100
 
 type PPIter struct {
 	PP float64

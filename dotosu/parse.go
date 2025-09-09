@@ -261,6 +261,7 @@ func Decode(r io.Reader) (*Beatmap, error) {
 	if err := sc.Err(); err != nil {
 		return nil, err
 	}
+	header = strings.TrimPrefix(header, "\ufeff")
 	if !strings.HasPrefix(strings.ToLower(header), "osu file format v") {
 		return nil, fmt.Errorf("invalid .osu header: %q", header)
 	}

@@ -100,7 +100,7 @@ func CalculateScore(
 	countSliderTickMisses int,
 	countSpinnerMisses int,
 ) *BeatmapPPInfo {
-	_, beatmap, err := OpenBeatmap(4922783)
+	_, beatmap, err := OpenBeatmap(beatmapId)
 	if err != nil {
 		panic(err)
 	}
@@ -145,6 +145,21 @@ func OpenBeatmap(id int) (*Beatmap, *dotosu.Beatmap, error) {
 	info, err := LoadBeatmap(id)
 	if err != nil {
 		return nil, nil, err
+	}
+
+	_, err = DownloadBeatmapset(info.Beatmapset)
+	if err != nil {
+		panic(err)
+	}
+	{
+		dir := fmt.Sprintf("../_ranked_sets/%d", info.BeatmapsetID)
+		_, err := os.Stat(dir)
+		if err != nil {
+			_, err := DownloadBeatmapset(info.Beatmapset)
+			if err != nil {
+				panic(err)
+			}
+		}
 	}
 	set, err := OpenSet(info.BeatmapsetID)
 	if err != nil {
@@ -210,8 +225,7 @@ func OpenSet(id int) ([]*dotosu.Beatmap, error) {
 	return beatmaps, nil
 }
 
-func DownloadAllMaps() {
-	rankedSets := RankedOsuBeatmapsets()
+func DownloadSets(rankedSets []Beatmapset) {
 	wg := sync.WaitGroup{}
 	counter := atomic.Uint32{}
 	slices.Reverse(rankedSets)
@@ -324,7 +338,11 @@ func LoadBeatmaps() []*Beatmap {
 func LoadBeatmap(id int) (*Beatmap, error) {
 	file, err := os.Open(fmt.Sprintf("../_beatmaps/%d", id))
 	if err != nil {
-		return nil, err
+		ScrapeBeatmaps([]int{id})
+		file, err = os.Open(fmt.Sprintf("../_beatmaps/%d", id))
+		if err != nil {
+			return nil, err
+		}
 	}
 	var beatmap Beatmap
 	bytes, err := io.ReadAll(file)
