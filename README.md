@@ -1,1 +1,5 @@
-osu PP calculations from scratch
+To run the code:
+
+go build
+
+./ppv3
