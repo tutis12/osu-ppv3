@@ -1,0 +1,5802 @@
+[
+	{
+		"BeatmapID": 356821,
+		"Artist": "Kano",
+		"Title": "Stella-rium",
+		"Difficulty": "Starlight",
+		"StarRating": 5.55,
+		"PrevPP": 180.101,
+		"NewPP": 853.7446249138042,
+		"Weight": 1,
+		"WeightedPP": 853.7446249138042,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 436.47209411072356,
+				"AnglePrecision": 1736.026740219967,
+				"Spin": 979.5550474620625
+			},
+			"Tapping": {
+				"Accuracy": 1174.9099903300598,
+				"BurstSpeed": 255.60566383362726,
+				"StreamSpeed": 464.21518056138484,
+				"HoldSliders": 44.93900046852435
+			},
+			"Reading": {
+				"LowAr": 62.85909211219507
+			}
+		},
+		"OldIndex": 123,
+		"NewIndex": 0
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Linada's Insane",
+		"StarRating": 3.72,
+		"PrevPP": 193.274,
+		"NewPP": 781.30536618068,
+		"Weight": 0.9509685923693578,
+		"WeightedPP": 742.996864287467,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 264.5596999710537,
+				"AnglePrecision": 1410.676177426582,
+				"Spin": 1223.196462520526
+			},
+			"Tapping": {
+				"Accuracy": 1088.4705961763968,
+				"BurstSpeed": 157.39055220794035,
+				"StreamSpeed": 265.3919865615576,
+				"HoldSliders": 206.57848169466416
+			},
+			"Reading": {
+				"LowAr": 68.17846548692995
+			}
+		},
+		"OldIndex": 75,
+		"NewIndex": 1
+	},
+	{
+		"BeatmapID": 952498,
+		"Artist": "Watarirouka Hashiritai",
+		"Title": "Kanpeki Gu~no ne (TV Size)",
+		"Difficulty": "Taeyang's Perfect Partner!",
+		"StarRating": 5.83,
+		"PrevPP": 175.753,
+		"NewPP": 779.8845589141456,
+		"Weight": 0.9049786662590926,
+		"WeightedPP": 705.7788879621843,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 459.95886296896003,
+				"AnglePrecision": 1756.115071865951,
+				"Spin": 697.0606250392409
+			},
+			"Tapping": {
+				"Accuracy": 960.4932963558083,
+				"BurstSpeed": 188.40196826938006,
+				"StreamSpeed": 349.2163079233586,
+				"HoldSliders": 39.48811145667375
+			},
+			"Reading": {
+				"LowAr": 53.00538618745326
+			}
+		},
+		"OldIndex": 143,
+		"NewIndex": 2
+	},
+	{
+		"BeatmapID": 313330,
+		"Artist": "Akaza Akari(CV:Mikami Shiori)",
+		"Title": "Watashi, Shuyaku no Akaza Akari desu",
+		"Difficulty": "Akariiin~!",
+		"StarRating": 5.85,
+		"PrevPP": 225.574,
+		"NewPP": 735.9212446322675,
+		"Weight": 0.8586782969328037,
+		"WeightedPP": 631.9196010175048,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 362.3358307627889,
+				"AnglePrecision": 1478.7647390869301,
+				"Spin": 890.9216649567365
+			},
+			"Tapping": {
+				"Accuracy": 981.2958746988579,
+				"BurstSpeed": 228.62668742354845,
+				"StreamSpeed": 444.0338707883232,
+				"HoldSliders": 74.1047789105564
+			},
+			"Reading": {
+				"LowAr": 54.74899935396142
+			}
+		},
+		"OldIndex": 19,
+		"NewIndex": 3
+	},
+	{
+		"BeatmapID": 2233944,
+		"Artist": "Faylan",
+		"Title": "Path to glory (Game Ver.)",
+		"Difficulty": "Black Lotus",
+		"StarRating": 6.02,
+		"PrevPP": 236.411,
+		"NewPP": 698.0776827728778,
+		"Weight": 0.8303183562641593,
+		"WeightedPP": 579.6267141046691,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 427.88882144761,
+				"AnglePrecision": 1593.3453549590809,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 990.386328499579,
+				"BurstSpeed": 193.4477842754869,
+				"StreamSpeed": 359.74640800805673,
+				"HoldSliders": 161.29766582183305
+			},
+			"Reading": {
+				"LowAr": 54.210753551852285
+			}
+		},
+		"OldIndex": 7,
+		"NewIndex": 4
+	},
+	{
+		"BeatmapID": 50587,
+		"Artist": "SMiLE.dk",
+		"Title": "Golden Sky",
+		"Difficulty": "Insane",
+		"StarRating": 4.1,
+		"PrevPP": 180.107,
+		"NewPP": 705.9573630226091,
+		"Weight": 0.7794698236759084,
+		"WeightedPP": 550.2724612779424,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 323.74893716079686,
+				"AnglePrecision": 1314.6272409963067,
+				"Spin": 780.4383683256469
+			},
+			"Tapping": {
+				"Accuracy": 1130.4549726198193,
+				"BurstSpeed": 249.64131148752125,
+				"StreamSpeed": 447.56222425773103,
+				"HoldSliders": 34.932997228265094
+			},
+			"Reading": {
+				"LowAr": 55.52202274430394
+			}
+		},
+		"OldIndex": 122,
+		"NewIndex": 5
+	},
+	{
+		"BeatmapID": 873811,
+		"Artist": "dj TAKA",
+		"Title": "quaver",
+		"Difficulty": "Fiery's Extra",
+		"StarRating": 6.02,
+		"PrevPP": 241.742,
+		"NewPP": 698.102370371533,
+		"Weight": 0.7449337800846341,
+		"WeightedPP": 520.0400376469094,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 448.6023453957016,
+				"AnglePrecision": 1630.496420868597,
+				"Spin": 297.7381187716806
+			},
+			"Tapping": {
+				"Accuracy": 884.0646810759853,
+				"BurstSpeed": 173.57137042622122,
+				"StreamSpeed": 319.0814642282069,
+				"HoldSliders": 185.68610677999698
+			},
+			"Reading": {
+				"LowAr": 48.73432049947699
+			}
+		},
+		"OldIndex": 3,
+		"NewIndex": 6
+	},
+	{
+		"BeatmapID": 1418780,
+		"Artist": "Ren feat. Hatsune Miku",
+		"Title": "Tougetsu, Rinzen ni Kisu.",
+		"Difficulty": "Touch Your Dreams",
+		"StarRating": 5.47,
+		"PrevPP": 218.194,
+		"NewPP": 683.9859571116733,
+		"Weight": 0.7154761563079273,
+		"WeightedPP": 489.37564356285884,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 385.33621790916396,
+				"AnglePrecision": 1543.9760320311825,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 1008.7268902536537,
+				"BurstSpeed": 188.42580967147381,
+				"StreamSpeed": 342.6822541269088,
+				"HoldSliders": 192.07884114380988
+			},
+			"Reading": {
+				"LowAr": 54.659807067679274
+			}
+		},
+		"OldIndex": 24,
+		"NewIndex": 7
+	},
+	{
+		"BeatmapID": 931452,
+		"Artist": "HAG",
+		"Title": "Colorful",
+		"Difficulty": "Akitoshi's Extra",
+		"StarRating": 5.7,
+		"PrevPP": 188.866,
+		"NewPP": 692.1497651384807,
+		"Weight": 0.6698909311396385,
+		"WeightedPP": 463.66485065669895,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 384.0244189036011,
+				"AnglePrecision": 1484.7878426940936,
+				"Spin": 654.2829072056525
+			},
+			"Tapping": {
+				"Accuracy": 922.5140242841998,
+				"BurstSpeed": 216.1409130946936,
+				"StreamSpeed": 388.02713056234256,
+				"HoldSliders": 35.86308593261796
+			},
+			"Reading": {
+				"LowAr": 53.05025883659655
+			}
+		},
+		"OldIndex": 88,
+		"NewIndex": 8
+	},
+	{
+		"BeatmapID": 1088997,
+		"Artist": "Aqours",
+		"Title": "Dance with Minotaurus",
+		"Difficulty": "Sunshine",
+		"StarRating": 5.49,
+		"PrevPP": 175.139,
+		"NewPP": 666.5813018810713,
+		"Weight": 0.647690042786003,
+		"WeightedPP": 431.73807193570065,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 370.3080179981298,
+				"AnglePrecision": 1547.1361736897632,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 921.4640837461914,
+				"BurstSpeed": 193.8194839748578,
+				"StreamSpeed": 365.1798586265934,
+				"HoldSliders": 30.65587760424164
+			},
+			"Reading": {
+				"LowAr": 54.106617209863145
+			}
+		},
+		"OldIndex": 145,
+		"NewIndex": 9
+	},
+	{
+		"BeatmapID": 623924,
+		"Artist": "Nogizaka46",
+		"Title": "Yubi Bouenkyou ~Anime-ban~",
+		"Difficulty": "~A r M i N's Adventure~",
+		"StarRating": 5.58,
+		"PrevPP": 173.259,
+		"NewPP": 673.7500254350236,
+		"Weight": 0.6107921078244498,
+		"WeightedPP": 411.52119818223474,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 348.6231162329317,
+				"AnglePrecision": 1403.9717066299586,
+				"Spin": 851.8248930821819
+			},
+			"Tapping": {
+				"Accuracy": 828.7506404182068,
+				"BurstSpeed": 168.02403268553041,
+				"StreamSpeed": 307.3374884983484,
+				"HoldSliders": 37.835996266979166
+			},
+			"Reading": {
+				"LowAr": 47.800643533405555
+			}
+		},
+		"OldIndex": 160,
+		"NewIndex": 10
+	},
+	{
+		"BeatmapID": 949903,
+		"Artist": "Itowokashi",
+		"Title": "Kanadeai",
+		"Difficulty": "Agatsu's Extra",
+		"StarRating": 5.42,
+		"PrevPP": 172.851,
+		"NewPP": 671.6149601349589,
+		"Weight": 0.5760247650790216,
+		"WeightedPP": 386.86684963529615,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 371.9580230465828,
+				"AnglePrecision": 1451.390853077719,
+				"Spin": 633.3723155851625
+			},
+			"Tapping": {
+				"Accuracy": 897.3957800336688,
+				"BurstSpeed": 185.92199690829915,
+				"StreamSpeed": 344.57984459646957,
+				"HoldSliders": 36.29655968877914
+			},
+			"Reading": {
+				"LowAr": 50.45476644068344
+			}
+		},
+		"OldIndex": 166,
+		"NewIndex": 11
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Ren's Insane",
+		"StarRating": 3.75,
+		"PrevPP": 176.969,
+		"NewPP": 645.0884734944674,
+		"Weight": 0.55464053021194,
+		"WeightedPP": 357.79221297258243,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 282.7854802313585,
+				"AnglePrecision": 1138.6989100215965,
+				"Spin": 785.845871871566
+			},
+			"Tapping": {
+				"Accuracy": 1064.8851807147441,
+				"BurstSpeed": 202.52834366936435,
+				"StreamSpeed": 369.82731032653226,
+				"HoldSliders": 142.20558597518402
+			},
+			"Reading": {
+				"LowAr": 54.43981071340198
+			}
+		},
+		"OldIndex": 136,
+		"NewIndex": 12
+	},
+	{
+		"BeatmapID": 758344,
+		"Artist": "Colors*Slash",
+		"Title": "Colors Power ni Omakasero!",
+		"Difficulty": "Rainbows",
+		"StarRating": 5.82,
+		"PrevPP": 192.251,
+		"NewPP": 639.6260501955497,
+		"Weight": 0.5236228056251185,
+		"WeightedPP": 334.9227869543067,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 372.01227227472225,
+				"AnglePrecision": 1425.4862042423215,
+				"Spin": 283.5120310345403
+			},
+			"Tapping": {
+				"Accuracy": 926.2148210286707,
+				"BurstSpeed": 171.8350563345374,
+				"StreamSpeed": 317.29327852824906,
+				"HoldSliders": 177.0623504677843
+			},
+			"Reading": {
+				"LowAr": 52.54969009916584
+			}
+		},
+		"OldIndex": 78,
+		"NewIndex": 13
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Haru's Insane",
+		"StarRating": 4.2,
+		"PrevPP": 217.342,
+		"NewPP": 637.8207703606482,
+		"Weight": 0.4969312591267534,
+		"WeightedPP": 316.9530785125128,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 323.3942210626818,
+				"AnglePrecision": 1242.943877701709,
+				"Spin": 704.4071822079379
+			},
+			"Tapping": {
+				"Accuracy": 968.9035177601568,
+				"BurstSpeed": 186.84264548953706,
+				"StreamSpeed": 350.8822364275566,
+				"HoldSliders": 97.49810823699434
+			},
+			"Reading": {
+				"LowAr": 50.313728711423124
+			}
+		},
+		"OldIndex": 27,
+		"NewIndex": 14
+	},
+	{
+		"BeatmapID": 2068383,
+		"Artist": "Nayugorou",
+		"Title": "White Promise",
+		"Difficulty": "Rishe's Extra",
+		"StarRating": 5.77,
+		"PrevPP": 167.167,
+		"NewPP": 638.0755497300444,
+		"Weight": 0.470689303142487,
+		"WeightedPP": 300.33533585469394,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 326.42570808806704,
+				"AnglePrecision": 1336.7606869226495,
+				"Spin": 619.501939520304
+			},
+			"Tapping": {
+				"Accuracy": 874.4158317360653,
+				"BurstSpeed": 206.9037060472038,
+				"StreamSpeed": 410.85661040266433,
+				"HoldSliders": 29.150821681390582
+			},
+			"Reading": {
+				"LowAr": 52.84517150363797
+			}
+		},
+		"OldIndex": 193,
+		"NewIndex": 15
+	},
+	{
+		"BeatmapID": 109570,
+		"Artist": "Griffin Lewis",
+		"Title": "Princess of the Night",
+		"Difficulty": "Irre's Extra",
+		"StarRating": 4.11,
+		"PrevPP": 217.565,
+		"NewPP": 631.2803654118884,
+		"Weight": 0.45253330850259443,
+		"WeightedPP": 285.6753923525686,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 299.6828242936816,
+				"AnglePrecision": 1290.5418639822174,
+				"Spin": 250.6068765143089
+			},
+			"Tapping": {
+				"Accuracy": 1093.2084768890197,
+				"BurstSpeed": 193.7865023397447,
+				"StreamSpeed": 352.58454542368645,
+				"HoldSliders": 100.08075678179692
+			},
+			"Reading": {
+				"LowAr": 54.92987922997982
+			}
+		},
+		"OldIndex": 26,
+		"NewIndex": 16
+	},
+	{
+		"BeatmapID": 705423,
+		"Artist": "Unknown Artist",
+		"Title": "Miniministop Hitoyasumi no Uta[Mokuyoubi]Gakusei no Uta",
+		"Difficulty": "Chromstrata's Hitoyasumi",
+		"StarRating": 3.78,
+		"PrevPP": 204.035,
+		"NewPP": 609.9964588281546,
+		"Weight": 0.4419509050645929,
+		"WeightedPP": 269.5884870652996,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 294.3986239803727,
+				"AnglePrecision": 1208.464846952821,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 1114.1356223248893,
+				"BurstSpeed": 198.474422901055,
+				"StreamSpeed": 361.7386090676726,
+				"HoldSliders": 122.65916051900662
+			},
+			"Reading": {
+				"LowAr": 55.823200483747726
+			}
+		},
+		"OldIndex": 48,
+		"NewIndex": 17
+	},
+	{
+		"BeatmapID": 712384,
+		"Artist": "Tamura Yukari",
+		"Title": "Andromeda made 1hour",
+		"Difficulty": "expert",
+		"StarRating": 5.61,
+		"PrevPP": 176.249,
+		"NewPP": 626.58780070038,
+		"Weight": 0.4074548472125455,
+		"WeightedPP": 255.30623659961822,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 394.3130918751841,
+				"AnglePrecision": 1418.6216397135058,
+				"Spin": 291.3141300616001
+			},
+			"Tapping": {
+				"Accuracy": 848.1819664328293,
+				"BurstSpeed": 174.78862501097439,
+				"StreamSpeed": 311.20350085111465,
+				"HoldSliders": 197.15342276145765
+			},
+			"Reading": {
+				"LowAr": 48.81884643788712
+			}
+		},
+		"OldIndex": 141,
+		"NewIndex": 18
+	},
+	{
+		"BeatmapID": 444335,
+		"Artist": "HO-KAGO TEA TIME",
+		"Title": "Kira Kira Days",
+		"Difficulty": "Shiawase!!",
+		"StarRating": 5.77,
+		"PrevPP": 218.004,
+		"NewPP": 625.9277955571705,
+		"Weight": 0.3852527650525779,
+		"WeightedPP": 241.14041396166462,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 348.557680668578,
+				"AnglePrecision": 1337.3419911046103,
+				"Spin": 604.6092402833187
+			},
+			"Tapping": {
+				"Accuracy": 854.0378468717388,
+				"BurstSpeed": 166.58488962192462,
+				"StreamSpeed": 310.09110638671643,
+				"HoldSliders": 54.99312103569026
+			},
+			"Reading": {
+				"LowAr": 49.44232687434342
+			}
+		},
+		"OldIndex": 25,
+		"NewIndex": 19
+	},
+	{
+		"BeatmapID": 1115477,
+		"Artist": "Colors*Slash",
+		"Title": "Colors Power ni Omakasero!",
+		"Difficulty": "Mitsuboshi Jump!",
+		"StarRating": 5.93,
+		"PrevPP": 229.382,
+		"NewPP": 606.9792024018122,
+		"Weight": 0.37800902238050027,
+		"WeightedPP": 229.44361490520484,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 344.67549673212346,
+				"AnglePrecision": 1362.8946469334182,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 890.5765780901659,
+				"BurstSpeed": 179.03205362103603,
+				"StreamSpeed": 327.3199864279099,
+				"HoldSliders": 189.88096587957
+			},
+			"Reading": {
+				"LowAr": 52.285065882511454
+			}
+		},
+		"OldIndex": 14,
+		"NewIndex": 20
+	},
+	{
+		"BeatmapID": 2279697,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "Fiery's Extreme Gift",
+		"StarRating": 6.14,
+		"PrevPP": 231.276,
+		"NewPP": 603.4991243175926,
+		"Weight": 0.3600206846009326,
+		"WeightedPP": 217.27216789288303,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 384.53126825976466,
+				"AnglePrecision": 1414.8173931468327,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 780.935447672857,
+				"BurstSpeed": 176.45504181752344,
+				"StreamSpeed": 336.7663306151027,
+				"HoldSliders": 90.94550756609581
+			},
+			"Reading": {
+				"LowAr": 37.90501549005889
+			}
+		},
+		"OldIndex": 10,
+		"NewIndex": 21
+	},
+	{
+		"BeatmapID": 329473,
+		"Artist": "ryo (supercell) feat.chelly",
+		"Title": "Great Distance",
+		"Difficulty": "Awakened",
+		"StarRating": 5.62,
+		"PrevPP": 186.776,
+		"NewPP": 620.6873996548109,
+		"Weight": 0.33257878159192467,
+		"WeightedPP": 206.427459126657,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 313.7120809305026,
+				"AnglePrecision": 1272.575873411774,
+				"Spin": 600.7666152612998
+			},
+			"Tapping": {
+				"Accuracy": 902.1256850720849,
+				"BurstSpeed": 197.09581791553302,
+				"StreamSpeed": 383.5846231642313,
+				"HoldSliders": 29.487776297249532
+			},
+			"Reading": {
+				"LowAr": 50.53147744158122
+			}
+		},
+		"OldIndex": 95,
+		"NewIndex": 22
+	},
+	{
+		"BeatmapID": 1224414,
+		"Artist": "REDALiCE",
+		"Title": "Pekorap Tropical House Remix",
+		"Difficulty": "Extra",
+		"StarRating": 5.64,
+		"PrevPP": 211.455,
+		"NewPP": 600.2794721328979,
+		"Weight": 0.32501491589645365,
+		"WeightedPP": 195.0997821496414,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 348.71133675448607,
+				"AnglePrecision": 1354.069084662161,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 872.3188119222489,
+				"BurstSpeed": 179.30651729480678,
+				"StreamSpeed": 321.91941401701047,
+				"HoldSliders": 169.04589812878766
+			},
+			"Reading": {
+				"LowAr": 47.75262632799773
+			}
+		},
+		"OldIndex": 34,
+		"NewIndex": 23
+	},
+	{
+		"BeatmapID": 325158,
+		"Artist": "AKINO from bless4 \u0026 CHiCO with HoneyWorks",
+		"Title": "MIIRO vs. Ai no Scenario",
+		"Difficulty": "Tatoe",
+		"StarRating": 5.99,
+		"PrevPP": 198.256,
+		"NewPP": 617.4632963926957,
+		"Weight": 0.30091589682234327,
+		"WeightedPP": 185.80452158888838,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 329.3031557995435,
+				"AnglePrecision": 1305.1709145418304,
+				"Spin": 597.3257875331205
+			},
+			"Tapping": {
+				"Accuracy": 839.3659799754075,
+				"BurstSpeed": 191.71045636329427,
+				"StreamSpeed": 369.98592738830985,
+				"HoldSliders": 34.42400480902277
+			},
+			"Reading": {
+				"LowAr": 44.887104027055436
+			}
+		},
+		"OldIndex": 64,
+		"NewIndex": 24
+	},
+	{
+		"BeatmapID": 376552,
+		"Artist": "Hana",
+		"Title": "Sakura no Uta",
+		"Difficulty": "Euphoria",
+		"StarRating": 5.64,
+		"PrevPP": 191.533,
+		"NewPP": 595.2739340886288,
+		"Weight": 0.2941161832791543,
+		"WeightedPP": 175.07969749971437,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 321.9288757591638,
+				"AnglePrecision": 1349.2023130963294,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 860.2948809057772,
+				"BurstSpeed": 194.11577298060627,
+				"StreamSpeed": 358.8123724273586,
+				"HoldSliders": 42.004627821458136
+			},
+			"Reading": {
+				"LowAr": 50.23392611442283
+			}
+		},
+		"OldIndex": 79,
+		"NewIndex": 25
+	},
+	{
+		"BeatmapID": 461966,
+		"Artist": "Mami Kawada",
+		"Title": "Contrail ~Kiseki~ (Epsilon Remix)",
+		"Difficulty": "Taeyang's Miracle",
+		"StarRating": 5.86,
+		"PrevPP": 180.336,
+		"NewPP": 614.8845236868971,
+		"Weight": 0.2703731448896205,
+		"WeightedPP": 166.24826241318272,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 316.85931467539683,
+				"AnglePrecision": 1326.8179965327802,
+				"Spin": 411.2821940270936
+			},
+			"Tapping": {
+				"Accuracy": 894.4301174670616,
+				"BurstSpeed": 203.08168619786684,
+				"StreamSpeed": 386.22274202186657,
+				"HoldSliders": 39.28318662207151
+			},
+			"Reading": {
+				"LowAr": 52.02282101685624
+			}
+		},
+		"OldIndex": 120,
+		"NewIndex": 26
+	},
+	{
+		"BeatmapID": 1209835,
+		"Artist": "Bowling For Soup",
+		"Title": "Today is Gonna be a Great Day (TV Size)",
+		"Difficulty": "Turtle Unicorn",
+		"StarRating": 5.9,
+		"PrevPP": 169.861,
+		"NewPP": 591.4306677075634,
+		"Weight": 0.2667549522164795,
+		"WeightedPP": 157.76705950369166,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 357.1996577240676,
+				"AnglePrecision": 1394.7896493735893,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 766.547719306092,
+				"BurstSpeed": 164.37595576289596,
+				"StreamSpeed": 312.3971664504265,
+				"HoldSliders": 104.76760028090553
+			},
+			"Reading": {
+				"LowAr": 45.91313190157729
+			}
+		},
+		"OldIndex": 181,
+		"NewIndex": 27
+	},
+	{
+		"BeatmapID": 118459,
+		"Artist": "Hai Nan",
+		"Title": "Ai La La",
+		"Difficulty": "cRyo's Insane",
+		"StarRating": 3.91,
+		"PrevPP": 184.349,
+		"NewPP": 586.3665647529808,
+		"Weight": 0.2539405336708984,
+		"WeightedPP": 148.90223838014336,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 281.04614785214005,
+				"AnglePrecision": 1229.3742686009741,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 989.8523079375034,
+				"BurstSpeed": 199.79722633837866,
+				"StreamSpeed": 370.50479950925984,
+				"HoldSliders": 24.11420944324383
+			},
+			"Reading": {
+				"LowAr": 51.72167652740208
+			}
+		},
+		"OldIndex": 109,
+		"NewIndex": 28
+	},
+	{
+		"BeatmapID": 372851,
+		"Artist": "Ni-Sokkususu",
+		"Title": "Blade Dance",
+		"Difficulty": "Kneesocks",
+		"StarRating": 5.87,
+		"PrevPP": 200.7,
+		"NewPP": 576.4083731631741,
+		"Weight": 0.2402525855723419,
+		"WeightedPP": 138.48360199799987,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 319.0350542016016,
+				"AnglePrecision": 1283.9286420747392,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 840.2631889332943,
+				"BurstSpeed": 197.75106905595973,
+				"StreamSpeed": 398.90426304167,
+				"HoldSliders": 33.989222386571484
+			},
+			"Reading": {
+				"LowAr": 47.83499943814789
+			}
+		},
+		"OldIndex": 55,
+		"NewIndex": 29
+	},
+	{
+		"BeatmapID": 127712,
+		"Artist": "Primastella",
+		"Title": "Koigokoro",
+		"Difficulty": "Delis' Insane",
+		"StarRating": 4.14,
+		"PrevPP": 199.242,
+		"NewPP": 570.4252275542675,
+		"Weight": 0.229409664463295,
+		"WeightedPP": 130.8610600546232,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 300.9960855355514,
+				"AnglePrecision": 1182.7195691781412,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 952.2078640222846,
+				"BurstSpeed": 211.18902465723062,
+				"StreamSpeed": 399.0763457799094,
+				"HoldSliders": 25.05681219181317
+			},
+			"Reading": {
+				"LowAr": 49.63773744072852
+			}
+		},
+		"OldIndex": 60,
+		"NewIndex": 30
+	},
+	{
+		"BeatmapID": 1073074,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "Fiery's Extreme",
+		"StarRating": 6.07,
+		"PrevPP": 230.58,
+		"NewPP": 573.1946128037728,
+		"Weight": 0.21682543728314224,
+		"WeightedPP": 124.28317256951944,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 337.3803025169878,
+				"AnglePrecision": 1318.8789309880774,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 794.1108035864155,
+				"BurstSpeed": 175.21643074892484,
+				"StreamSpeed": 320.27611097763383,
+				"HoldSliders": 94.78920975855094
+			},
+			"Reading": {
+				"LowAr": 47.68503455765033
+			}
+		},
+		"OldIndex": 11,
+		"NewIndex": 31
+	},
+	{
+		"BeatmapID": 1041915,
+		"Artist": "KANA-BOON",
+		"Title": "Nai Mono Nedari",
+		"Difficulty": "EXTRA",
+		"StarRating": 5.77,
+		"PrevPP": 173.482,
+		"NewPP": 569.7566054791189,
+		"Weight": 0.20427995450037412,
+		"WeightedPP": 116.38985344356202,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 256.7913529910559,
+				"AnglePrecision": 1159.2593443256485,
+				"Spin": 571.7729336020648
+			},
+			"Tapping": {
+				"Accuracy": 817.2877531719078,
+				"BurstSpeed": 203.87756644621572,
+				"StreamSpeed": 383.4597928966593,
+				"HoldSliders": 35.05454974381647
+			},
+			"Reading": {
+				"LowAr": 49.36429994013436
+			}
+		},
+		"OldIndex": 158,
+		"NewIndex": 32
+	},
+	{
+		"BeatmapID": 595163,
+		"Artist": "Yamajet feat. Hiura Masako",
+		"Title": "Sunglow",
+		"Difficulty": "Melody",
+		"StarRating": 5.87,
+		"PrevPP": 209.383,
+		"NewPP": 564.8320840800437,
+		"Weight": 0.19615023685920818,
+		"WeightedPP": 110.79194707798077,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 300.1797614268154,
+				"AnglePrecision": 1271.0625619076345,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 827.6107159252925,
+				"BurstSpeed": 185.16183765274798,
+				"StreamSpeed": 352.00829316039653,
+				"HoldSliders": 34.006297032439164
+			},
+			"Reading": {
+				"LowAr": 47.77729866069821
+			}
+		},
+		"OldIndex": 40,
+		"NewIndex": 33
+	},
+	{
+		"BeatmapID": 312042,
+		"Artist": "AKINO from bless4",
+		"Title": "MIIRO",
+		"Difficulty": "Moecho's Extra",
+		"StarRating": 5.6,
+		"PrevPP": 193.479,
+		"NewPP": 562.646054719627,
+		"Weight": 0.18642011439312384,
+		"WeightedPP": 104.88854188367269,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 301.33327817304973,
+				"AnglePrecision": 1249.2545628058565,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 831.5713217988935,
+				"BurstSpeed": 195.72946384958368,
+				"StreamSpeed": 362.973690844459,
+				"HoldSliders": 130.83228303278023
+			},
+			"Reading": {
+				"LowAr": 49.36682206402577
+			}
+		},
+		"OldIndex": 74,
+		"NewIndex": 34
+	},
+	{
+		"BeatmapID": 1031041,
+		"Artist": "Moe Shop",
+		"Title": "the new non non biyori disco groove",
+		"Difficulty": "Insane",
+		"StarRating": 4.04,
+		"PrevPP": 182.122,
+		"NewPP": 561.3147531740522,
+		"Weight": 0.17702676400330186,
+		"WeightedPP": 99.36773434171457,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 313.1370042202336,
+				"AnglePrecision": 1225.1885111808322,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 865.8283225076821,
+				"BurstSpeed": 191.4572841027512,
+				"StreamSpeed": 346.0390620002361,
+				"HoldSliders": 115.20610595807622
+			},
+			"Reading": {
+				"LowAr": 46.05747206214463
+			}
+		},
+		"OldIndex": 113,
+		"NewIndex": 35
+	},
+	{
+		"BeatmapID": 1123162,
+		"Artist": "Sayuri",
+		"Title": "Sore wa Chiisana Hikari no Youna (TV Size)",
+		"Difficulty": "browiec's Expert",
+		"StarRating": 4.14,
+		"PrevPP": 185.723,
+		"NewPP": 566.3916973691769,
+		"Weight": 0.16589749066231393,
+		"WeightedPP": 93.96296132551517,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 305.0808612499994,
+				"AnglePrecision": 1161.8558986724508,
+				"Spin": 504.9685554544352
+			},
+			"Tapping": {
+				"Accuracy": 853.941912884474,
+				"BurstSpeed": 173.0102618201841,
+				"StreamSpeed": 326.0505464482586,
+				"HoldSliders": 35.445123403750216
+			},
+			"Reading": {
+				"LowAr": 41.29259888830367
+			}
+		},
+		"OldIndex": 98,
+		"NewIndex": 36
+	},
+	{
+		"BeatmapID": 1255746,
+		"Artist": "Tarkan",
+		"Title": "Simarik",
+		"Difficulty": "Yakalarsam",
+		"StarRating": 5.78,
+		"PrevPP": 182.085,
+		"NewPP": 542.0632249913256,
+		"Weight": 0.16062196477505322,
+		"WeightedPP": 87.06726023040845,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 318.8493759523004,
+				"AnglePrecision": 1258.4827063560365,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 738.4286182900012,
+				"BurstSpeed": 161.7010135841215,
+				"StreamSpeed": 301.1188965824237,
+				"HoldSliders": 32.586643481859696
+			},
+			"Reading": {
+				"LowAr": 45.35582702743997
+			}
+		},
+		"OldIndex": 114,
+		"NewIndex": 37
+	},
+	{
+		"BeatmapID": 744772,
+		"Artist": "toby fox",
+		"Title": "Last Goodbye",
+		"Difficulty": "Determination",
+		"StarRating": 6.33,
+		"PrevPP": 229.429,
+		"NewPP": 524.4634962404405,
+		"Weight": 0.15215650852643278,
+		"WeightedPP": 79.80053443751133,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 276.05518067292235,
+				"AnglePrecision": 1187.7936818477297,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 772.0666583757793,
+				"BurstSpeed": 157.1073694378743,
+				"StreamSpeed": 298.6539905060878,
+				"HoldSliders": 35.21028971212614
+			},
+			"Reading": {
+				"LowAr": 47.23088652750332
+			}
+		},
+		"OldIndex": 13,
+		"NewIndex": 38
+	},
+	{
+		"BeatmapID": 736506,
+		"Artist": "ASIAN KUNG-FU GENERATION",
+		"Title": "Blood Circulator",
+		"Difficulty": "A r M i N's Extra",
+		"StarRating": 5.32,
+		"PrevPP": 171.858,
+		"NewPP": 524.3931705941358,
+		"Weight": 0.1445416343487812,
+		"WeightedPP": 75.79664591901562,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 279.4697452201896,
+				"AnglePrecision": 1194.2942197151551,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 758.2160405095315,
+				"BurstSpeed": 156.04404879684404,
+				"StreamSpeed": 292.90500805790134,
+				"HoldSliders": 91.25299303024327
+			},
+			"Reading": {
+				"LowAr": 45.83443524746725
+			}
+		},
+		"OldIndex": 168,
+		"NewIndex": 39
+	},
+	{
+		"BeatmapID": 2198760,
+		"Artist": "MIOYAMAZAKI",
+		"Title": "Noise (English Ver.)",
+		"Difficulty": "Expert",
+		"StarRating": 5.91,
+		"PrevPP": 173.69,
+		"NewPP": 536.6798985350515,
+		"Weight": 0.13415317031140434,
+		"WeightedPP": 71.99730983087996,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 307.4937755058578,
+				"AnglePrecision": 1211.6131915677965,
+				"Spin": 226.08624386680435
+			},
+			"Tapping": {
+				"Accuracy": 747.9875981235904,
+				"BurstSpeed": 149.89187539551364,
+				"StreamSpeed": 279.9330328751156,
+				"HoldSliders": 167.4609314665277
+			},
+			"Reading": {
+				"LowAr": 46.5819985876193
+			}
+		},
+		"OldIndex": 155,
+		"NewIndex": 40
+	},
+	{
+		"BeatmapID": 235551,
+		"Artist": "Rammstein",
+		"Title": "Los",
+		"Difficulty": "Hard",
+		"StarRating": 3.78,
+		"PrevPP": 194.921,
+		"NewPP": 513.3974807907848,
+		"Weight": 0.13249412058788257,
+		"WeightedPP": 68.02214772940937,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 182.96789388678357,
+				"AnglePrecision": 1142.903268689101,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 824.6703366043737,
+				"BurstSpeed": 116.92787121456075,
+				"StreamSpeed": 201.0579549456174,
+				"HoldSliders": 177.17199353624176
+			},
+			"Reading": {
+				"LowAr": 57.81130341497041
+			}
+		},
+		"OldIndex": 71,
+		"NewIndex": 41
+	},
+	{
+		"BeatmapID": 480765,
+		"Artist": "3 Nen E Gumi Utatan (Nagisa \u0026 Kayano \u0026 Karuma \u0026 Isogai \u0026 Maehara)",
+		"Title": "Bye Bye YESTERDAY",
+		"Difficulty": "Taeyang's Good Good Time",
+		"StarRating": 5.43,
+		"PrevPP": 170.033,
+		"NewPP": 517.9719962630053,
+		"Weight": 0.12426313881539314,
+		"WeightedPP": 64.36482607411612,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 273.6975822779815,
+				"AnglePrecision": 1197.0402047806492,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 724.401105770857,
+				"BurstSpeed": 156.72766448875947,
+				"StreamSpeed": 292.5135605882546,
+				"HoldSliders": 41.12178546696907
+			},
+			"Reading": {
+				"LowAr": 44.357475911051345
+			}
+		},
+		"OldIndex": 178,
+		"NewIndex": 42
+	},
+	{
+		"BeatmapID": 471261,
+		"Artist": "ELISA",
+		"Title": "Dear My Friend -Mada Minu Mirai e- (TV size)",
+		"Difficulty": "Insane",
+		"StarRating": 4.08,
+		"PrevPP": 211.267,
+		"NewPP": 501.7038981829794,
+		"Weight": 0.12217700670637198,
+		"WeightedPP": 61.29668053291484,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 199.36027290798387,
+				"AnglePrecision": 899.1956556428104,
+				"Spin": 475.72946735305817
+			},
+			"Tapping": {
+				"Accuracy": 854.100630608323,
+				"BurstSpeed": 207.6297878592423,
+				"StreamSpeed": 397.78908057313834,
+				"HoldSliders": 77.88257261758355
+			},
+			"Reading": {
+				"LowAr": 46.24582375025916
+			}
+		},
+		"OldIndex": 37,
+		"NewIndex": 43
+	},
+	{
+		"BeatmapID": 431248,
+		"Artist": "CHiCO with HoneyWorks",
+		"Title": "Koiiro ni Sake",
+		"Difficulty": "Aerous' Affection",
+		"StarRating": 5.57,
+		"PrevPP": 180.364,
+		"NewPP": 517.1530334705119,
+		"Weight": 0.11250688142054398,
+		"WeightedPP": 58.18327501294149,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 278.20861846376954,
+				"AnglePrecision": 1185.413061275745,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 724.6710770145235,
+				"BurstSpeed": 171.20961064852835,
+				"StreamSpeed": 312.9966139341682,
+				"HoldSliders": 50.85145620855049
+			},
+			"Reading": {
+				"LowAr": 44.26361280750379
+			}
+		},
+		"OldIndex": 119,
+		"NewIndex": 44
+	},
+	{
+		"BeatmapID": 24372,
+		"Artist": "Evoluutiomies",
+		"Title": "Suklaapallit",
+		"Difficulty": "Mukun Suklaapallit",
+		"StarRating": 4.27,
+		"PrevPP": 208.175,
+		"NewPP": 505.7188088322831,
+		"Weight": 0.10968855441865018,
+		"WeightedPP": 55.471565083134834,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 222.57512278234992,
+				"AnglePrecision": 962.6243840392874,
+				"Spin": 512.8127048517082
+			},
+			"Tapping": {
+				"Accuracy": 784.4016930591335,
+				"BurstSpeed": 195.8983495796125,
+				"StreamSpeed": 388.4524160675869,
+				"HoldSliders": 20.016738193363295
+			},
+			"Reading": {
+				"LowAr": 43.4939049675654
+			}
+		},
+		"OldIndex": 41,
+		"NewIndex": 45
+	},
+	{
+		"BeatmapID": 300312,
+		"Artist": "yanaginagi",
+		"Title": "Haru Modoki",
+		"Difficulty": "Extra",
+		"StarRating": 5.52,
+		"PrevPP": 168.647,
+		"NewPP": 515.2091232826466,
+		"Weight": 0.10201927944689256,
+		"WeightedPP": 52.56126352176084,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 267.8002036021327,
+				"AnglePrecision": 1163.8285218595142,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 730.1004103684148,
+				"BurstSpeed": 181.43569210842603,
+				"StreamSpeed": 357.73092071616577,
+				"HoldSliders": 38.108566021373505
+			},
+			"Reading": {
+				"LowAr": 43.81271886916035
+			}
+		},
+		"OldIndex": 185,
+		"NewIndex": 46
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Sotarks' Insane",
+		"StarRating": 4.05,
+		"PrevPP": 184.577,
+		"NewPP": 531.428148553498,
+		"Weight": 0.09386857887030395,
+		"WeightedPP": 49.88440507639363,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 289.2743604575527,
+				"AnglePrecision": 1141.1877685108955,
+				"Spin": 297.3774091903781
+			},
+			"Tapping": {
+				"Accuracy": 808.7338736668514,
+				"BurstSpeed": 161.35790408884623,
+				"StreamSpeed": 306.8555468009374,
+				"HoldSliders": 94.01130426878137
+			},
+			"Reading": {
+				"LowAr": 42.652208914063294
+			}
+		},
+		"OldIndex": 107,
+		"NewIndex": 47
+	},
+	{
+		"BeatmapID": 1440767,
+		"Artist": "DM DOKURO",
+		"Title": "SAVE (Encore)",
+		"Difficulty": "Fatfan \u0026 browiec's Determination",
+		"StarRating": 6.07,
+		"PrevPP": 177.137,
+		"NewPP": 524.7374100378852,
+		"Weight": 0.08974837647357489,
+		"WeightedPP": 47.094330625848755,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 286.2309183609612,
+				"AnglePrecision": 1213.7626040810464,
+				"Spin": 217.90938275116596
+			},
+			"Tapping": {
+				"Accuracy": 694.5483291786074,
+				"BurstSpeed": 149.1216922874125,
+				"StreamSpeed": 277.10156116230803,
+				"HoldSliders": 130.76718827278296
+			},
+			"Reading": {
+				"LowAr": 40.52783933260541
+			}
+		},
+		"OldIndex": 134,
+		"NewIndex": 48
+	},
+	{
+		"BeatmapID": 346301,
+		"Artist": "EGOIST",
+		"Title": "Ame, Kimi o Tsurete",
+		"Difficulty": "Prismatic",
+		"StarRating": 5.37,
+		"PrevPP": 167.117,
+		"NewPP": 505.90040038046266,
+		"Weight": 0.0881152754494243,
+		"WeightedPP": 44.577553129498504,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 235.31870715626178,
+				"AnglePrecision": 1072.6497037213708,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 810.347275266748,
+				"BurstSpeed": 192.5096526141401,
+				"StreamSpeed": 380.0768761006168,
+				"HoldSliders": 28.716988349768478
+			},
+			"Reading": {
+				"LowAr": 50.226188005025655
+			}
+		},
+		"OldIndex": 194,
+		"NewIndex": 49
+	},
+	{
+		"BeatmapID": 345450,
+		"Artist": "S3RL feat Sara",
+		"Title": "Techno Kitty",
+		"Difficulty": "Extreme",
+		"StarRating": 4.2,
+		"PrevPP": 191.339,
+		"NewPP": 503.38935351694585,
+		"Weight": 0.08264274176655328,
+		"WeightedPP": 41.60147635073316,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 228.13212982328588,
+				"AnglePrecision": 978.8924246347632,
+				"Spin": 223.51569624755308
+			},
+			"Tapping": {
+				"Accuracy": 882.683660399139,
+				"BurstSpeed": 190.9705929089704,
+				"StreamSpeed": 352.97135707810673,
+				"HoldSliders": 156.85777944022925
+			},
+			"Reading": {
+				"LowAr": 46.684710125488785
+			}
+		},
+		"OldIndex": 80,
+		"NewIndex": 50
+	},
+	{
+		"BeatmapID": 813779,
+		"Artist": "Kano",
+		"Title": "Sakura no Zenya",
+		"Difficulty": "Memories",
+		"StarRating": 5.65,
+		"PrevPP": 189.823,
+		"NewPP": 494.668531678935,
+		"Weight": 0.07865348504487743,
+		"WeightedPP": 38.90740395858059,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 220.1344597783248,
+				"AnglePrecision": 1022.9758675199607,
+				"Spin": 424.11585196142994
+			},
+			"Tapping": {
+				"Accuracy": 728.288266097044,
+				"BurstSpeed": 173.34145563920822,
+				"StreamSpeed": 345.59107010139587,
+				"HoldSliders": 29.0165317956192
+			},
+			"Reading": {
+				"LowAr": 45.12629436409301
+			}
+		},
+		"OldIndex": 84,
+		"NewIndex": 51
+	},
+	{
+		"BeatmapID": 1073074,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "Gift",
+		"StarRating": 6.1,
+		"PrevPP": 211.411,
+		"NewPP": 489.5114211337007,
+		"Weight": 0.07559141321742088,
+		"WeightedPP": 37.0028601095645,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 287.40697110117753,
+				"AnglePrecision": 1133.4195623307423,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 660.1795144058669,
+				"BurstSpeed": 154.66380870295188,
+				"StreamSpeed": 295.242364843028,
+				"HoldSliders": 34.22299795007014
+			},
+			"Reading": {
+				"LowAr": 40.38102896973186
+			}
+		},
+		"OldIndex": 35,
+		"NewIndex": 52
+	},
+	{
+		"BeatmapID": 375648,
+		"Artist": "S3RL",
+		"Title": "Bass Slut (Original Mix)",
+		"Difficulty": "Extra",
+		"StarRating": 5.68,
+		"PrevPP": 178.398,
+		"NewPP": 486.7835168911515,
+		"Weight": 0.07206424577447978,
+		"WeightedPP": 35.079687000209574,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 216.57957108102931,
+				"AnglePrecision": 1049.56345261129,
+				"Spin": 446.812284560972
+			},
+			"Tapping": {
+				"Accuracy": 640.0416662010875,
+				"BurstSpeed": 152.0497220256032,
+				"StreamSpeed": 293.3962415190016,
+				"HoldSliders": 164.492430737256
+			},
+			"Reading": {
+				"LowAr": 40.28154025010211
+			}
+		},
+		"OldIndex": 128,
+		"NewIndex": 53
+	},
+	{
+		"BeatmapID": 380545,
+		"Artist": "Primary",
+		"Title": "Sweets Weekend",
+		"Difficulty": "Sweet Neko",
+		"StarRating": 5.33,
+		"PrevPP": 189.105,
+		"NewPP": 482.2702199191969,
+		"Weight": 0.06920840840519688,
+		"WeightedPP": 33.37715434183189,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 210.73787926664897,
+				"AnglePrecision": 984.6170827760466,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 846.8832856562146,
+				"BurstSpeed": 160.80851553083443,
+				"StreamSpeed": 295.78658475666003,
+				"HoldSliders": 116.98060809269779
+			},
+			"Reading": {
+				"LowAr": 50.49180262403683
+			}
+		},
+		"OldIndex": 87,
+		"NewIndex": 54
+	},
+	{
+		"BeatmapID": 1788259,
+		"Artist": "EMI",
+		"Title": "Anima Libera (Strong Edit) (Nightcore \u0026 Cut Ver.)",
+		"Difficulty": "Expert",
+		"StarRating": 5.52,
+		"PrevPP": 190.833,
+		"NewPP": 485.3242312302627,
+		"Weight": 0.06521101673541968,
+		"WeightedPP": 31.64848656486135,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 235.1239594115454,
+				"AnglePrecision": 1018.4753612257737,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 780.8664814507997,
+				"BurstSpeed": 202.85573797071058,
+				"StreamSpeed": 361.0205030113215,
+				"HoldSliders": 89.90906235427914
+			},
+			"Reading": {
+				"LowAr": 49.17501674290588
+			}
+		},
+		"OldIndex": 81,
+		"NewIndex": 55
+	},
+	{
+		"BeatmapID": 185250,
+		"Artist": "ALiCE'S EMOTiON",
+		"Title": "Dark Flight Dreamer",
+		"Difficulty": "Shawajoy's Lunatic",
+		"StarRating": 5.82,
+		"PrevPP": 168.301,
+		"NewPP": 478.14375189187,
+		"Weight": 0.062140826499497606,
+		"WeightedPP": 29.712247928131525,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 222.08946834859665,
+				"AnglePrecision": 1017.7971019355878,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 741.8661225680748,
+				"BurstSpeed": 200.98012654724016,
+				"StreamSpeed": 387.4872920985822,
+				"HoldSliders": 26.295340476632656
+			},
+			"Reading": {
+				"LowAr": 46.25695165292595
+			}
+		},
+		"OldIndex": 187,
+		"NewIndex": 56
+	},
+	{
+		"BeatmapID": 1825240,
+		"Artist": "Wire",
+		"Title": "Brazil",
+		"Difficulty": "Kuki's Extra",
+		"StarRating": 6.11,
+		"PrevPP": 202.738,
+		"NewPP": 480.9199187704123,
+		"Weight": 0.05869819708334625,
+		"WeightedPP": 28.22913217329253,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 292.9191018690014,
+				"AnglePrecision": 1105.5210848346505,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 660.5253204535386,
+				"BurstSpeed": 148.0454924018113,
+				"StreamSpeed": 285.3069934048897,
+				"HoldSliders": 29.83832182023901
+			},
+			"Reading": {
+				"LowAr": 42.31671291422528
+			}
+		},
+		"OldIndex": 52,
+		"NewIndex": 57
+	},
+	{
+		"BeatmapID": 1369259,
+		"Artist": "CHiCO with HoneyWorks",
+		"Title": "Minikui Ikimono (TV Size)",
+		"Difficulty": "Unrequited Love",
+		"StarRating": 6.08,
+		"PrevPP": 225.656,
+		"NewPP": 495.4663792909739,
+		"Weight": 0.05414011944007061,
+		"WeightedPP": 26.824608953352655,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 256.6964009670444,
+				"AnglePrecision": 1064.429583545418,
+				"Spin": 293.0687237466806
+			},
+			"Tapping": {
+				"Accuracy": 712.7383856647118,
+				"BurstSpeed": 178.9833940238114,
+				"StreamSpeed": 347.08534110713776,
+				"HoldSliders": 129.11078973158345
+			},
+			"Reading": {
+				"LowAr": 43.976298778434085
+			}
+		},
+		"OldIndex": 17,
+		"NewIndex": 58
+	},
+	{
+		"BeatmapID": 644332,
+		"Artist": "Maya(CV.Minase Inori) \u0026 Erika(CV.Inami Anju)",
+		"Title": "Anime o Katare! ~Animegatari Doukoukai no Thema~",
+		"Difficulty": "Kalibe's Extra",
+		"StarRating": 5.93,
+		"PrevPP": 168.932,
+		"NewPP": 472.05764268239056,
+		"Weight": 0.053456348104307695,
+		"WeightedPP": 25.23447767252877,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 218.24423784421546,
+				"AnglePrecision": 989.5766094654243,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 752.4544576492651,
+				"BurstSpeed": 200.16611215273417,
+				"StreamSpeed": 382.52235258458927,
+				"HoldSliders": 33.95003287515679
+			},
+			"Reading": {
+				"LowAr": 45.648576274548915
+			}
+		},
+		"OldIndex": 184,
+		"NewIndex": 59
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "NiNo's Insane",
+		"StarRating": 4.34,
+		"PrevPP": 225.604,
+		"NewPP": 472.61191217591585,
+		"Weight": 0.04978050810097035,
+		"WeightedPP": 23.526861122688267,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 227.63255063142321,
+				"AnglePrecision": 919.4932578966129,
+				"Spin": 285.00303720820835
+			},
+			"Tapping": {
+				"Accuracy": 813.0147889170763,
+				"BurstSpeed": 173.0157497133133,
+				"StreamSpeed": 334.54179119808805,
+				"HoldSliders": 59.83532221517679
+			},
+			"Reading": {
+				"LowAr": 44.26085305379428
+			}
+		},
+		"OldIndex": 18,
+		"NewIndex": 60
+	},
+	{
+		"BeatmapID": 391953,
+		"Artist": "Tia",
+		"Title": "The Glory Days",
+		"Difficulty": "Rainbow",
+		"StarRating": 6,
+		"PrevPP": 201.668,
+		"NewPP": 475.3160250430761,
+		"Weight": 0.0469992010598461,
+		"WeightedPP": 22.339473427966375,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 229.86158622123676,
+				"AnglePrecision": 1028.1337943469962,
+				"Spin": 323.01409738370955
+			},
+			"Tapping": {
+				"Accuracy": 663.6285234602491,
+				"BurstSpeed": 154.0187628905653,
+				"StreamSpeed": 316.6920989060326,
+				"HoldSliders": 164.61075829720582
+			},
+			"Reading": {
+				"LowAr": 40.667561591937194
+			}
+		},
+		"OldIndex": 53,
+		"NewIndex": 61
+	},
+	{
+		"BeatmapID": 873811,
+		"Artist": "dj TAKA",
+		"Title": "quaver",
+		"Difficulty": "Reform's Extra",
+		"StarRating": 5.74,
+		"PrevPP": 171.252,
+		"NewPP": 475.77955018423813,
+		"Weight": 0.04437872785694211,
+		"WeightedPP": 21.114491177524634,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 246.42908067326238,
+				"AnglePrecision": 1044.6145166662236,
+				"Spin": 317.6645710104091
+			},
+			"Tapping": {
+				"Accuracy": 662.409819958376,
+				"BurstSpeed": 155.83190249153677,
+				"StreamSpeed": 305.1634137172026,
+				"HoldSliders": 15.037645013642738
+			},
+			"Reading": {
+				"LowAr": 40.62870698300418
+			}
+		},
+		"OldIndex": 173,
+		"NewIndex": 62
+	},
+	{
+		"BeatmapID": 1073074,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "Akitoshi's Extreme",
+		"StarRating": 5.84,
+		"PrevPP": 186.198,
+		"NewPP": 461.4064329833477,
+		"Weight": 0.043405541646757,
+		"WeightedPP": 20.027596142940293,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 261.79785273718767,
+				"AnglePrecision": 1066.6249755792805,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 625.3680979287578,
+				"BurstSpeed": 154.25181924359612,
+				"StreamSpeed": 278.54024517918873,
+				"HoldSliders": 53.819694514489356
+			},
+			"Reading": {
+				"LowAr": 39.73798700138698
+			}
+		},
+		"OldIndex": 96,
+		"NewIndex": 63
+	},
+	{
+		"BeatmapID": 939512,
+		"Artist": "Nakiri Ayame",
+		"Title": "Kaishin no Ichigeki!",
+		"Difficulty": "Sentiment",
+		"StarRating": 6.49,
+		"PrevPP": 240.071,
+		"NewPP": 466.8736451724351,
+		"Weight": 0.040189761897895346,
+		"WeightedPP": 18.76354063588264,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 255.22835914892747,
+				"AnglePrecision": 1006.4041467748625,
+				"Spin": 269.3769823987989
+			},
+			"Tapping": {
+				"Accuracy": 675.164944180244,
+				"BurstSpeed": 148.27744682824465,
+				"StreamSpeed": 280.3941837461407,
+				"HoldSliders": 187.63747884181242
+			},
+			"Reading": {
+				"LowAr": 39.37764612578815
+			}
+		},
+		"OldIndex": 4,
+		"NewIndex": 64
+	},
+	{
+		"BeatmapID": 361740,
+		"Artist": "Agnete Kjolsrud",
+		"Title": "Get Jinxed",
+		"Difficulty": "Master",
+		"StarRating": 5.69,
+		"PrevPP": 179.335,
+		"NewPP": 454.18210499445576,
+		"Weight": 0.03928427996445653,
+		"WeightedPP": 17.84221696744839,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 235.81477091987432,
+				"AnglePrecision": 1061.7725931458037,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 621.2233419961376,
+				"BurstSpeed": 133.3020298733876,
+				"StreamSpeed": 241.38194909928131,
+				"HoldSliders": 60.7415029858788
+			},
+			"Reading": {
+				"LowAr": 40.46953042517215
+			}
+		},
+		"OldIndex": 126,
+		"NewIndex": 65
+	},
+	{
+		"BeatmapID": 983911,
+		"Artist": "S3RL",
+		"Title": "Bass Slut (Original Mix)",
+		"Difficulty": "Dereban's Lewd Extra",
+		"StarRating": 5.71,
+		"PrevPP": 174.595,
+		"NewPP": 463.6827708480318,
+		"Weight": 0.036429823804593045,
+		"WeightedPP": 16.89188164321929,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 233.53729255716232,
+				"AnglePrecision": 1051.298973577263,
+				"Spin": 314.5760949335709
+			},
+			"Tapping": {
+				"Accuracy": 620.5587478434661,
+				"BurstSpeed": 125.75839983912704,
+				"StreamSpeed": 239.14094950047323,
+				"HoldSliders": 39.67897089320856
+			},
+			"Reading": {
+				"LowAr": 40.189903868949145
+			}
+		},
+		"OldIndex": 148,
+		"NewIndex": 66
+	},
+	{
+		"BeatmapID": 873811,
+		"Artist": "dj TAKA",
+		"Title": "quaver",
+		"Difficulty": "Nevo's Extra",
+		"StarRating": 6.17,
+		"PrevPP": 184.802,
+		"NewPP": 467.423643860981,
+		"Weight": 0.034106733991026504,
+		"WeightedPP": 15.942293882282787,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 249.57066071363442,
+				"AnglePrecision": 1051.4061074211354,
+				"Spin": 198.09963859473686
+			},
+			"Tapping": {
+				"Accuracy": 653.8255589073799,
+				"BurstSpeed": 142.24046036976785,
+				"StreamSpeed": 277.9400540519877,
+				"HoldSliders": 119.28410304525914
+			},
+			"Reading": {
+				"LowAr": 41.176905746579216
+			}
+		},
+		"OldIndex": 105,
+		"NewIndex": 67
+	},
+	{
+		"BeatmapID": 637877,
+		"Artist": "Wake Up, May'n!",
+		"Title": "One In A Billion",
+		"Difficulty": "zeluaR's Extra",
+		"StarRating": 5.79,
+		"PrevPP": 178.486,
+		"NewPP": 463.8920256536959,
+		"Weight": 0.03239380241147047,
+		"WeightedPP": 15.027226619282615,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 238.19357219405296,
+				"AnglePrecision": 1039.4725607201785,
+				"Spin": 202.87400818099508
+			},
+			"Tapping": {
+				"Accuracy": 648.2149429746398,
+				"BurstSpeed": 151.290335003206,
+				"StreamSpeed": 291.17064186495924,
+				"HoldSliders": 116.8568062418412
+			},
+			"Reading": {
+				"LowAr": 40.767788638449396
+			}
+		},
+		"OldIndex": 127,
+		"NewIndex": 68
+	},
+	{
+		"BeatmapID": 831030,
+		"Artist": "nano",
+		"Title": "MY LIBERATION (TV Size)",
+		"Difficulty": "Jiyuu",
+		"StarRating": 5.7,
+		"PrevPP": 198.6,
+		"NewPP": 447.0277064049397,
+		"Weight": 0.031888751427458686,
+		"WeightedPP": 14.255155410734103,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 225.1259445650258,
+				"AnglePrecision": 988.0475618699161,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 667.7198325238227,
+				"BurstSpeed": 159.46923852769146,
+				"StreamSpeed": 309.0130213031618,
+				"HoldSliders": 55.90910057837886
+			},
+			"Reading": {
+				"LowAr": 43.062736458240124
+			}
+		},
+		"OldIndex": 62,
+		"NewIndex": 69
+	},
+	{
+		"BeatmapID": 569503,
+		"Artist": "96neko",
+		"Title": "Uso no Hibana",
+		"Difficulty": "NiNo's Extra",
+		"StarRating": 6.17,
+		"PrevPP": 195.397,
+		"NewPP": 444.45790202368624,
+		"Weight": 0.030461518927999046,
+		"WeightedPP": 13.538862795193264,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 203.43785546140208,
+				"AnglePrecision": 913.9619111448671,
+				"Spin": 359.971504008056
+			},
+			"Tapping": {
+				"Accuracy": 641.9628496302639,
+				"BurstSpeed": 165.23025275789314,
+				"StreamSpeed": 332.50048803605364,
+				"HoldSliders": 149.85430127601882
+			},
+			"Reading": {
+				"LowAr": 40.24389055813812
+			}
+		},
+		"OldIndex": 70,
+		"NewIndex": 70
+	},
+	{
+		"BeatmapID": 632130,
+		"Artist": "LONG SHOT PARTY",
+		"Title": "distance (NARUTO Ver.)",
+		"Difficulty": "NiNo's Extra",
+		"StarRating": 5.54,
+		"PrevPP": 176.876,
+		"NewPP": 442.69464150523675,
+		"Weight": 0.029101345515579243,
+		"WeightedPP": 12.883009720339382,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 212.41037533192514,
+				"AnglePrecision": 939.3181372588009,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 693.0710931989317,
+				"BurstSpeed": 188.4380654307996,
+				"StreamSpeed": 345.45620918604766,
+				"HoldSliders": 57.65261541622615
+			},
+			"Reading": {
+				"LowAr": 43.24781089046233
+			}
+		},
+		"OldIndex": 138,
+		"NewIndex": 71
+	},
+	{
+		"BeatmapID": 1280506,
+		"Artist": "EDOGA-SULLIVAN",
+		"Title": "WONDERFUL WONDER (TV Size)",
+		"Difficulty": "Insane",
+		"StarRating": 4.44,
+		"PrevPP": 214.804,
+		"NewPP": 439.01579639511635,
+		"Weight": 0.027809085911041035,
+		"WeightedPP": 12.20862799825589,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 237.89771227811724,
+				"AnglePrecision": 904.527979147381,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 718.8815019591108,
+				"BurstSpeed": 174.38914175956205,
+				"StreamSpeed": 342.9309989857462,
+				"HoldSliders": 30.772795323238494
+			},
+			"Reading": {
+				"LowAr": 36.89102448981458
+			}
+		},
+		"OldIndex": 31,
+		"NewIndex": 72
+	},
+	{
+		"BeatmapID": 809023,
+		"Artist": "Aimi, Sakura Ayane, Maeshima Ami, Aiba Aina, Itou Miku",
+		"Title": "Picotto! Papitto!! GARUPA*PICO!!! (TV Size)",
+		"Difficulty": "Yonaka's Hard",
+		"StarRating": 3.84,
+		"PrevPP": 169.917,
+		"NewPP": 415.4123689349126,
+		"Weight": 0.027860278823974315,
+		"WeightedPP": 11.57350442545435,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 159.04102003063568,
+				"AnglePrecision": 772.3953118726131,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 774.4072578327425,
+				"BurstSpeed": 182.90776661558505,
+				"StreamSpeed": 331.87164970844384,
+				"HoldSliders": 115.9089585717056
+			},
+			"Reading": {
+				"LowAr": 43.7538070119692
+			}
+		},
+		"OldIndex": 179,
+		"NewIndex": 73
+	},
+	{
+		"BeatmapID": 1068768,
+		"Artist": "yuikonnu",
+		"Title": "Yume Chizu",
+		"Difficulty": "Dream",
+		"StarRating": 5.84,
+		"PrevPP": 182.229,
+		"NewPP": 438.14283382024155,
+		"Weight": 0.024929713487155752,
+		"WeightedPP": 10.922775313589117,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 231.11540030069776,
+				"AnglePrecision": 1017.0210510610655,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 601.5202286714373,
+				"BurstSpeed": 136.12640669124121,
+				"StreamSpeed": 255.3676864525211,
+				"HoldSliders": 29.096750131044825
+			},
+			"Reading": {
+				"LowAr": 39.87149125426993
+			}
+		},
+		"OldIndex": 112,
+		"NewIndex": 74
+	},
+	{
+		"BeatmapID": 320118,
+		"Artist": "Reol",
+		"Title": "No title",
+		"Difficulty": "jieusieu's Lemur",
+		"StarRating": 6.7,
+		"PrevPP": 235.052,
+		"NewPP": 432.80554285041876,
+		"Weight": 0.023743218825165134,
+		"WeightedPP": 10.276196712641879,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 250.19122805993254,
+				"AnglePrecision": 1005.4746572758343,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 569.1443541657632,
+				"BurstSpeed": 137.40788177069226,
+				"StreamSpeed": 275.2941018141356,
+				"HoldSliders": 71.73975894706464
+			},
+			"Reading": {
+				"LowAr": 35.34839452315973
+			}
+		},
+		"OldIndex": 8,
+		"NewIndex": 75
+	},
+	{
+		"BeatmapID": 790895,
+		"Artist": "ONE OK ROCK",
+		"Title": "Take me to the top",
+		"Difficulty": "Sotarks' Ascension",
+		"StarRating": 6.45,
+		"PrevPP": 221.611,
+		"NewPP": 448.5493450378631,
+		"Weight": 0.021706470392272255,
+		"WeightedPP": 9.736423077537486,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 238.10209853897453,
+				"AnglePrecision": 997.671515335446,
+				"Spin": 247.76612369761068
+			},
+			"Tapping": {
+				"Accuracy": 615.8664824636023,
+				"BurstSpeed": 146.33897875955174,
+				"StreamSpeed": 290.79797571731,
+				"HoldSliders": 96.88834203932495
+			},
+			"Reading": {
+				"LowAr": 38.543107655526185
+			}
+		},
+		"OldIndex": 21,
+		"NewIndex": 76
+	},
+	{
+		"BeatmapID": 864354,
+		"Artist": "Kurosaki Maon",
+		"Title": "Gravitation (TV Size)",
+		"Difficulty": "Kibb's Extra",
+		"StarRating": 5.91,
+		"PrevPP": 184.637,
+		"NewPP": 434.5804985959899,
+		"Weight": 0.02127598824733162,
+		"WeightedPP": 9.246129580647796,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 222.0075751973722,
+				"AnglePrecision": 961.5949916316576,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 643.8740217748526,
+				"BurstSpeed": 163.63744702500915,
+				"StreamSpeed": 303.57977162089804,
+				"HoldSliders": 40.66327793319368
+			},
+			"Reading": {
+				"LowAr": 41.990913402235265
+			}
+		},
+		"OldIndex": 106,
+		"NewIndex": 77
+	},
+	{
+		"BeatmapID": 1117851,
+		"Artist": "AliA",
+		"Title": "utopia",
+		"Difficulty": "Feelings",
+		"StarRating": 6.51,
+		"PrevPP": 189.967,
+		"NewPP": 426.11887340962255,
+		"Weight": 0.020584329381196188,
+		"WeightedPP": 8.771371245807913,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 198.8199581671346,
+				"AnglePrecision": 873.0276206164372,
+				"Spin": 331.7437049273983
+			},
+			"Tapping": {
+				"Accuracy": 608.0053179179203,
+				"BurstSpeed": 164.80687310344683,
+				"StreamSpeed": 337.27315457592886,
+				"HoldSliders": 169.91636567932446
+			},
+			"Reading": {
+				"LowAr": 37.434504958349606
+			}
+		},
+		"OldIndex": 83,
+		"NewIndex": 78
+	},
+	{
+		"BeatmapID": 2294177,
+		"Artist": "Victorious Cast",
+		"Title": "Take a Hint feat. Victoria Justice \u0026 Elizabeth Gillies (Nightcore \u0026 Cut Ver.)",
+		"Difficulty": "Ram's Expert",
+		"StarRating": 4.83,
+		"PrevPP": 236.889,
+		"NewPP": 427.5963915590834,
+		"Weight": 0.019375434866674483,
+		"WeightedPP": 8.284866033878059,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 248.0136824018311,
+				"AnglePrecision": 898.2393818475596,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 672.3167768660728,
+				"BurstSpeed": 166.68663539087555,
+				"StreamSpeed": 328.67238844734925,
+				"HoldSliders": 73.55511037489174
+			},
+			"Reading": {
+				"LowAr": 33.66664181242008
+			}
+		},
+		"OldIndex": 5,
+		"NewIndex": 79
+	},
+	{
+		"BeatmapID": 1224414,
+		"Artist": "REDALiCE",
+		"Title": "Pekorap Tropical House Remix",
+		"Difficulty": "Universal Daikaiten Peko Peko no Mai",
+		"StarRating": 6.66,
+		"PrevPP": 245.695,
+		"NewPP": 425.90065790757654,
+		"Weight": 0.018330360294031962,
+		"WeightedPP": 7.806912508911131,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 238.7495689506648,
+				"AnglePrecision": 964.2838589289952,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 594.4996164451491,
+				"BurstSpeed": 142.13134344521205,
+				"StreamSpeed": 279.7565933739222,
+				"HoldSliders": 105.34269486311447
+			},
+			"Reading": {
+				"LowAr": 35.96245741817518
+			}
+		},
+		"OldIndex": 1,
+		"NewIndex": 80
+	},
+	{
+		"BeatmapID": 480609,
+		"Artist": "fourfolium",
+		"Title": "Now Loading!!!!",
+		"Difficulty": "wkyik's Extra",
+		"StarRating": 5.91,
+		"PrevPP": 193.084,
+		"NewPP": 434.6022473303188,
+		"Weight": 0.017053480060954224,
+		"WeightedPP": 7.411480759293488,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 203.3982553278073,
+				"AnglePrecision": 902.3275977431013,
+				"Spin": 283.16551163959093
+			},
+			"Tapping": {
+				"Accuracy": 666.4688680641519,
+				"BurstSpeed": 163.0725451489477,
+				"StreamSpeed": 309.26447838095237,
+				"HoldSliders": 84.19421650065118
+			},
+			"Reading": {
+				"LowAr": 42.16236965229315
+			}
+		},
+		"OldIndex": 76,
+		"NewIndex": 81
+	},
+	{
+		"BeatmapID": 2242537,
+		"Artist": "Aglio Olio e Peperoncino",
+		"Title": "Natchatta! (TV Size)",
+		"Difficulty": "Lovin' You",
+		"StarRating": 5.84,
+		"PrevPP": 169.301,
+		"NewPP": 441.45195890834964,
+		"Weight": 0.015939574501273125,
+		"WeightedPP": 7.036556387752602,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 211.029835146567,
+				"AnglePrecision": 949.7385476779076,
+				"Spin": 193.185184410649
+			},
+			"Tapping": {
+				"Accuracy": 662.6391059192624,
+				"BurstSpeed": 161.57288382782428,
+				"StreamSpeed": 310.4358923256025,
+				"HoldSliders": 109.18012905555824
+			},
+			"Reading": {
+				"LowAr": 41.159630009858745
+			}
+		},
+		"OldIndex": 182,
+		"NewIndex": 82
+	},
+	{
+		"BeatmapID": 1909993,
+		"Artist": "kessoku band",
+		"Title": "Wasurete Yaranai",
+		"Difficulty": "Never Forget",
+		"StarRating": 5.93,
+		"PrevPP": 168.527,
+		"NewPP": 418.2222644325292,
+		"Weight": 0.01598868894935978,
+		"WeightedPP": 6.686825697708603,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 190.33386186979095,
+				"AnglePrecision": 873.8788647767651,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 657.3485281335297,
+				"BurstSpeed": 175.4143025941272,
+				"StreamSpeed": 346.26915532617966,
+				"HoldSliders": 121.9364442081231
+			},
+			"Reading": {
+				"LowAr": 41.69605626979393
+			}
+		},
+		"OldIndex": 186,
+		"NewIndex": 83
+	},
+	{
+		"BeatmapID": 785858,
+		"Artist": "THE ORAL CIGARETTES",
+		"Title": "ReI",
+		"Difficulty": "Cataclysm",
+		"StarRating": 6.43,
+		"PrevPP": 216.512,
+		"NewPP": 421.60133844331506,
+		"Weight": 0.014978902866467166,
+		"WeightedPP": 6.315125496914965,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 215.20768278924368,
+				"AnglePrecision": 923.7533611181018,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 616.5612916978687,
+				"BurstSpeed": 162.49428027136216,
+				"StreamSpeed": 325.655852913629,
+				"HoldSliders": 90.80538146433912
+			},
+			"Reading": {
+				"LowAr": 38.68229993436039
+			}
+		},
+		"OldIndex": 28,
+		"NewIndex": 84
+	},
+	{
+		"BeatmapID": 1184314,
+		"Artist": "nano",
+		"Title": "No pain, No game (TV Size)",
+		"Difficulty": "Revolution",
+		"StarRating": 6.15,
+		"PrevPP": 207.781,
+		"NewPP": 436.58168421655853,
+		"Weight": 0.013706125826042597,
+		"WeightedPP": 5.983843497217746,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 231.27179100978154,
+				"AnglePrecision": 976.2860562991278,
+				"Spin": 186.57202348830378
+			},
+			"Tapping": {
+				"Accuracy": 602.2693172229729,
+				"BurstSpeed": 149.22510379659462,
+				"StreamSpeed": 289.84847257758275,
+				"HoldSliders": 113.72969035462803
+			},
+			"Reading": {
+				"LowAr": 38.14799290120859
+			}
+		},
+		"OldIndex": 42,
+		"NewIndex": 85
+	},
+	{
+		"BeatmapID": 320717,
+		"Artist": "Nanamori-chu * Goraku-bu",
+		"Title": "Happy Time wa Owaranai",
+		"Difficulty": "Eternal Happiness",
+		"StarRating": 5.85,
+		"PrevPP": 185.215,
+		"NewPP": 431.1412116597996,
+		"Weight": 0.013145861858743503,
+		"WeightedPP": 5.6677228100910195,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 207.79720703221926,
+				"AnglePrecision": 928.9453520665121,
+				"Spin": 250.7333955251421
+			},
+			"Tapping": {
+				"Accuracy": 615.6092346334219,
+				"BurstSpeed": 155.98303580519962,
+				"StreamSpeed": 314.5838610286303,
+				"HoldSliders": 119.36918241245252
+			},
+			"Reading": {
+				"LowAr": 39.47313731456845
+			}
+		},
+		"OldIndex": 101,
+		"NewIndex": 86
+	},
+	{
+		"BeatmapID": 1144490,
+		"Artist": "Wakeshima Kanon",
+		"Title": "Not For Sale Fossil",
+		"Difficulty": "Frail",
+		"StarRating": 6.11,
+		"PrevPP": 173.377,
+		"NewPP": 429.205241539586,
+		"Weight": 0.01252539872185066,
+		"WeightedPP": 5.375966783791534,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 209.59193737658237,
+				"AnglePrecision": 942.3710577274821,
+				"Spin": 231.36527039904337
+			},
+			"Tapping": {
+				"Accuracy": 597.3334552480812,
+				"BurstSpeed": 143.15472450953771,
+				"StreamSpeed": 289.6761302545315,
+				"HoldSliders": 159.6033277022816
+			},
+			"Reading": {
+				"LowAr": 39.10525996632886
+			}
+		},
+		"OldIndex": 159,
+		"NewIndex": 87
+	},
+	{
+		"BeatmapID": 411894,
+		"Artist": "Remo Prototype[CV: Hanamori Yumiri]",
+		"Title": "Sendan Life",
+		"Difficulty": "Crystal's Garakowa",
+		"StarRating": 6.1,
+		"PrevPP": 179.723,
+		"NewPP": 418.1375593149395,
+		"Weight": 0.012202888006085924,
+		"WeightedPP": 5.102485807458317,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 221.6531599385553,
+				"AnglePrecision": 920.0689022842996,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 611.6434918311162,
+				"BurstSpeed": 157.67676710460282,
+				"StreamSpeed": 305.83114917769643,
+				"HoldSliders": 95.45915280937905
+			},
+			"Reading": {
+				"LowAr": 37.93908500608815
+			}
+		},
+		"OldIndex": 124,
+		"NewIndex": 88
+	},
+	{
+		"BeatmapID": 559248,
+		"Artist": "Tomita Miyu, Onishi Saori, Ohzora Naomi, Hanazawa Kana",
+		"Title": "Hallelujah*Essaim",
+		"Difficulty": "Extra",
+		"StarRating": 5.9,
+		"PrevPP": 184.975,
+		"NewPP": 428.63444164957366,
+		"Weight": 0.01115352440490604,
+		"WeightedPP": 4.7807847057217945,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 226.0893676137997,
+				"AnglePrecision": 962.2298850421739,
+				"Spin": 178.26116832749358
+			},
+			"Tapping": {
+				"Accuracy": 594.4593021644241,
+				"BurstSpeed": 137.23571032306054,
+				"StreamSpeed": 278.5747977611384,
+				"HoldSliders": 98.16301038474269
+			},
+			"Reading": {
+				"LowAr": 39.80806354276645
+			}
+		},
+		"OldIndex": 104,
+		"NewIndex": 89
+	},
+	{
+		"BeatmapID": 1171789,
+		"Artist": "SPYAIR",
+		"Title": "Imagination (TV Size)",
+		"Difficulty": "Ambition",
+		"StarRating": 6.28,
+		"PrevPP": 203.24,
+		"NewPP": 425.8382447684526,
+		"Weight": 0.010653687567029998,
+		"WeightedPP": 4.536747613855541,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 234.88354122881927,
+				"AnglePrecision": 969.5075905292116,
+				"Spin": 177.8814087135263
+			},
+			"Tapping": {
+				"Accuracy": 576.7605904982997,
+				"BurstSpeed": 126.48513719582928,
+				"StreamSpeed": 247.7941804717267,
+				"HoldSliders": 111.5381334428887
+			},
+			"Reading": {
+				"LowAr": 38.14006147062052
+			}
+		},
+		"OldIndex": 51,
+		"NewIndex": 90
+	},
+	{
+		"BeatmapID": 1863866,
+		"Artist": "kessoku band",
+		"Title": "Seishun Complex",
+		"Difficulty": "POISONOUS DARKNESS",
+		"StarRating": 6.25,
+		"PrevPP": 184.35,
+		"NewPP": 405.15007355287014,
+		"Weight": 0.010613672324237777,
+		"WeightedPP": 4.300130122830997,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 193.18441256884032,
+				"AnglePrecision": 862.4633274561982,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 612.4755134701662,
+				"BurstSpeed": 164.31638008386062,
+				"StreamSpeed": 340.7374912061383,
+				"HoldSliders": 111.19209692656715
+			},
+			"Reading": {
+				"LowAr": 37.637755459051306
+			}
+		},
+		"OldIndex": 108,
+		"NewIndex": 91
+	},
+	{
+		"BeatmapID": 320118,
+		"Artist": "Reol",
+		"Title": "No title",
+		"Difficulty": "Lust's Insane",
+		"StarRating": 5.78,
+		"PrevPP": 199.508,
+		"NewPP": 405.1465115344124,
+		"Weight": 0.01007322549009102,
+		"WeightedPP": 4.081132167209899,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 181.79729430261375,
+				"AnglePrecision": 841.7472651855546,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 671.8595145810325,
+				"BurstSpeed": 157.65848773700273,
+				"StreamSpeed": 294.23126293719275,
+				"HoldSliders": 83.56756406426746
+			},
+			"Reading": {
+				"LowAr": 41.86731258497886
+			}
+		},
+		"OldIndex": 58,
+		"NewIndex": 92
+	},
+	{
+		"BeatmapID": 1476373,
+		"Artist": "Dreamcatcher",
+		"Title": "Eclipse (TV Size)",
+		"Difficulty": "Destiny",
+		"StarRating": 6.16,
+		"PrevPP": 211.116,
+		"NewPP": 410.55854237325343,
+		"Weight": 0.009442771380949084,
+		"WeightedPP": 3.8768104541263293,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 216.91688927760038,
+				"AnglePrecision": 921.9324771783351,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 589.1425573434126,
+				"BurstSpeed": 141.82839854365517,
+				"StreamSpeed": 272.30048903941474,
+				"HoldSliders": 92.70541380901602
+			},
+			"Reading": {
+				"LowAr": 38.82018557338998
+			}
+		},
+		"OldIndex": 38,
+		"NewIndex": 93
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Extra",
+		"StarRating": 4.49,
+		"PrevPP": 170.625,
+		"NewPP": 423.49727145244196,
+		"Weight": 0.008681259916372173,
+		"WeightedPP": 3.67648988735307,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 225.4751410769502,
+				"AnglePrecision": 902.0846029539657,
+				"Spin": 229.92003002716586
+			},
+			"Tapping": {
+				"Accuracy": 638.5712204115541,
+				"BurstSpeed": 143.06808157650687,
+				"StreamSpeed": 288.4681686432669,
+				"HoldSliders": 67.97513149074574
+			},
+			"Reading": {
+				"LowAr": 35.5589476483907
+			}
+		},
+		"OldIndex": 175,
+		"NewIndex": 94
+	},
+	{
+		"BeatmapID": 1008640,
+		"Artist": "ULTRA PRISM with Ika Musume (CV: Kanemoto Hisako)",
+		"Title": "Shinryaku no Susume (TV Size)",
+		"Difficulty": "Shinryaku De Geso!",
+		"StarRating": 6.09,
+		"PrevPP": 173.048,
+		"NewPP": 404.1489190603819,
+		"Weight": 0.008576730389331832,
+		"WeightedPP": 3.4662763159207883,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 201.17553689053045,
+				"AnglePrecision": 933.0146167220291,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 557.297763090208,
+				"BurstSpeed": 125.37509934194108,
+				"StreamSpeed": 245.67768341751207,
+				"HoldSliders": 87.6937838780076
+			},
+			"Reading": {
+				"LowAr": 36.80329361162627
+			}
+		},
+		"OldIndex": 163,
+		"NewIndex": 95
+	},
+	{
+		"BeatmapID": 559105,
+		"Artist": "Ayaka Ohashi",
+		"Title": "Wagamama MIRROR HEART",
+		"Difficulty": "Extra",
+		"StarRating": 5.86,
+		"PrevPP": 185.182,
+		"NewPP": 412.80446331898816,
+		"Weight": 0.007973167804117942,
+		"WeightedPP": 3.2913592563311425,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 192.12757629240343,
+				"AnglePrecision": 880.5915052644782,
+				"Spin": 237.333639081118
+			},
+			"Tapping": {
+				"Accuracy": 595.4471205061677,
+				"BurstSpeed": 156.44033724754712,
+				"StreamSpeed": 303.39437493981325,
+				"HoldSliders": 148.45160552774638
+			},
+			"Reading": {
+				"LowAr": 38.23166445611413
+			}
+		},
+		"OldIndex": 102,
+		"NewIndex": 96
+	},
+	{
+		"BeatmapID": 1049899,
+		"Artist": "Krewella",
+		"Title": "Say Goodbye (Nightcore \u0026 Cut Ver.)",
+		"Difficulty": "Sotarks' Extreme",
+		"StarRating": 6.13,
+		"PrevPP": 174.59,
+		"NewPP": 416.313653871472,
+		"Weight": 0.007452455841658708,
+		"WeightedPP": 3.102559121756733,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 219.29154293287147,
+				"AnglePrecision": 947.4763654711589,
+				"Spin": 179.36195492205925
+			},
+			"Tapping": {
+				"Accuracy": 563.7845605123366,
+				"BurstSpeed": 127.28135701580834,
+				"StreamSpeed": 252.16747579095997,
+				"HoldSliders": 97.82919250569947
+			},
+			"Reading": {
+				"LowAr": 36.78248398043543
+			}
+		},
+		"OldIndex": 149,
+		"NewIndex": 97
+	},
+	{
+		"BeatmapID": 259127,
+		"Artist": "AKINO from bless4",
+		"Title": "MIIRO",
+		"Difficulty": "Miiro",
+		"StarRating": 5.82,
+		"PrevPP": 176.489,
+		"NewPP": 394.70224113711174,
+		"Weight": 0.007454893258874365,
+		"WeightedPP": 2.9424630767156583,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 174.59097576534768,
+				"AnglePrecision": 815.3429404280002,
+				"Spin": 312.82952324429823
+			},
+			"Tapping": {
+				"Accuracy": 582.3536348103175,
+				"BurstSpeed": 157.3954453704033,
+				"StreamSpeed": 294.95311304218995,
+				"HoldSliders": 28.451039663449343
+			},
+			"Reading": {
+				"LowAr": 38.400007554618725
+			}
+		},
+		"OldIndex": 139,
+		"NewIndex": 98
+	},
+	{
+		"BeatmapID": 945049,
+		"Artist": "Nanahira",
+		"Title": "Chikatto Chika Chika",
+		"Difficulty": "Taeyang's IQ MAX",
+		"StarRating": 6,
+		"PrevPP": 185.826,
+		"NewPP": 397.21585759323006,
+		"Weight": 0.0070497540312861005,
+		"WeightedPP": 2.8002740933586394,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 209.11902775141613,
+				"AnglePrecision": 924.8674064318873,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 545.270394896304,
+				"BurstSpeed": 116.81185952787878,
+				"StreamSpeed": 223.173757131253,
+				"HoldSliders": 31.910205961545206
+			},
+			"Reading": {
+				"LowAr": 36.63893758201138
+			}
+		},
+		"OldIndex": 97,
+		"NewIndex": 99
+	},
+	{
+		"BeatmapID": 1178935,
+		"Artist": "Nogizaka46",
+		"Title": "Yubi Bouenkyou (TV Size)",
+		"Difficulty": "Fate",
+		"StarRating": 6.22,
+		"PrevPP": 196.904,
+		"NewPP": 407.25764134049274,
+		"Weight": 0.006481333885492784,
+		"WeightedPP": 2.6395727509460025,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 206.14026680515417,
+				"AnglePrecision": 923.9957036122107,
+				"Spin": 233.3827938834931
+			},
+			"Tapping": {
+				"Accuracy": 540.1587375795528,
+				"BurstSpeed": 122.79443499884076,
+				"StreamSpeed": 238.99348075379697,
+				"HoldSliders": 103.83496953732126
+			},
+			"Reading": {
+				"LowAr": 37.30111629334081
+			}
+		},
+		"OldIndex": 65,
+		"NewIndex": 100
+	},
+	{
+		"BeatmapID": 1009278,
+		"Artist": "Mrs. GREEN APPLE",
+		"Title": "Inferno (TV Size)",
+		"Difficulty": "Taeyang's Infernal",
+		"StarRating": 6.03,
+		"PrevPP": 173.198,
+		"NewPP": 393.12372760129614,
+		"Weight": 0.006355677298689851,
+		"WeightedPP": 2.4985675510918908,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 208.66457785524688,
+				"AnglePrecision": 910.0144241611836,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 533.5964742988963,
+				"BurstSpeed": 128.6085881380155,
+				"StreamSpeed": 247.26348865437484,
+				"HoldSliders": 32.115548082256716
+			},
+			"Reading": {
+				"LowAr": 35.58027283430219
+			}
+		},
+		"OldIndex": 161,
+		"NewIndex": 101
+	},
+	{
+		"BeatmapID": 922004,
+		"Artist": "KISIDA KYODAN \u0026 THE AKEBOSI ROCKETS",
+		"Title": "Shitteru? Madousho wa Donki ni mo Naru no yo",
+		"Difficulty": "shitteru?",
+		"StarRating": 6.41,
+		"PrevPP": 236.684,
+		"NewPP": 392.95824887137996,
+		"Weight": 0.006007322389778411,
+		"WeightedPP": 2.360626886693158,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 193.20124588599953,
+				"AnglePrecision": 845.3505974635902,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 607.2968873125349,
+				"BurstSpeed": 149.72058330075956,
+				"StreamSpeed": 291.7696397882021,
+				"HoldSliders": 74.6763675147144
+			},
+			"Reading": {
+				"LowAr": 38.10884193722181
+			}
+		},
+		"OldIndex": 6,
+		"NewIndex": 102
+	},
+	{
+		"BeatmapID": 2037770,
+		"Artist": "SILENT SIREN",
+		"Title": "Hachigatsu no Yoru",
+		"Difficulty": "Melted",
+		"StarRating": 5.77,
+		"PrevPP": 175.55,
+		"NewPP": 391.0222108590787,
+		"Weight": 0.005724345818367166,
+		"WeightedPP": 2.2383463576198515,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 182.40081450484007,
+				"AnglePrecision": 853.8746792463836,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 589.5746003951958,
+				"BurstSpeed": 153.63440034764054,
+				"StreamSpeed": 295.38219014772267,
+				"HoldSliders": 29.495824321434803
+			},
+			"Reading": {
+				"LowAr": 38.6205875231143
+			}
+		},
+		"OldIndex": 144,
+		"NewIndex": 103
+	},
+	{
+		"BeatmapID": 1228487,
+		"Artist": "LiSA",
+		"Title": "confidence driver (Cut Ver.)",
+		"Difficulty": "Expert",
+		"StarRating": 6.13,
+		"PrevPP": 195.479,
+		"NewPP": 405.09502891841635,
+		"Weight": 0.005242372413493761,
+		"WeightedPP": 2.123659004445363,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 204.86127498195276,
+				"AnglePrecision": 899.0459018471507,
+				"Spin": 221.77237091623442
+			},
+			"Tapping": {
+				"Accuracy": 565.1510814493016,
+				"BurstSpeed": 139.06135220475235,
+				"StreamSpeed": 268.00893935946266,
+				"HoldSliders": 38.775672556648615
+			},
+			"Reading": {
+				"LowAr": 36.26362666599844
+			}
+		},
+		"OldIndex": 69,
+		"NewIndex": 104
+	},
+	{
+		"BeatmapID": 1987070,
+		"Artist": "Hoshimachi Suisei",
+		"Title": "Newton",
+		"Difficulty": "Liyuu's Extreme",
+		"StarRating": 6.43,
+		"PrevPP": 188.357,
+		"NewPP": 384.63946341450793,
+		"Weight": 0.005222460071391913,
+		"WeightedPP": 2.0087642395638783,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 173.82994603399595,
+				"AnglePrecision": 790.3412982719864,
+				"Spin": 270.95014814609226
+			},
+			"Tapping": {
+				"Accuracy": 562.228106440778,
+				"BurstSpeed": 152.6265685635608,
+				"StreamSpeed": 305.62929811779,
+				"HoldSliders": 145.08057717460082
+			},
+			"Reading": {
+				"LowAr": 38.17039440228888
+			}
+		},
+		"OldIndex": 89,
+		"NewIndex": 105
+	},
+	{
+		"BeatmapID": 1211962,
+		"Artist": "Nishino Kana",
+		"Title": "Darling (Cut Ver.)",
+		"Difficulty": "Insane",
+		"StarRating": 4,
+		"PrevPP": 166.995,
+		"NewPP": 374.8420623391961,
+		"Weight": 0.005093466066650322,
+		"WeightedPP": 1.90924532487792,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 177.26185134773493,
+				"AnglePrecision": 741.2681582392333,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 662.6027846056725,
+				"BurstSpeed": 147.16873062540122,
+				"StreamSpeed": 276.6321137080613,
+				"HoldSliders": 68.01688678097413
+			},
+			"Reading": {
+				"LowAr": 36.03635059150638
+			}
+		},
+		"OldIndex": 195,
+		"NewIndex": 106
+	},
+	{
+		"BeatmapID": 361740,
+		"Artist": "Agnete Kjolsrud",
+		"Title": "Get Jinxed",
+		"Difficulty": "Mismagius' Challenger",
+		"StarRating": 6.06,
+		"PrevPP": 196.639,
+		"NewPP": 404.0105121221777,
+		"Weight": 0.004490068961870586,
+		"WeightedPP": 1.8140350607492302,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 185.8907152021858,
+				"AnglePrecision": 877.5832477098295,
+				"Spin": 208.71543509849565
+			},
+			"Tapping": {
+				"Accuracy": 610.2954602775155,
+				"BurstSpeed": 127.52663250601663,
+				"StreamSpeed": 237.61798756912324,
+				"HoldSliders": 103.7887340038619
+			},
+			"Reading": {
+				"LowAr": 39.5992875937744
+			}
+		},
+		"OldIndex": 66,
+		"NewIndex": 107
+	},
+	{
+		"BeatmapID": 781509,
+		"Artist": "Vickeblanka",
+		"Title": "Black Rover (TV Size)",
+		"Difficulty": "Extra",
+		"StarRating": 6.05,
+		"PrevPP": 199.255,
+		"NewPP": 394.8375331119931,
+		"Weight": 0.004353184343231794,
+		"WeightedPP": 1.7188005672633933,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 196.82197502448247,
+				"AnglePrecision": 843.1979788084319,
+				"Spin": 270.86747373612377
+			},
+			"Tapping": {
+				"Accuracy": 578.4719584996085,
+				"BurstSpeed": 135.65503474152985,
+				"StreamSpeed": 257.475269206269,
+				"HoldSliders": 56.82846445245622
+			},
+			"Reading": {
+				"LowAr": 39.08230978842461
+			}
+		},
+		"OldIndex": 59,
+		"NewIndex": 108
+	},
+	{
+		"BeatmapID": 1073074,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "Fatfan's Extreme",
+		"StarRating": 6.09,
+		"PrevPP": 199.519,
+		"NewPP": 388.3286689505057,
+		"Weight": 0.004209722683550691,
+		"WeightedPP": 1.6347560063539905,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 193.071878799837,
+				"AnglePrecision": 871.5633617953791,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 565.0290359316173,
+				"BurstSpeed": 139.45079572109654,
+				"StreamSpeed": 261.15058667243744,
+				"HoldSliders": 33.66334927273882
+			},
+			"Reading": {
+				"LowAr": 38.15247235675605
+			}
+		},
+		"OldIndex": 57,
+		"NewIndex": 109
+	},
+	{
+		"BeatmapID": 864354,
+		"Artist": "Kurosaki Maon",
+		"Title": "Gravitation (TV Size)",
+		"Difficulty": "Imagine Breaker",
+		"StarRating": 6.57,
+		"PrevPP": 228.292,
+		"NewPP": 395.7734874864366,
+		"Weight": 0.003886404155347601,
+		"WeightedPP": 1.538135726343699,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 200.05020634568757,
+				"AnglePrecision": 860.6980888456795,
+				"Spin": 231.54247893919228
+			},
+			"Tapping": {
+				"Accuracy": 555.7431468019595,
+				"BurstSpeed": 142.8122288726256,
+				"StreamSpeed": 278.87056467734726,
+				"HoldSliders": 101.65727226163133
+			},
+			"Reading": {
+				"LowAr": 36.21120879644137
+			}
+		},
+		"OldIndex": 15,
+		"NewIndex": 110
+	},
+	{
+		"BeatmapID": 320118,
+		"Artist": "Reol",
+		"Title": "No title",
+		"Difficulty": "Nathan's Extra",
+		"StarRating": 5.75,
+		"PrevPP": 185.721,
+		"NewPP": 371.9829315119192,
+		"Weight": 0.003911323218271823,
+		"WeightedPP": 1.454945476823387,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 164.10058634174482,
+				"AnglePrecision": 755.3485017101216,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 625.9108600590287,
+				"BurstSpeed": 151.55534835683096,
+				"StreamSpeed": 297.0951383725197,
+				"HoldSliders": 70.05199196170162
+			},
+			"Reading": {
+				"LowAr": 39.784645761863004
+			}
+		},
+		"OldIndex": 99,
+		"NewIndex": 111
+	},
+	{
+		"BeatmapID": 764602,
+		"Artist": "Sex Whales \u0026 Fraxo",
+		"Title": "Dead To Me (Instrumental)",
+		"Difficulty": "Rest In Peace",
+		"StarRating": 6.4,
+		"PrevPP": 192.557,
+		"NewPP": 382.2737145729573,
+		"Weight": 0.003608682848099424,
+		"WeightedPP": 1.3795045970586859,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 211.79061591513226,
+				"AnglePrecision": 857.0495562944227,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 546.9757375127931,
+				"BurstSpeed": 130.09654487694576,
+				"StreamSpeed": 259.01491977963485,
+				"HoldSliders": 72.10957302536127
+			},
+			"Reading": {
+				"LowAr": 35.766580576608774
+			}
+		},
+		"OldIndex": 77,
+		"NewIndex": 112
+	},
+	{
+		"BeatmapID": 1019721,
+		"Artist": "Nanahoshi Kangengakudan",
+		"Title": "Meikaruza",
+		"Difficulty": "Dance",
+		"StarRating": 5.91,
+		"PrevPP": 189.677,
+		"NewPP": 370.81510512895727,
+		"Weight": 0.0035310784150835335,
+		"WeightedPP": 1.3093772137077924,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 182.60679671538463,
+				"AnglePrecision": 744.8205982228405,
+				"Spin": 229.90411369618428
+			},
+			"Tapping": {
+				"Accuracy": 562.4410087204537,
+				"BurstSpeed": 146.46294702669127,
+				"StreamSpeed": 288.1582042179565,
+				"HoldSliders": 192.4432278817281
+			},
+			"Reading": {
+				"LowAr": 34.80000773569057
+			}
+		},
+		"OldIndex": 85,
+		"NewIndex": 113
+	},
+	{
+		"BeatmapID": 2285243,
+		"Artist": "Jeff Williams feat. Casey Lee Williams",
+		"Title": "Time to Say Goodbye (TV Size)",
+		"Difficulty": "Tylerderp's Extra",
+		"StarRating": 6.27,
+		"PrevPP": 219.936,
+		"NewPP": 378.7189351518153,
+		"Weight": 0.0032772138173376795,
+		"WeightedPP": 1.2411429271669416,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 210.26772845333556,
+				"AnglePrecision": 804.754341429518,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 591.7689322121287,
+				"BurstSpeed": 145.13711745348144,
+				"StreamSpeed": 279.69287180560167,
+				"HoldSliders": 68.38109702252481
+			},
+			"Reading": {
+				"LowAr": 37.70753371089832
+			}
+		},
+		"OldIndex": 22,
+		"NewIndex": 114
+	},
+	{
+		"BeatmapID": 326920,
+		"Artist": "Seiryu",
+		"Title": "BLUE DRAGON",
+		"Difficulty": "grumd's Extra",
+		"StarRating": 5.97,
+		"PrevPP": 199.732,
+		"NewPP": 376.13401576987934,
+		"Weight": 0.003132549332638251,
+		"WeightedPP": 1.1782583600824807,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 154.78683182076617,
+				"AnglePrecision": 737.4927763937565,
+				"Spin": 209.4013652421954
+			},
+			"Tapping": {
+				"Accuracy": 625.088983227614,
+				"BurstSpeed": 153.8027790593503,
+				"StreamSpeed": 300.5892562464038,
+				"HoldSliders": 117.93685273063308
+			},
+			"Reading": {
+				"LowAr": 38.162262096803545
+			}
+		},
+		"OldIndex": 56,
+		"NewIndex": 115
+	},
+	{
+		"BeatmapID": 762466,
+		"Artist": "Hello, Happy World!",
+		"Title": "Silhouette",
+		"Difficulty": "Kalibe's Expert",
+		"StarRating": 5.72,
+		"PrevPP": 174.241,
+		"NewPP": 377.00002190194743,
+		"Weight": 0.0029654394061146452,
+		"WeightedPP": 1.1179707210541192,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 172.62802004355166,
+				"AnglePrecision": 824.6565329198977,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 571.5253321246288,
+				"BurstSpeed": 147.69687221750212,
+				"StreamSpeed": 276.45139404324505,
+				"HoldSliders": 27.838449874667425
+			},
+			"Reading": {
+				"LowAr": 38.94069385680193
+			}
+		},
+		"OldIndex": 151,
+		"NewIndex": 116
+	},
+	{
+		"BeatmapID": 625669,
+		"Artist": "96neko",
+		"Title": "Uso no Hibana",
+		"Difficulty": "A r M i N's Ultra",
+		"StarRating": 5.93,
+		"PrevPP": 185.687,
+		"NewPP": 346.483143752165,
+		"Weight": 0.003041813420267509,
+		"WeightedPP": 1.0539370765618121,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 135.2096602322884,
+				"AnglePrecision": 663.3837282761774,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 605.3973536136107,
+				"BurstSpeed": 154.50474249139137,
+				"StreamSpeed": 326.3179651317952,
+				"HoldSliders": 61.16793267629309
+			},
+			"Reading": {
+				"LowAr": 37.96480611031818
+			}
+		},
+		"OldIndex": 100,
+		"NewIndex": 117
+	},
+	{
+		"BeatmapID": 1061287,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "AF's Extreme",
+		"StarRating": 5.72,
+		"PrevPP": 171.922,
+		"NewPP": 371.6258394457467,
+		"Weight": 0.002667933460445937,
+		"WeightedPP": 0.9914730118236171,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 180.36429057232118,
+				"AnglePrecision": 799.2074508440633,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 591.4022553945771,
+				"BurstSpeed": 129.98493021753697,
+				"StreamSpeed": 248.96820473944,
+				"HoldSliders": 58.697648240157164
+			},
+			"Reading": {
+				"LowAr": 38.70399077833073
+			}
+		},
+		"OldIndex": 167,
+		"NewIndex": 118
+	},
+	{
+		"BeatmapID": 568914,
+		"Artist": "fourfolium",
+		"Title": "Gugutto Work* (Short Ver.)",
+		"Difficulty": "Extra",
+		"StarRating": 5.53,
+		"PrevPP": 166.791,
+		"NewPP": 361.95875721434874,
+		"Weight": 0.0025968363428996574,
+		"WeightedPP": 0.9399476553650143,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 153.41963054565537,
+				"AnglePrecision": 739.6905760659367,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 610.6269567775092,
+				"BurstSpeed": 149.08570685886082,
+				"StreamSpeed": 275.85774330267964,
+				"HoldSliders": 67.58170680656735
+			},
+			"Reading": {
+				"LowAr": 40.93646379232072
+			}
+		},
+		"OldIndex": 198,
+		"NewIndex": 119
+	},
+	{
+		"BeatmapID": 2252729,
+		"Artist": "toby fox",
+		"Title": "Song That Might Play When You Fight Sans",
+		"Difficulty": "Genocide",
+		"StarRating": 6.75,
+		"PrevPP": 250.327,
+		"NewPP": 383.1671835049858,
+		"Weight": 0.0023113798677997445,
+		"WeightedPP": 0.8856449139549546,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 210.05702233685543,
+				"AnglePrecision": 813.4824712018741,
+				"Spin": 161.4538779426445
+			},
+			"Tapping": {
+				"Accuracy": 577.5814035489814,
+				"BurstSpeed": 139.54033714770853,
+				"StreamSpeed": 281.8407734248073,
+				"HoldSliders": 93.9051449185046
+			},
+			"Reading": {
+				"LowAr": 35.6020309663496
+			}
+		},
+		"OldIndex": 0,
+		"NewIndex": 120
+	},
+	{
+		"BeatmapID": 853469,
+		"Artist": "A Zhong Bu Dai Xi",
+		"Title": "Gu Niang De Jiu Wo",
+		"Difficulty": "Chicken Hair",
+		"StarRating": 4.61,
+		"PrevPP": 216.32,
+		"NewPP": 383.0695602748348,
+		"Weight": 0.0021952801105457366,
+		"WeightedPP": 0.8409449866268461,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 201.41263244393122,
+				"AnglePrecision": 805.6886474626413,
+				"Spin": 151.7545472656738
+			},
+			"Tapping": {
+				"Accuracy": 598.8066214215071,
+				"BurstSpeed": 138.2102804262293,
+				"StreamSpeed": 280.4414345416651,
+				"HoldSliders": 61.541459510974015
+			},
+			"Reading": {
+				"LowAr": 33.18757868531061
+			}
+		},
+		"OldIndex": 29,
+		"NewIndex": 121
+	},
+	{
+		"BeatmapID": 2110074,
+		"Artist": "Tsukuyomi",
+		"Title": "Yume to Shiriseba",
+		"Difficulty": "Nostalgia",
+		"StarRating": 6.12,
+		"PrevPP": 166.815,
+		"NewPP": 363.45370144815416,
+		"Weight": 0.0021978032718172552,
+		"WeightedPP": 0.7987997341968451,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 169.46246677708,
+				"AnglePrecision": 777.6205697434402,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 550.5033282890377,
+				"BurstSpeed": 148.82033013890594,
+				"StreamSpeed": 297.7257256387511,
+				"HoldSliders": 90.40017771740885
+			},
+			"Reading": {
+				"LowAr": 36.90882927167507
+			}
+		},
+		"OldIndex": 196,
+		"NewIndex": 122
+	},
+	{
+		"BeatmapID": 1178935,
+		"Artist": "Nogizaka46",
+		"Title": "Yubi Bouenkyou (TV Size)",
+		"Difficulty": "Delis' Extra",
+		"StarRating": 5.64,
+		"PrevPP": 173.897,
+		"NewPP": 370.03148709048924,
+		"Weight": 0.00204657566438138,
+		"WeightedPP": 0.757297436534248,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 150.38707296514963,
+				"AnglePrecision": 747.403887791482,
+				"Spin": 203.4153407267713
+			},
+			"Tapping": {
+				"Accuracy": 615.5252553380283,
+				"BurstSpeed": 132.81034691671968,
+				"StreamSpeed": 258.29627940160344,
+				"HoldSliders": 88.8399677235999
+			},
+			"Reading": {
+				"LowAr": 40.74716479007617
+			}
+		},
+		"OldIndex": 153,
+		"NewIndex": 123
+	},
+	{
+		"BeatmapID": 437797,
+		"Artist": "Silent Siren",
+		"Title": "Soukai Rock",
+		"Difficulty": "Lami's Extra",
+		"StarRating": 6.19,
+		"PrevPP": 206.223,
+		"NewPP": 366.7558727423868,
+		"Weight": 0.0019634427283376113,
+		"WeightedPP": 0.7201041514111538,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 178.9298067955521,
+				"AnglePrecision": 806.0737682520526,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 545.4238548694616,
+				"BurstSpeed": 133.5594401902798,
+				"StreamSpeed": 265.620459580972,
+				"HoldSliders": 84.64015652367809
+			},
+			"Reading": {
+				"LowAr": 35.54821704836213
+			}
+		},
+		"OldIndex": 46,
+		"NewIndex": 124
+	},
+	{
+		"BeatmapID": 2122109,
+		"Artist": "Yonekura Chihiro",
+		"Title": "Koiseyo Otome! (Game Ver.)",
+		"Difficulty": "One Kiss, One Spell, and a Future with You",
+		"StarRating": 6.32,
+		"PrevPP": 181.364,
+		"NewPP": 359.86350051671855,
+		"Weight": 0.0018909009515257528,
+		"WeightedPP": 0.6804662355464514,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 179.32439649185577,
+				"AnglePrecision": 767.9104566487955,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 539.8693820637133,
+				"BurstSpeed": 144.16674002913697,
+				"StreamSpeed": 303.15254729780344,
+				"HoldSliders": 93.7004012894278
+			},
+			"Reading": {
+				"LowAr": 35.28417024686015
+			}
+		},
+		"OldIndex": 116,
+		"NewIndex": 125
+	},
+	{
+		"BeatmapID": 2189260,
+		"Artist": "Nobuo Uematsu",
+		"Title": "Bike Chase",
+		"Difficulty": "Plasma's Extra",
+		"StarRating": 6.65,
+		"PrevPP": 227.6,
+		"NewPP": 369.30292433318414,
+		"Weight": 0.0017380838243422731,
+		"WeightedPP": 0.6418794390658058,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 195.47675438666369,
+				"AnglePrecision": 790.7524310410276,
+				"Spin": 219.6382924559665
+			},
+			"Tapping": {
+				"Accuracy": 524.3882001010572,
+				"BurstSpeed": 140.32072717197224,
+				"StreamSpeed": 275.09631470673935,
+				"HoldSliders": 88.25252110767178
+			},
+			"Reading": {
+				"LowAr": 34.58714249737134
+			}
+		},
+		"OldIndex": 16,
+		"NewIndex": 126
+	},
+	{
+		"BeatmapID": 2269930,
+		"Artist": "The Wrecks",
+		"Title": "Favorite Liar (Cut Ver.)",
+		"Difficulty": "My Favorite Liar",
+		"StarRating": 6.59,
+		"PrevPP": 206.559,
+		"NewPP": 376.765241576908,
+		"Weight": 0.0016181212088034287,
+		"WeightedPP": 0.6096518281355422,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 207.91276023151505,
+				"AnglePrecision": 826.9778173848017,
+				"Spin": 165.49173020859388
+			},
+			"Tapping": {
+				"Accuracy": 540.197697838176,
+				"BurstSpeed": 127.76012084834898,
+				"StreamSpeed": 247.50127093829832,
+				"HoldSliders": 102.8398343283536
+			},
+			"Reading": {
+				"LowAr": 33.759844984666756
+			}
+		},
+		"OldIndex": 45,
+		"NewIndex": 127
+	},
+	{
+		"BeatmapID": 983911,
+		"Artist": "S3RL",
+		"Title": "Bass Slut (Original Mix)",
+		"Difficulty": "Taeyang's Trashy Extreme",
+		"StarRating": 6,
+		"PrevPP": 189.52,
+		"NewPP": 358.15369465664736,
+		"Weight": 0.001612771098742464,
+		"WeightedPP": 0.5776199276500741,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 156.63671478262512,
+				"AnglePrecision": 771.1308624677512,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 580.9494333135599,
+				"BurstSpeed": 114.81137751297291,
+				"StreamSpeed": 221.20411265948775,
+				"HoldSliders": 76.97713589956757
+			},
+			"Reading": {
+				"LowAr": 38.38032202783103
+			}
+		},
+		"OldIndex": 86,
+		"NewIndex": 128
+	},
+	{
+		"BeatmapID": 2233944,
+		"Artist": "Faylan",
+		"Title": "Path to glory (Game Ver.)",
+		"Difficulty": "Scarlet Vision",
+		"StarRating": 5.75,
+		"PrevPP": 186.878,
+		"NewPP": 356.7852574893145,
+		"Weight": 0.0015337943892078751,
+		"WeightedPP": 0.5472352260891976,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 154.23735717943265,
+				"AnglePrecision": 758.8211266466564,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 574.6771591874831,
+				"BurstSpeed": 128.81400256275077,
+				"StreamSpeed": 250.97835210379964,
+				"HoldSliders": 86.45112150612857
+			},
+			"Reading": {
+				"LowAr": 38.148144336214074
+			}
+		},
+		"OldIndex": 93,
+		"NewIndex": 129
+	},
+	{
+		"BeatmapID": 773330,
+		"Artist": "Nanamori-chu * Goraku-bu",
+		"Title": "Happy Time wa Owaranai",
+		"Difficulty": "Sotarks' Peace of Mind",
+		"StarRating": 6.13,
+		"PrevPP": 186.865,
+		"NewPP": 370.8492342554651,
+		"Weight": 0.001388324451880763,
+		"WeightedPP": 0.5148590598781193,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 180.71120094706112,
+				"AnglePrecision": 824.7744340081647,
+				"Spin": 151.6526964702811
+			},
+			"Tapping": {
+				"Accuracy": 531.5262496127045,
+				"BurstSpeed": 119.00567575469468,
+				"StreamSpeed": 236.4100464137963,
+				"HoldSliders": 102.29473399433502
+			},
+			"Reading": {
+				"LowAr": 35.90074313256119
+			}
+		},
+		"OldIndex": 94,
+		"NewIndex": 130
+	},
+	{
+		"BeatmapID": 859783,
+		"Artist": "Will Stetson",
+		"Title": "Harumachi Clover (Swing Arrangement)",
+		"Difficulty": "Dafiely's Insane",
+		"StarRating": 4.44,
+		"PrevPP": 176.911,
+		"NewPP": 301.23284725678957,
+		"Weight": 0.001612506136578858,
+		"WeightedPP": 0.48573981474069494,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 121.46122893581284,
+				"AnglePrecision": 508.02858630307657,
+				"Spin": 169.34559749212352
+			},
+			"Tapping": {
+				"Accuracy": 554.8180177088643,
+				"BurstSpeed": 146.7053602045963,
+				"StreamSpeed": 300.7035541443489,
+				"HoldSliders": 61.075228754021786
+			},
+			"Reading": {
+				"LowAr": 30.1282853186216
+			}
+		},
+		"OldIndex": 137,
+		"NewIndex": 131
+	},
+	{
+		"BeatmapID": 763619,
+		"Artist": "Yu Tokiwa",
+		"Title": "Shounen Ripples",
+		"Difficulty": "Vibes",
+		"StarRating": 6.49,
+		"PrevPP": 180.319,
+		"NewPP": 360.6363714931204,
+		"Weight": 0.001278456902806888,
+		"WeightedPP": 0.461058058538609,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 183.79079738800198,
+				"AnglePrecision": 779.3075209018756,
+				"Spin": 209.08727577058912
+			},
+			"Tapping": {
+				"Accuracy": 518.2396327839901,
+				"BurstSpeed": 123.01082011415565,
+				"StreamSpeed": 243.772604209091,
+				"HoldSliders": 106.88963626496628
+			},
+			"Reading": {
+				"LowAr": 33.12892338877094
+			}
+		},
+		"OldIndex": 121,
+		"NewIndex": 132
+	},
+	{
+		"BeatmapID": 268693,
+		"Artist": "Hitori Tori",
+		"Title": "perthed again (yambabom remix)",
+		"Difficulty": "Zapy's Extra",
+		"StarRating": 6.53,
+		"PrevPP": 185.094,
+		"NewPP": 347.6575161994507,
+		"Weight": 0.00125839092859817,
+		"WeightedPP": 0.4374890646443601,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 173.7993483982753,
+				"AnglePrecision": 779.0876760926284,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 483.9638776764199,
+				"BurstSpeed": 127.56840968092965,
+				"StreamSpeed": 259.4922035677271,
+				"HoldSliders": 104.90993430987675
+			},
+			"Reading": {
+				"LowAr": 30.068853374176697
+			}
+		},
+		"OldIndex": 103,
+		"NewIndex": 133
+	},
+	{
+		"BeatmapID": 2285243,
+		"Artist": "Jeff Williams feat. Casey Lee Williams",
+		"Title": "Time to Say Goodbye (TV Size)",
+		"Difficulty": "Nymphe's Extreme",
+		"StarRating": 6.73,
+		"PrevPP": 243.936,
+		"NewPP": 338.7514632147801,
+		"Weight": 0.0012071225309432667,
+		"WeightedPP": 0.4089145236365602,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 180.61662276334354,
+				"AnglePrecision": 693.1037445571867,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 554.2237881505325,
+				"BurstSpeed": 137.02234651012475,
+				"StreamSpeed": 273.2681996427341,
+				"HoldSliders": 56.73510568818849
+			},
+			"Reading": {
+				"LowAr": 34.21627617243013
+			}
+		},
+		"OldIndex": 2,
+		"NewIndex": 134
+	},
+	{
+		"BeatmapID": 894883,
+		"Artist": "Aiurabu",
+		"Title": "Kani*Do-Luck! (TV Size)",
+		"Difficulty": "A I U R A !",
+		"StarRating": 6.16,
+		"PrevPP": 199.136,
+		"NewPP": 360.76168282944934,
+		"Weight": 0.0010749845606426935,
+		"WeightedPP": 0.3878132391131343,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 179.21738407520922,
+				"AnglePrecision": 772.3413237187079,
+				"Spin": 153.05988284081394
+			},
+			"Tapping": {
+				"Accuracy": 546.9996541621534,
+				"BurstSpeed": 126.84291902630204,
+				"StreamSpeed": 254.05300260026291,
+				"HoldSliders": 89.64209038975949
+			},
+			"Reading": {
+				"LowAr": 35.47161272955607
+			}
+		},
+		"OldIndex": 61,
+		"NewIndex": 135
+	},
+	{
+		"BeatmapID": 931452,
+		"Artist": "HAG",
+		"Title": "Colorful",
+		"Difficulty": "Taeyang's Extreme",
+		"StarRating": 6.3,
+		"PrevPP": 178.048,
+		"NewPP": 360.07255191960786,
+		"Weight": 0.0010232294805933527,
+		"WeightedPP": 0.3684368502766234,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 172.64983844996488,
+				"AnglePrecision": 795.5156584106476,
+				"Spin": 145.48065673272748
+			},
+			"Tapping": {
+				"Accuracy": 516.7447059022634,
+				"BurstSpeed": 121.43910225273791,
+				"StreamSpeed": 245.75870945768133,
+				"HoldSliders": 100.01886109523551
+			},
+			"Reading": {
+				"LowAr": 35.021817591583854
+			}
+		},
+		"OldIndex": 130,
+		"NewIndex": 136
+	},
+	{
+		"BeatmapID": 1041915,
+		"Artist": "KANA-BOON",
+		"Title": "Nai Mono Nedari",
+		"Difficulty": "YURAYURA YURAYURA",
+		"StarRating": 6.05,
+		"PrevPP": 177.532,
+		"NewPP": 346.4902071173804,
+		"Weight": 0.0010088435019288719,
+		"WeightedPP": 0.34955439393235815,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 144.65252260147992,
+				"AnglePrecision": 722.7501597136677,
+				"Spin": 196.7747285660161
+			},
+			"Tapping": {
+				"Accuracy": 520.0096560022373,
+				"BurstSpeed": 146.72125361206375,
+				"StreamSpeed": 290.4930987828984,
+				"HoldSliders": 27.446268539993227
+			},
+			"Reading": {
+				"LowAr": 36.80438653621743
+			}
+		},
+		"OldIndex": 133,
+		"NewIndex": 137
+	},
+	{
+		"BeatmapID": 780131,
+		"Artist": "denk!girls",
+		"Title": "two-Dimension's Love (TV Size)",
+		"Difficulty": "Lami's Extra",
+		"StarRating": 6.13,
+		"PrevPP": 177.64,
+		"NewPP": 342.2049753613377,
+		"Weight": 0.0009679363976735666,
+		"WeightedPP": 0.33123265111722483,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 167.2491221246192,
+				"AnglePrecision": 773.4080873691598,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 485.7456839942845,
+				"BurstSpeed": 119.48463302147945,
+				"StreamSpeed": 235.9756418039186,
+				"HoldSliders": 60.77921378206595
+			},
+			"Reading": {
+				"LowAr": 33.11433884077529
+			}
+		},
+		"OldIndex": 132,
+		"NewIndex": 138
+	},
+	{
+		"BeatmapID": 1053509,
+		"Artist": "ViViD",
+		"Title": "HIKARI (TV Size)",
+		"Difficulty": "browiec's Wisdom",
+		"StarRating": 6.11,
+		"PrevPP": 207.452,
+		"NewPP": 342.63864799763064,
+		"Weight": 0.0009168778130652605,
+		"WeightedPP": 0.3141577742477052,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 170.59690798520091,
+				"AnglePrecision": 738.7047285091139,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 534.6194775162328,
+				"BurstSpeed": 120.35839613374708,
+				"StreamSpeed": 240.06474179800335,
+				"HoldSliders": 74.52596416832152
+			},
+			"Reading": {
+				"LowAr": 30.522696930995362
+			}
+		},
+		"OldIndex": 43,
+		"NewIndex": 139
+	},
+	{
+		"BeatmapID": 2285243,
+		"Artist": "Jeff Williams feat. Casey Lee Williams",
+		"Title": "Time to Say Goodbye (TV Size)",
+		"Difficulty": "Fuxi's Extra",
+		"StarRating": 5.86,
+		"PrevPP": 169.883,
+		"NewPP": 341.63910237621394,
+		"Weight": 0.0008712250930478803,
+		"WeightedPP": 0.2976445587565113,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 185.04025935098485,
+				"AnglePrecision": 737.793479666592,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 520.0943536265288,
+				"BurstSpeed": 130.91888248397512,
+				"StreamSpeed": 248.37927150936542,
+				"HoldSliders": 66.9368121878158
+			},
+			"Reading": {
+				"LowAr": 36.70700415103471
+			}
+		},
+		"OldIndex": 180,
+		"NewIndex": 140
+	},
+	{
+		"BeatmapID": 1017271,
+		"Artist": "Nashimoto Ui",
+		"Title": "AaAaAaAAaAaAAa",
+		"Difficulty": "aAaAaaAaAaaA",
+		"StarRating": 6.18,
+		"PrevPP": 173.153,
+		"NewPP": 338.3129565447898,
+		"Weight": 0.0008338774488609885,
+		"WeightedPP": 0.2821115451201878,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 164.44589418564672,
+				"AnglePrecision": 748.8498109642649,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 494.63196309463376,
+				"BurstSpeed": 130.1544124938247,
+				"StreamSpeed": 254.07479560935877,
+				"HoldSliders": 23.077551859791654
+			},
+			"Reading": {
+				"LowAr": 33.73775129791488
+			}
+		},
+		"OldIndex": 162,
+		"NewIndex": 141
+	},
+	{
+		"BeatmapID": 2210696,
+		"Artist": "Brad Breeck",
+		"Title": "Gravity Falls Theme Song (TV Size)",
+		"Difficulty": "Aakki's Expert",
+		"StarRating": 4.81,
+		"PrevPP": 218.321,
+		"NewPP": 300.08367497094946,
+		"Weight": 0.0008886244528002996,
+		"WeightedPP": 0.26666169146536295,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 136.94161207003026,
+				"AnglePrecision": 550.5019551808217,
+				"Spin": 1.0000059008598328
+			},
+			"Tapping": {
+				"Accuracy": 546.5873950021987,
+				"BurstSpeed": 136.69660005373981,
+				"StreamSpeed": 279.89533320717146,
+				"HoldSliders": 44.23021122922808
+			},
+			"Reading": {
+				"LowAr": 29.220508353521083
+			}
+		},
+		"OldIndex": 23,
+		"NewIndex": 142
+	},
+	{
+		"BeatmapID": 1218665,
+		"Artist": "nano",
+		"Title": "SABLE (TV Size)",
+		"Difficulty": "SAVIOUR",
+		"StarRating": 6.16,
+		"PrevPP": 167.332,
+		"NewPP": 338.5779996868969,
+		"Weight": 0.0007482465544239606,
+		"WeightedPP": 0.2533398216694774,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 167.73745815250822,
+				"AnglePrecision": 741.6108960597303,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 502.2365325123236,
+				"BurstSpeed": 128.04812915998502,
+				"StreamSpeed": 252.04279015761506,
+				"HoldSliders": 74.76565175442852
+			},
+			"Reading": {
+				"LowAr": 34.69279795271224
+			}
+		},
+		"OldIndex": 192,
+		"NewIndex": 143
+	},
+	{
+		"BeatmapID": 765778,
+		"Artist": "Icon For Hire",
+		"Title": "Make a Move (Speed Up Ver.)",
+		"Difficulty": "Endless Fear",
+		"StarRating": 6.14,
+		"PrevPP": 190.828,
+		"NewPP": 319.6799727327533,
+		"Weight": 0.0007521181044516935,
+		"WeightedPP": 0.24043709512292746,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 138.19672122745664,
+				"AnglePrecision": 628.6914651958364,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 554.0663482908312,
+				"BurstSpeed": 135.16554928525096,
+				"StreamSpeed": 273.28741909294376,
+				"HoldSliders": 45.108812248987704
+			},
+			"Reading": {
+				"LowAr": 35.07028891080726
+			}
+		},
+		"OldIndex": 82,
+		"NewIndex": 144
+	},
+	{
+		"BeatmapID": 2288607,
+		"Artist": "Tomoya Ohtani",
+		"Title": "Unstoppable",
+		"Difficulty": "Kuki's Extra",
+		"StarRating": 6.05,
+		"PrevPP": 170.484,
+		"NewPP": 348.9924885747045,
+		"Weight": 0.0006507144136504314,
+		"WeightedPP": 0.22709444257129374,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 191.42763520601926,
+				"AnglePrecision": 756.3479308326602,
+				"Spin": 164.8486739642501
+			},
+			"Tapping": {
+				"Accuracy": 504.6990019893233,
+				"BurstSpeed": 122.00368669387282,
+				"StreamSpeed": 245.3914204199766,
+				"HoldSliders": 86.4725032472576
+			},
+			"Reading": {
+				"LowAr": 34.40660023656416
+			}
+		},
+		"OldIndex": 177,
+		"NewIndex": 145
+	},
+	{
+		"BeatmapID": 1035167,
+		"Artist": "ONE OK ROCK",
+		"Title": "Start Again",
+		"Difficulty": "Sotarks' Repetition",
+		"StarRating": 5.97,
+		"PrevPP": 171.667,
+		"NewPP": 350.1031677423033,
+		"Weight": 0.0006144036052526447,
+		"WeightedPP": 0.21510464847124255,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 160.24474482566734,
+				"AnglePrecision": 771.4028228485371,
+				"Spin": 144.10979602258237
+			},
+			"Tapping": {
+				"Accuracy": 515.6358858335005,
+				"BurstSpeed": 118.93655160355169,
+				"StreamSpeed": 236.21644419371214,
+				"HoldSliders": 45.213010050164726
+			},
+			"Reading": {
+				"LowAr": 34.65260453411173
+			}
+		},
+		"OldIndex": 170,
+		"NewIndex": 146
+	},
+	{
+		"BeatmapID": 1701031,
+		"Artist": "ClariS",
+		"Title": "border",
+		"Difficulty": "Kyoukaisen",
+		"StarRating": 6.15,
+		"PrevPP": 174.512,
+		"NewPP": 328.84721392314196,
+		"Weight": 0.0006195303382295489,
+		"WeightedPP": 0.20373082566764897,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 143.53635611329986,
+				"AnglePrecision": 702.1383112583186,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 501.708374065689,
+				"BurstSpeed": 132.08265205642377,
+				"StreamSpeed": 267.5357674679488,
+				"HoldSliders": 97.96755979374274
+			},
+			"Reading": {
+				"LowAr": 34.523585396561245
+			}
+		},
+		"OldIndex": 150,
+		"NewIndex": 147
+	},
+	{
+		"BeatmapID": 1002271,
+		"Artist": "Bliitzit",
+		"Title": "Team Magma \u0026 Aqua Leader Battle Theme (Unofficial)",
+		"Difficulty": "Catastrophe",
+		"StarRating": 6.21,
+		"PrevPP": 211.347,
+		"NewPP": 348.72438100632144,
+		"Weight": 0.0005529884616899367,
+		"WeightedPP": 0.19284055900646108,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 179.8036964358321,
+				"AnglePrecision": 766.1879616812587,
+				"Spin": 132.09352366878977
+			},
+			"Tapping": {
+				"Accuracy": 509.86428978925414,
+				"BurstSpeed": 116.43546882772472,
+				"StreamSpeed": 236.22030158637898,
+				"HoldSliders": 76.84346335483899
+			},
+			"Reading": {
+				"LowAr": 28.70068375613583
+			}
+		},
+		"OldIndex": 36,
+		"NewIndex": 148
+	},
+	{
+		"BeatmapID": 564534,
+		"Artist": "TrySail \u0026 TRUE",
+		"Title": "High Free Spirits vs. DREAM SOLISTER",
+		"Difficulty": "Kalitarks' Hibike",
+		"StarRating": 6.04,
+		"PrevPP": 171.402,
+		"NewPP": 341.33819517323076,
+		"Weight": 0.0005343805152457132,
+		"WeightedPP": 0.18240448060971284,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 157.8535541371736,
+				"AnglePrecision": 737.4348517501512,
+				"Spin": 164.49608015963076
+			},
+			"Tapping": {
+				"Accuracy": 499.53834192378645,
+				"BurstSpeed": 128.61307058362274,
+				"StreamSpeed": 261.23611522648895,
+				"HoldSliders": 28.35228207678611
+			},
+			"Reading": {
+				"LowAr": 34.33956291301756
+			}
+		},
+		"OldIndex": 172,
+		"NewIndex": 149
+	},
+	{
+		"BeatmapID": 863227,
+		"Artist": "Brian The Sun",
+		"Title": "Lonely Go! (TV Size)",
+		"Difficulty": "Fiery's Extreme",
+		"StarRating": 6.46,
+		"PrevPP": 178.148,
+		"NewPP": 327.9731811888558,
+		"Weight": 0.0005276790100198273,
+		"WeightedPP": 0.17306456356278888,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 169.07080498261587,
+				"AnglePrecision": 744.580651677703,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 461.5523791557597,
+				"BurstSpeed": 108.3966000374293,
+				"StreamSpeed": 211.10784103978153,
+				"HoldSliders": 84.8612532277674
+			},
+			"Reading": {
+				"LowAr": 31.569007443377274
+			}
+		},
+		"OldIndex": 129,
+		"NewIndex": 150
+	},
+	{
+		"BeatmapID": 2288607,
+		"Artist": "Tomoya Ohtani",
+		"Title": "Unstoppable",
+		"Difficulty": "Tylerderp's Extreme",
+		"StarRating": 6.77,
+		"PrevPP": 230.054,
+		"NewPP": 328.6910869967273,
+		"Weight": 0.000498709361987179,
+		"WeightedPP": 0.1639213222870102,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 185.23536014279708,
+				"AnglePrecision": 709.8415857043235,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 492.5714143043046,
+				"BurstSpeed": 125.31087346617872,
+				"StreamSpeed": 250.63173533340375,
+				"HoldSliders": 62.65878096195745
+			},
+			"Reading": {
+				"LowAr": 32.28973737566319
+			}
+		},
+		"OldIndex": 12,
+		"NewIndex": 151
+	},
+	{
+		"BeatmapID": 750166,
+		"Artist": "Yamazaki Moe",
+		"Title": "Kataomoi no Melody o short ver.",
+		"Difficulty": "Extra",
+		"StarRating": 6.17,
+		"PrevPP": 166.757,
+		"NewPP": 336.65884813242036,
+		"Weight": 0.0004625317360593694,
+		"WeightedPP": 0.15571540148643598,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 151.6586355538035,
+				"AnglePrecision": 709.2688758295183,
+				"Spin": 140.81733111784837
+			},
+			"Tapping": {
+				"Accuracy": 496.87682161427506,
+				"BurstSpeed": 141.77758829653607,
+				"StreamSpeed": 291.7013790767389,
+				"HoldSliders": 86.99900354132066
+			},
+			"Reading": {
+				"LowAr": 34.282035120171656
+			}
+		},
+		"OldIndex": 199,
+		"NewIndex": 152
+	},
+	{
+		"BeatmapID": 1179276,
+		"Artist": "THE BINARY",
+		"Title": "Hana ni Ame o, Kimi ni Uta o",
+		"Difficulty": "Extra",
+		"StarRating": 6.02,
+		"PrevPP": 177.868,
+		"NewPP": 316.81267767189365,
+		"Weight": 0.0004654681295976885,
+		"WeightedPP": 0.1474662045087717,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 136.58562746334883,
+				"AnglePrecision": 642.8538565110568,
+				"Spin": 203.22329406874366
+			},
+			"Tapping": {
+				"Accuracy": 488.54266642069103,
+				"BurstSpeed": 121.20349805956818,
+				"StreamSpeed": 236.261278261707,
+				"HoldSliders": 139.2361671966397
+			},
+			"Reading": {
+				"LowAr": 34.284594783292654
+			}
+		},
+		"OldIndex": 131,
+		"NewIndex": 153
+	},
+	{
+		"BeatmapID": 429436,
+		"Artist": "Kyle Massey",
+		"Title": "Cory in the House",
+		"Difficulty": "Extreme",
+		"StarRating": 5.59,
+		"PrevPP": 172.958,
+		"NewPP": 339.98380018674715,
+		"Weight": 0.00041219285637717704,
+		"WeightedPP": 0.14013889372094274,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 182.40664349486485,
+				"AnglePrecision": 765.1528206885527,
+				"Spin": 143.6318294428419
+			},
+			"Tapping": {
+				"Accuracy": 466.74814579622625,
+				"BurstSpeed": 110.62496181413957,
+				"StreamSpeed": 220.96060539297224,
+				"HoldSliders": 75.36566326950515
+			},
+			"Reading": {
+				"LowAr": 27.485704853451473
+			}
+		},
+		"OldIndex": 164,
+		"NewIndex": 154
+	},
+	{
+		"BeatmapID": 1464487,
+		"Artist": "NateWantsToBattle",
+		"Title": "Chug Jug With You, but i can't anymore",
+		"Difficulty": "Kuki's Extra",
+		"StarRating": 6.46,
+		"PrevPP": 212.017,
+		"NewPP": 342.3414436514049,
+		"Weight": 0.00038886061267751353,
+		"WeightedPP": 0.1331231035231898,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 180.41980397629794,
+				"AnglePrecision": 729.2091841834163,
+				"Spin": 147.9744792078382
+			},
+			"Tapping": {
+				"Accuracy": 515.3172937789691,
+				"BurstSpeed": 126.7612463654923,
+				"StreamSpeed": 249.72622071930115,
+				"HoldSliders": 78.88731278122066
+			},
+			"Reading": {
+				"LowAr": 34.36285187675409
+			}
+		},
+		"OldIndex": 33,
+		"NewIndex": 155
+	},
+	{
+		"BeatmapID": 983911,
+		"Artist": "S3RL",
+		"Title": "Bass Slut (Original Mix)",
+		"Difficulty": "Intense Ecstasy",
+		"StarRating": 6.75,
+		"PrevPP": 223.331,
+		"NewPP": 324.735707234073,
+		"Weight": 0.00038688779428404797,
+		"WeightedPP": 0.12563628149706085,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 147.31400626831214,
+				"AnglePrecision": 727.1026786861422,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 480.77700321675155,
+				"BurstSpeed": 105.933213281726,
+				"StreamSpeed": 210.82266739626107,
+				"HoldSliders": 72.74284150784746
+			},
+			"Reading": {
+				"LowAr": 33.755355873436756
+			}
+		},
+		"OldIndex": 20,
+		"NewIndex": 156
+	},
+	{
+		"BeatmapID": 2253247,
+		"Artist": "Hechizeros Band x Koji Kondo",
+		"Title": "El Sonidito x Athletic Theme (DitzyFlama Mashup)",
+		"Difficulty": "UN DOS TRES CUATRO",
+		"StarRating": 5.99,
+		"PrevPP": 170.936,
+		"NewPP": 319.4623781158405,
+		"Weight": 0.00037241879006757214,
+		"WeightedPP": 0.11897379233001057,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 145.08524737401524,
+				"AnglePrecision": 668.4734693022774,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 525.4092650599621,
+				"BurstSpeed": 117.64040779419634,
+				"StreamSpeed": 236.30144470555751,
+				"HoldSliders": 39.470178282287506
+			},
+			"Reading": {
+				"LowAr": 35.3800930527384
+			}
+		},
+		"OldIndex": 174,
+		"NewIndex": 157
+	},
+	{
+		"BeatmapID": 2279697,
+		"Artist": "Turbo",
+		"Title": "PADORU / PADORU",
+		"Difficulty": "Sotarks' Crazy Gift",
+		"StarRating": 6.12,
+		"PrevPP": 172.919,
+		"NewPP": 322.9244674343619,
+		"Weight": 0.0003497846001319132,
+		"WeightedPP": 0.11295400571433929,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 156.3503956484908,
+				"AnglePrecision": 699.9331345394635,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 487.62474239100015,
+				"BurstSpeed": 126.84321202176227,
+				"StreamSpeed": 250.0207400290023,
+				"HoldSliders": 48.99835066805354
+			},
+			"Reading": {
+				"LowAr": 33.325000460991234
+			}
+		},
+		"OldIndex": 165,
+		"NewIndex": 158
+	},
+	{
+		"BeatmapID": 1880007,
+		"Artist": "kessoku band",
+		"Title": "Guitar to Kodoku to Aoi Hoshi",
+		"Difficulty": "Akitoshi's Extreme",
+		"StarRating": 6.49,
+		"PrevPP": 181.101,
+		"NewPP": 315.4710074281501,
+		"Weight": 0.0003389794642246462,
+		"WeightedPP": 0.10693819307640369,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 130.55338882402532,
+				"AnglePrecision": 629.8225732093532,
+				"Spin": 125.74393128039043
+			},
+			"Tapping": {
+				"Accuracy": 491.5841572104921,
+				"BurstSpeed": 142.96832644697807,
+				"StreamSpeed": 304.1035990527088,
+				"HoldSliders": 104.97392537125903
+			},
+			"Reading": {
+				"LowAr": 32.40378000263004
+			}
+		},
+		"OldIndex": 117,
+		"NewIndex": 159
+	},
+	{
+		"BeatmapID": 1049899,
+		"Artist": "Krewella",
+		"Title": "Say Goodbye (Nightcore \u0026 Cut Ver.)",
+		"Difficulty": "Fiery's Extreme",
+		"StarRating": 6.25,
+		"PrevPP": 195.721,
+		"NewPP": 331.2553573438027,
+		"Weight": 0.00030367236466711606,
+		"WeightedPP": 0.10059309767324309,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 176.06479872893203,
+				"AnglePrecision": 744.7804902053575,
+				"Spin": 138.40748884389302
+			},
+			"Tapping": {
+				"Accuracy": 458.7616176825733,
+				"BurstSpeed": 103.97490321956201,
+				"StreamSpeed": 211.41372191667313,
+				"HoldSliders": 79.12062804652142
+			},
+			"Reading": {
+				"LowAr": 27.543262085560713
+			}
+		},
+		"OldIndex": 68,
+		"NewIndex": 160
+	},
+	{
+		"BeatmapID": 364401,
+		"Artist": "Shiena Nishizawa",
+		"Title": "Meaning",
+		"Difficulty": "True Meaning",
+		"StarRating": 5.91,
+		"PrevPP": 168.018,
+		"NewPP": 324.18626896752204,
+		"Weight": 0.00029477176177499696,
+		"WeightedPP": 0.0955609576468195,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 131.53042905661374,
+				"AnglePrecision": 659.9825215895039,
+				"Spin": 127.99124921376833
+			},
+			"Tapping": {
+				"Accuracy": 522.7112204426539,
+				"BurstSpeed": 127.38847164975846,
+				"StreamSpeed": 270.3298087329635,
+				"HoldSliders": 88.17484901490161
+			},
+			"Reading": {
+				"LowAr": 34.74336304376963
+			}
+		},
+		"OldIndex": 189,
+		"NewIndex": 161
+	},
+	{
+		"BeatmapID": 702892,
+		"Artist": "Mio Yamazaki",
+		"Title": "Noise (English ver.)",
+		"Difficulty": "lululu's Extra",
+		"StarRating": 6.19,
+		"PrevPP": 173.633,
+		"NewPP": 311.35623903818765,
+		"Weight": 0.0002882769386959099,
+		"WeightedPP": 0.0897568234338007,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 138.56695731061424,
+				"AnglePrecision": 631.2304986538225,
+				"Spin": 185.6464484106127
+			},
+			"Tapping": {
+				"Accuracy": 490.6295862253757,
+				"BurstSpeed": 117.28982942786774,
+				"StreamSpeed": 233.00990673765767,
+				"HoldSliders": 116.6805281387825
+			},
+			"Reading": {
+				"LowAr": 32.28088530310548
+			}
+		},
+		"OldIndex": 157,
+		"NewIndex": 162
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Cookie-Triangle-Spicy-Cookie",
+		"StarRating": 4.58,
+		"PrevPP": 174.104,
+		"NewPP": 316.2490594473436,
+		"Weight": 0.00026848323320096724,
+		"WeightedPP": 0.08490756997718771,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 146.43636892861946,
+				"AnglePrecision": 636.0154008801692,
+				"Spin": 165.72959224904474
+			},
+			"Tapping": {
+				"Accuracy": 513.6324138052593,
+				"BurstSpeed": 122.5866951048986,
+				"StreamSpeed": 253.59943952437084,
+				"HoldSliders": 50.65579310390525
+			},
+			"Reading": {
+				"LowAr": 30.94839788455527
+			}
+		},
+		"OldIndex": 152,
+		"NewIndex": 163
+	},
+	{
+		"BeatmapID": 2192808,
+		"Artist": "BAD NERVES",
+		"Title": "ANTIDOTE",
+		"Difficulty": "EXTREME",
+		"StarRating": 6.84,
+		"PrevPP": 194.028,
+		"NewPP": 307.04207428577524,
+		"Weight": 0.0002620491689539603,
+		"WeightedPP": 0.08046012040048754,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 161.316115529249,
+				"AnglePrecision": 640.2888372409195,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 478.11178888679206,
+				"BurstSpeed": 127.01192789219243,
+				"StreamSpeed": 257.14435521145066,
+				"HoldSliders": 80.5687212600854
+			},
+			"Reading": {
+				"LowAr": 29.454168922235283
+			}
+		},
+		"OldIndex": 72,
+		"NewIndex": 164
+	},
+	{
+		"BeatmapID": 780131,
+		"Artist": "denk!girls",
+		"Title": "two-Dimension's Love (TV Size)",
+		"Difficulty": "Extreme",
+		"StarRating": 6.25,
+		"PrevPP": 176.276,
+		"NewPP": 311.5699235189754,
+		"Weight": 0.0002448932785286136,
+		"WeightedPP": 0.07630138006147127,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 146.17848929522668,
+				"AnglePrecision": 688.801010293309,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 457.3289245659436,
+				"BurstSpeed": 116.00821932039142,
+				"StreamSpeed": 232.3734132495387,
+				"HoldSliders": 56.29960996515278
+			},
+			"Reading": {
+				"LowAr": 31.872463934309543
+			}
+		},
+		"OldIndex": 140,
+		"NewIndex": 165
+	},
+	{
+		"BeatmapID": 1049899,
+		"Artist": "Krewella",
+		"Title": "Say Goodbye (Nightcore \u0026 Cut Ver.)",
+		"Difficulty": "Broken Promises",
+		"StarRating": 6.27,
+		"PrevPP": 174.803,
+		"NewPP": 322.43140965976596,
+		"Weight": 0.00022337793377718565,
+		"WeightedPP": 0.07202406207466382,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 167.3126384333047,
+				"AnglePrecision": 722.5604372786213,
+				"Spin": 130.9544109845205
+			},
+			"Tapping": {
+				"Accuracy": 443.5686851558746,
+				"BurstSpeed": 107.48296796566339,
+				"StreamSpeed": 222.9373405077518,
+				"HoldSliders": 75.45964818981784
+			},
+			"Reading": {
+				"LowAr": 27.549338906084934
+			}
+		},
+		"OldIndex": 147,
+		"NewIndex": 166
+	},
+	{
+		"BeatmapID": 2299895,
+		"Artist": "Middle Kids",
+		"Title": "R U 4 Me? (Cut Ver.)",
+		"Difficulty": "Aakki's Extreme",
+		"StarRating": 7.03,
+		"PrevPP": 212.302,
+		"NewPP": 314.137824827751,
+		"Weight": 0.0002178108439781345,
+		"WeightedPP": 0.06842262475118782,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 163.14021083088207,
+				"AnglePrecision": 670.2726739993224,
+				"Spin": 182.91548256976296
+			},
+			"Tapping": {
+				"Accuracy": 454.80412123061285,
+				"BurstSpeed": 112.21471665068557,
+				"StreamSpeed": 224.29978746402182,
+				"HoldSliders": 97.70679559962292
+			},
+			"Reading": {
+				"LowAr": 28.74683203615297
+			}
+		},
+		"OldIndex": 32,
+		"NewIndex": 167
+	},
+	{
+		"BeatmapID": 495332,
+		"Artist": "Izumi Akazawa (CV. Madoka Yonezawa)",
+		"Title": "Responsibility Response",
+		"Difficulty": "Slayed's Answer",
+		"StarRating": 6.08,
+		"PrevPP": 169.014,
+		"NewPP": 308.8379516716153,
+		"Weight": 0.00021013275295043594,
+		"WeightedPP": 0.06489696900033022,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 144.32915506954595,
+				"AnglePrecision": 667.1000469223734,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 476.48417117212904,
+				"BurstSpeed": 112.92948403918308,
+				"StreamSpeed": 228.3683263767665,
+				"HoldSliders": 64.53644309940907
+			},
+			"Reading": {
+				"LowAr": 32.94520923950137
+			}
+		},
+		"OldIndex": 183,
+		"NewIndex": 168
+	},
+	{
+		"BeatmapID": 2285243,
+		"Artist": "Jeff Williams feat. Casey Lee Williams",
+		"Title": "Time to Say Goodbye (TV Size)",
+		"Difficulty": "PikA's Extreme",
+		"StarRating": 7.09,
+		"PrevPP": 233.224,
+		"NewPP": 293.1995129141829,
+		"Weight": 0.0002097326980310672,
+		"WeightedPP": 0.06149352490488631,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 150.14381813356442,
+				"AnglePrecision": 582.9793911895206,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 489.3336481069689,
+				"BurstSpeed": 127.38731744984766,
+				"StreamSpeed": 258.41550854255365,
+				"HoldSliders": 43.87256604722227
+			},
+			"Reading": {
+				"LowAr": 30.66224691483016
+			}
+		},
+		"OldIndex": 9,
+		"NewIndex": 169
+	},
+	{
+		"BeatmapID": 2253247,
+		"Artist": "Hechizeros Band x Koji Kondo",
+		"Title": "El Sonidito x Athletic Theme (DitzyFlama Mashup)",
+		"Difficulty": "Sotarks' MEXICAN CAT",
+		"StarRating": 6.3,
+		"PrevPP": 175.813,
+		"NewPP": 305.42604070935386,
+		"Weight": 0.00019064161337124672,
+		"WeightedPP": 0.0582269131664233,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 147.39974290855423,
+				"AnglePrecision": 665.5760537178164,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 455.890624723491,
+				"BurstSpeed": 116.68219340536749,
+				"StreamSpeed": 240.21504885284185,
+				"HoldSliders": 37.16415259846309
+			},
+			"Reading": {
+				"LowAr": 32.03003828670637
+			}
+		},
+		"OldIndex": 142,
+		"NewIndex": 170
+	},
+	{
+		"BeatmapID": 2104327,
+		"Artist": "Apollo",
+		"Title": "Brazil",
+		"Difficulty": "browiec's Extra",
+		"StarRating": 6.17,
+		"PrevPP": 183.587,
+		"NewPP": 318.80688649259156,
+		"Weight": 0.00017342715106719804,
+		"WeightedPP": 0.05528977006501373,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 152.90866395837338,
+				"AnglePrecision": 661.9655017458704,
+				"Spin": 135.2501443109303
+			},
+			"Tapping": {
+				"Accuracy": 504.5703795011608,
+				"BurstSpeed": 123.22921712182657,
+				"StreamSpeed": 240.7731721361804,
+				"HoldSliders": 66.21714118545704
+			},
+			"Reading": {
+				"LowAr": 33.128875920864125
+			}
+		},
+		"OldIndex": 110,
+		"NewIndex": 171
+	},
+	{
+		"BeatmapID": 2294787,
+		"Artist": "flowerovlove",
+		"Title": "erase u (sped up \u0026 cut ver.)",
+		"Difficulty": "PikA's Extra",
+		"StarRating": 6.6,
+		"PrevPP": 198.497,
+		"NewPP": 305.6751688844936,
+		"Weight": 0.0001716952242017199,
+		"WeightedPP": 0.05248296665452172,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 166.49386550169123,
+				"AnglePrecision": 677.4792517815077,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 440.3101295810377,
+				"BurstSpeed": 107.67472870576003,
+				"StreamSpeed": 222.01633801002077,
+				"HoldSliders": 73.03262240117056
+			},
+			"Reading": {
+				"LowAr": 26.594199455553785
+			}
+		},
+		"OldIndex": 63,
+		"NewIndex": 172
+	},
+	{
+		"BeatmapID": 2282539,
+		"Artist": "Middle Kids",
+		"Title": "R U 4 Me? (Cut Ver.)",
+		"Difficulty": "extreme",
+		"StarRating": 6.54,
+		"PrevPP": 215.697,
+		"NewPP": 306.4436087509089,
+		"Weight": 0.00016256938788307768,
+		"WeightedPP": 0.0498183498953166,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 159.25908707602864,
+				"AnglePrecision": 668.4622095364707,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 461.3461351338549,
+				"BurstSpeed": 107.23472029414006,
+				"StreamSpeed": 219.04493480825576,
+				"HoldSliders": 77.21782111654755
+			},
+			"Reading": {
+				"LowAr": 27.7935848159693
+			}
+		},
+		"OldIndex": 30,
+		"NewIndex": 173
+	},
+	{
+		"BeatmapID": 2282715,
+		"Artist": "Ado",
+		"Title": "RuLe",
+		"Difficulty": "ByE",
+		"StarRating": 7.02,
+		"PrevPP": 203.701,
+		"NewPP": 303.56265045632256,
+		"Weight": 0.00015532596130234122,
+		"WeightedPP": 0.04715116049761489,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 149.42540394156265,
+				"AnglePrecision": 666.4342377104955,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 448.04896689826046,
+				"BurstSpeed": 107.50351285192838,
+				"StreamSpeed": 221.50448362762737,
+				"HoldSliders": 92.36234592648742
+			},
+			"Reading": {
+				"LowAr": 28.961979462427564
+			}
+		},
+		"OldIndex": 50,
+		"NewIndex": 174
+	},
+	{
+		"BeatmapID": 542081,
+		"Artist": "Elmo and Cookie Monster",
+		"Title": "Cookie-Butter-Choco-Cookie",
+		"Difficulty": "Irre's Extra",
+		"StarRating": 4.8,
+		"PrevPP": 182.534,
+		"NewPP": 304.75672894005606,
+		"Weight": 0.00014383971849944328,
+		"WeightedPP": 0.0438361221015488,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 147.1276224870624,
+				"AnglePrecision": 639.1859476984316,
+				"Spin": 169.83487501207475
+			},
+			"Tapping": {
+				"Accuracy": 466.8973044961657,
+				"BurstSpeed": 110.47491974546274,
+				"StreamSpeed": 223.756353478243,
+				"HoldSliders": 53.500431532045226
+			},
+			"Reading": {
+				"LowAr": 28.934583722434503
+			}
+		},
+		"OldIndex": 111,
+		"NewIndex": 175
+	},
+	{
+		"BeatmapID": 1464487,
+		"Artist": "NateWantsToBattle",
+		"Title": "Chug Jug With You, but i can't anymore",
+		"Difficulty": "PikA's Extra",
+		"StarRating": 6.69,
+		"PrevPP": 203.944,
+		"NewPP": 293.03192636670667,
+		"Weight": 0.00014048587037499046,
+		"WeightedPP": 0.0411668452232869,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 135.78032804184204,
+				"AnglePrecision": 571.5123746798812,
+				"Spin": 110.55881983796371
+			},
+			"Tapping": {
+				"Accuracy": 502.3866267003437,
+				"BurstSpeed": 120.46176527415693,
+				"StreamSpeed": 240.11423216462632,
+				"HoldSliders": 63.604798791714806
+			},
+			"Reading": {
+				"LowAr": 32.433931683568545
+			}
+		},
+		"OldIndex": 49,
+		"NewIndex": 176
+	},
+	{
+		"BeatmapID": 2189260,
+		"Artist": "Nobuo Uematsu",
+		"Title": "Bike Chase",
+		"Difficulty": "Crazy",
+		"StarRating": 7.11,
+		"PrevPP": 206.788,
+		"NewPP": 294.2434460937663,
+		"Weight": 0.0001325775587780855,
+		"WeightedPP": 0.03901007776956274,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 155.57961636656165,
+				"AnglePrecision": 618.4062207654223,
+				"Spin": 176.36930324024814
+			},
+			"Tapping": {
+				"Accuracy": 423.11777603306416,
+				"BurstSpeed": 117.79815828393191,
+				"StreamSpeed": 236.06275842535297,
+				"HoldSliders": 73.28395591199917
+			},
+			"Reading": {
+				"LowAr": 29.916883489779774
+			}
+		},
+		"OldIndex": 44,
+		"NewIndex": 177
+	},
+	{
+		"BeatmapID": 2106264,
+		"Artist": "Norman J. Grossfeld, Russell Velazquez",
+		"Title": "Gotta Go Fast (TV Size)",
+		"Difficulty": "SPEED OF SOUND",
+		"StarRating": 7.06,
+		"PrevPP": 187.827,
+		"NewPP": 282.06611429769407,
+		"Weight": 0.00013017683179955214,
+		"WeightedPP": 0.03671847311728417,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 147.35757809119917,
+				"AnglePrecision": 587.9281600158617,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 427.4154855396788,
+				"BurstSpeed": 122.76818910801978,
+				"StreamSpeed": 257.03913080544913,
+				"HoldSliders": 66.35465215293158
+			},
+			"Reading": {
+				"LowAr": 29.790692437718217
+			}
+		},
+		"OldIndex": 90,
+		"NewIndex": 178
+	},
+	{
+		"BeatmapID": 1114770,
+		"Artist": "MAXIMUM THE HORMONE",
+		"Title": "ChuChu Lovely MuniMuni MuraMura PrinPrin Boron Nururu ReroRero (Chiptune Cover)",
+		"Difficulty": "Reform's Extreme",
+		"StarRating": 6.72,
+		"PrevPP": 167.552,
+		"NewPP": 251.34953463560728,
+		"Weight": 0.00013753038872762875,
+		"WeightedPP": 0.03456819920494365,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 109.08365832269476,
+				"AnglePrecision": 463.93353030515476,
+				"Spin": 1.0000059008598328
+			},
+			"Tapping": {
+				"Accuracy": 453.59888637440577,
+				"BurstSpeed": 115.17816610350849,
+				"StreamSpeed": 236.0367018061994,
+				"HoldSliders": 51.48997644686603
+			},
+			"Reading": {
+				"LowAr": 29.927269920704617
+			}
+		},
+		"OldIndex": 191,
+		"NewIndex": 179
+	},
+	{
+		"BeatmapID": 2149578,
+		"Artist": "Sakuragawa Megu feat. Se-fukubu",
+		"Title": "Blooming Kiss! (Game Ver.)",
+		"Difficulty": "Love Princess",
+		"StarRating": 6.53,
+		"PrevPP": 174.952,
+		"NewPP": 279.7076147918242,
+		"Weight": 0.00011719649694637002,
+		"WeightedPP": 0.03278075262282647,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 126.92022610397623,
+				"AnglePrecision": 578.7028029573924,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 442.76393430760675,
+				"BurstSpeed": 118.30245825813046,
+				"StreamSpeed": 245.66997828975207,
+				"HoldSliders": 59.64026727945448
+			},
+			"Reading": {
+				"LowAr": 30.627558957671788
+			}
+		},
+		"OldIndex": 146,
+		"NewIndex": 180
+	},
+	{
+		"BeatmapID": 2205633,
+		"Artist": "Green Day",
+		"Title": "Bang Bang",
+		"Difficulty": "Real American Patriot Extra: True!",
+		"StarRating": 6.78,
+		"PrevPP": 173.815,
+		"NewPP": 283.81439327810483,
+		"Weight": 0.00010932905944759098,
+		"WeightedPP": 0.03102916067478389,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 148.4474487137391,
+				"AnglePrecision": 622.6971502578889,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 410.520012576549,
+				"BurstSpeed": 106.48803929935613,
+				"StreamSpeed": 214.83135874596684,
+				"HoldSliders": 88.10615921186249
+			},
+			"Reading": {
+				"LowAr": 28.877351926041317
+			}
+		},
+		"OldIndex": 154,
+		"NewIndex": 181
+	},
+	{
+		"BeatmapID": 1594964,
+		"Artist": "Rika (CV: Tamura Yukari) \u0026 Satoko (CV: Kanai Mika) \u0026 Hanyuu (CV: Horie Yui)",
+		"Title": "Happy! Lucky! Dochy! (TV Size)",
+		"Difficulty": "1-2-3",
+		"StarRating": 6.63,
+		"PrevPP": 173.634,
+		"NewPP": 293.5153177289618,
+		"Weight": 0.0000993775387693731,
+		"WeightedPP": 0.029168829867014766,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 147.755217720669,
+				"AnglePrecision": 629.4162638165745,
+				"Spin": 126.77050127266331
+			},
+			"Tapping": {
+				"Accuracy": 430.9765498574416,
+				"BurstSpeed": 105.41373936504536,
+				"StreamSpeed": 219.4370237487675,
+				"HoldSliders": 95.9798142498029
+			},
+			"Reading": {
+				"LowAr": 30.41646445196084
+			}
+		},
+		"OldIndex": 156,
+		"NewIndex": 182
+	},
+	{
+		"BeatmapID": 2202726,
+		"Artist": "toby fox",
+		"Title": "Last Goodbye",
+		"Difficulty": "Fatfan's SAVE (Encore)",
+		"StarRating": 6.89,
+		"PrevPP": 196.3,
+		"NewPP": 280.99655835682427,
+		"Weight": 0.00009812012814776318,
+		"WeightedPP": 0.027571418315052013,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 125.69264336194658,
+				"AnglePrecision": 623.4632524139704,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 411.0691392287514,
+				"BurstSpeed": 103.13082502225666,
+				"StreamSpeed": 207.02275647906788,
+				"HoldSliders": 61.40349174117139
+			},
+			"Reading": {
+				"LowAr": 30.394801642452002
+			}
+		},
+		"OldIndex": 67,
+		"NewIndex": 183
+	},
+	{
+		"BeatmapID": 1187933,
+		"Artist": "Bentham",
+		"Title": "Chicago",
+		"Difficulty": "Sky City",
+		"StarRating": 6.48,
+		"PrevPP": 170.527,
+		"NewPP": 291.9763496404879,
+		"Weight": 0.00008963146541266354,
+		"WeightedPP": 0.026170268084117147,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 139.69961343151647,
+				"AnglePrecision": 618.9396256429591,
+				"Spin": 119.8639083177141
+			},
+			"Tapping": {
+				"Accuracy": 435.07848306407607,
+				"BurstSpeed": 112.19802521781975,
+				"StreamSpeed": 235.66032860682424,
+				"HoldSliders": 81.78172238443766
+			},
+			"Reading": {
+				"LowAr": 30.433327300165594
+			}
+		},
+		"OldIndex": 176,
+		"NewIndex": 184
+	},
+	{
+		"BeatmapID": 2276943,
+		"Artist": "toby fox",
+		"Title": "Sentou! Battle Tower",
+		"Difficulty": "Challenge!",
+		"StarRating": 7.29,
+		"PrevPP": 210.604,
+		"NewPP": 273.0762373484026,
+		"Weight": 0.00008987537162640252,
+		"WeightedPP": 0.024542828314027387,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 140.6486033116159,
+				"AnglePrecision": 553.2184606881499,
+				"Spin": 162.30791329729573
+			},
+			"Tapping": {
+				"Accuracy": 413.80045959813117,
+				"BurstSpeed": 110.47216643770264,
+				"StreamSpeed": 230.39691939988728,
+				"HoldSliders": 84.33503120589678
+			},
+			"Reading": {
+				"LowAr": 27.539785361736378
+			}
+		},
+		"OldIndex": 39,
+		"NewIndex": 185
+	},
+	{
+		"BeatmapID": 2285243,
+		"Artist": "Jeff Williams feat. Casey Lee Williams",
+		"Title": "Time to Say Goodbye (TV Size)",
+		"Difficulty": "A r M i N's Extreme",
+		"StarRating": 6.94,
+		"PrevPP": 181.435,
+		"NewPP": 244.61600856317625,
+		"Weight": 0.00009532597180266555,
+		"WeightedPP": 0.023318258734773934,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 111.99909038265702,
+				"AnglePrecision": 458.2492632708536,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 428.9284516406952,
+				"BurstSpeed": 115.57990316956347,
+				"StreamSpeed": 237.81768707029855,
+				"HoldSliders": 37.15226187909788
+			},
+			"Reading": {
+				"LowAr": 29.713231706553564
+			}
+		},
+		"OldIndex": 115,
+		"NewIndex": 186
+	},
+	{
+		"BeatmapID": 781509,
+		"Artist": "Vickeblanka",
+		"Title": "Black Rover (TV Size)",
+		"Difficulty": "Extreme",
+		"StarRating": 6.7,
+		"PrevPP": 177.091,
+		"NewPP": 288.6546059559537,
+		"Weight": 0.00007676194426572962,
+		"WeightedPP": 0.02215768877443706,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 137.3198925983438,
+				"AnglePrecision": 620.2163487860743,
+				"Spin": 121.05608978558485
+			},
+			"Tapping": {
+				"Accuracy": 422.0604427848695,
+				"BurstSpeed": 110.71071678434596,
+				"StreamSpeed": 225.6521811781011,
+				"HoldSliders": 79.09536024861231
+			},
+			"Reading": {
+				"LowAr": 28.728734392826482
+			}
+		},
+		"OldIndex": 135,
+		"NewIndex": 187
+	},
+	{
+		"BeatmapID": 2270785,
+		"Artist": "DUCKBOY",
+		"Title": "my love life needs a lobotomy",
+		"Difficulty": "BLOODY RED",
+		"StarRating": 7.14,
+		"PrevPP": 201.039,
+		"NewPP": 267.654819644714,
+		"Weight": 0.00007823396296077718,
+		"WeightedPP": 0.020939697246358052,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 140.36882382318956,
+				"AnglePrecision": 560.2858448020776,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 403.01696348950287,
+				"BurstSpeed": 118.09499375437855,
+				"StreamSpeed": 244.85090881586655,
+				"HoldSliders": 49.385316803120546
+			},
+			"Reading": {
+				"LowAr": 26.98532511246038
+			}
+		},
+		"OldIndex": 54,
+		"NewIndex": 188
+	},
+	{
+		"BeatmapID": 2269930,
+		"Artist": "The Wrecks",
+		"Title": "Favorite Liar (Cut Ver.)",
+		"Difficulty": "Kuroame's Favorite Liar",
+		"StarRating": 6.87,
+		"PrevPP": 193.852,
+		"NewPP": 286.0353170129254,
+		"Weight": 0.00006939946813026985,
+		"WeightedPP": 0.01985069886717015,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 152.66063306946103,
+				"AnglePrecision": 611.9953383109599,
+				"Spin": 125.75632242313023
+			},
+			"Tapping": {
+				"Accuracy": 419.3254097242857,
+				"BurstSpeed": 106.91270567541652,
+				"StreamSpeed": 214.41888146644283,
+				"HoldSliders": 82.61079295879392
+			},
+			"Reading": {
+				"LowAr": 28.412660535280466
+			}
+		},
+		"OldIndex": 73,
+		"NewIndex": 189
+	},
+	{
+		"BeatmapID": 863227,
+		"Artist": "Brian The Sun",
+		"Title": "Lonely Go! (TV Size)",
+		"Difficulty": "Jougan",
+		"StarRating": 6.73,
+		"PrevPP": 167.758,
+		"NewPP": 256.8672879430975,
+		"Weight": 0.00007266041527955945,
+		"WeightedPP": 0.01866408381367964,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 110.45294894444535,
+				"AnglePrecision": 509.59654446372076,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 436.30599057602774,
+				"BurstSpeed": 108.42219902031255,
+				"StreamSpeed": 225.18339715527105,
+				"HoldSliders": 47.19160235319288
+			},
+			"Reading": {
+				"LowAr": 30.067200103576226
+			}
+		},
+		"OldIndex": 190,
+		"NewIndex": 190
+	},
+	{
+		"BeatmapID": 2276943,
+		"Artist": "toby fox",
+		"Title": "Sentou! Battle Tower",
+		"Difficulty": "Fiery's Extreme",
+		"StarRating": 7.16,
+		"PrevPP": 180.515,
+		"NewPP": 248.37144768328307,
+		"Weight": 0.00006888895173551766,
+		"WeightedPP": 0.017110048671934337,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 120.11160744410674,
+				"AnglePrecision": 483.5596114867848,
+				"Spin": 153.08011833637158
+			},
+			"Tapping": {
+				"Accuracy": 391.9945726434716,
+				"BurstSpeed": 106.63197064936114,
+				"StreamSpeed": 224.01483583736166,
+				"HoldSliders": 76.6914853521717
+			},
+			"Reading": {
+				"LowAr": 26.878182846259897
+			}
+		},
+		"OldIndex": 118,
+		"NewIndex": 191
+	},
+	{
+		"BeatmapID": 2270785,
+		"Artist": "DUCKBOY",
+		"Title": "my love life needs a lobotomy",
+		"Difficulty": "JULIET'S EXTREME NEEDS A LOBOTOMY",
+		"StarRating": 6.69,
+		"PrevPP": 171.617,
+		"NewPP": 257.25491450768465,
+		"Weight": 0.00006301756286143656,
+		"WeightedPP": 0.016211577746401504,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 134.01972677847,
+				"AnglePrecision": 551.238501607454,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 377.75769974842194,
+				"BurstSpeed": 110.45279080361513,
+				"StreamSpeed": 222.4332806168211,
+				"HoldSliders": 50.126113127800124
+			},
+			"Reading": {
+				"LowAr": 26.91960675518358
+			}
+		},
+		"OldIndex": 171,
+		"NewIndex": 192
+	},
+	{
+		"BeatmapID": 1236180,
+		"Artist": "Brian Pickett feat. Graeme Cornies and Dawna Toews",
+		"Title": "Total Drama Island Theme Song (TV Size)",
+		"Difficulty": "Camp Wawanakwa",
+		"StarRating": 4.97,
+		"PrevPP": 168.266,
+		"NewPP": 258.9673403658227,
+		"Weight": 0.000059294044153872194,
+		"WeightedPP": 0.015355220914061938,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 130.46639606839273,
+				"AnglePrecision": 510.34876564941317,
+				"Spin": 100.11065698986681
+			},
+			"Tapping": {
+				"Accuracy": 416.9971902912024,
+				"BurstSpeed": 114.05270585849931,
+				"StreamSpeed": 241.03241260032547,
+				"HoldSliders": 59.26448134040568
+			},
+			"Reading": {
+				"LowAr": 22.574347529930648
+			}
+		},
+		"OldIndex": 188,
+		"NewIndex": 193
+	},
+	{
+		"BeatmapID": 2104327,
+		"Artist": "Apollo",
+		"Title": "Brazil",
+		"Difficulty": "Kuki's Extra",
+		"StarRating": 6.4,
+		"PrevPP": 166.799,
+		"NewPP": 254.05855567721545,
+		"Weight": 0.00005681802164442968,
+		"WeightedPP": 0.014435104515420571,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 121.38065167992137,
+				"AnglePrecision": 530.6351943409339,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 402.5161702328525,
+				"BurstSpeed": 102.89257282512509,
+				"StreamSpeed": 211.07789122341774,
+				"HoldSliders": 45.11071247107756
+			},
+			"Reading": {
+				"LowAr": 29.377274250507384
+			}
+		},
+		"OldIndex": 197,
+		"NewIndex": 194
+	},
+	{
+		"BeatmapID": 2276943,
+		"Artist": "toby fox",
+		"Title": "Sentou! Battle Tower",
+		"Difficulty": "Log Off Now's Extra",
+		"StarRating": 6.83,
+		"PrevPP": 171.843,
+		"NewPP": 250.5486415041554,
+		"Weight": 0.00005438188716597708,
+		"WeightedPP": 0.01362530795186782,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 114.44574689107219,
+				"AnglePrecision": 484.80871404305424,
+				"Spin": 100.18878821252329
+			},
+			"Tapping": {
+				"Accuracy": 419.2788152194624,
+				"BurstSpeed": 108.76004971508834,
+				"StreamSpeed": 224.12614725391813,
+				"HoldSliders": 73.05098435831648
+			},
+			"Reading": {
+				"LowAr": 28.79953289767954
+			}
+		},
+		"OldIndex": 169,
+		"NewIndex": 195
+	},
+	{
+		"BeatmapID": 2104327,
+		"Artist": "Apollo",
+		"Title": "Brazil",
+		"Difficulty": "Fiery's Extreme",
+		"StarRating": 7.1,
+		"PrevPP": 187.73,
+		"NewPP": 249.3969970069012,
+		"Weight": 0.00005105162964653473,
+		"WeightedPP": 0.01273212312615425,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 135.64669763843628,
+				"AnglePrecision": 543.8667284129756,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 360.962859972601,
+				"BurstSpeed": 96.66080759453892,
+				"StreamSpeed": 203.834147917092,
+				"HoldSliders": 39.24049800181837
+			},
+			"Reading": {
+				"LowAr": 25.945664930579085
+			}
+		},
+		"OldIndex": 91,
+		"NewIndex": 196
+	},
+	{
+		"BeatmapID": 2285243,
+		"Artist": "Jeff Williams feat. Casey Lee Williams",
+		"Title": "Time to Say Goodbye (TV Size)",
+		"Difficulty": "No Return",
+		"StarRating": 7.64,
+		"PrevPP": 204.719,
+		"NewPP": 237.60589144920377,
+		"Weight": 0.000050836509313731454,
+		"WeightedPP": 0.012079054113654912,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 123.4675034805116,
+				"AnglePrecision": 476.0839958307724,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 381.662659846211,
+				"BurstSpeed": 106.33074298204158,
+				"StreamSpeed": 225.63459011348903,
+				"HoldSliders": 34.6798763904832
+			},
+			"Reading": {
+				"LowAr": 25.78772581912724
+			}
+		},
+		"OldIndex": 47,
+		"NewIndex": 197
+	},
+	{
+		"BeatmapID": 653534,
+		"Artist": "Panda Eyes",
+		"Title": "ILY",
+		"Difficulty": "Fanteer's Final Level",
+		"StarRating": 7.02,
+		"PrevPP": 187.48,
+		"NewPP": 229.80723729374407,
+		"Weight": 0.000048853103418083174,
+		"WeightedPP": 0.011226796729735259,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 103.16130925135684,
+				"AnglePrecision": 452.2307359455684,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 387.92923497216395,
+				"BurstSpeed": 101.95499827004616,
+				"StreamSpeed": 210.598604709881,
+				"HoldSliders": 37.7300939567035
+			},
+			"Reading": {
+				"LowAr": 25.995979040557764
+			}
+		},
+		"OldIndex": 92,
+		"NewIndex": 198
+	},
+	{
+		"BeatmapID": 703957,
+		"Artist": "Panda Eyes \u0026 Teminite",
+		"Title": "Immortal Flame (feat. Anna Yvette)",
+		"Difficulty": "Eternal Blaze",
+		"StarRating": 6.69,
+		"PrevPP": 179.45,
+		"NewPP": 243.03853926811803,
+		"Weight": 0.00004352913650335094,
+		"WeightedPP": 0.010579257751376928,
+		"Skills": {
+			"Aim": {
+				"DistancePrecision": 118.19636390936023,
+				"AnglePrecision": 528.0507971313319,
+				"Spin": 1
+			},
+			"Tapping": {
+				"Accuracy": 365.3609043793576,
+				"BurstSpeed": 93.74619789244532,
+				"StreamSpeed": 188.86330901438163,
+				"HoldSliders": 32.89586519457092
+			},
+			"Reading": {
+				"LowAr": 26.540539882651245
+			}
+		},
+		"OldIndex": 125,
+		"NewIndex": 199
+	}
+]

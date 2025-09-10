@@ -8,17 +8,18 @@ import (
 	"time"
 )
 
-func GetBestScores(userId int) ([]Score, error) {
-	scores0, err := getBestScoresPage(userId, 100, 0)
-	if err != nil {
-		return nil, err
+func GetBestScores(userId int, cnt int) ([]Score, error) {
+	var ret []Score
+	for i := 0; i < cnt; i += 100 {
+		scores, err := getBestScoresPage(userId, 100, i)
+		if err != nil {
+			return nil, err
+		}
+		ret = append(ret, scores...)
 	}
-	scores1, err := getBestScoresPage(userId, 100, 100)
-	if err != nil {
-		return nil, err
-	}
-	return append(scores0, scores1...), nil
+	return ret[:min(len(ret), cnt)], nil
 }
+
 func getBestScoresPage(userId int, limit int, offset int) ([]Score, error) {
 	url := fmt.Sprintf("https://osu.ppy.sh/api/v2/users/%d/scores/best?mode=osu&limit=%d&offset=%d", userId, limit, offset)
 

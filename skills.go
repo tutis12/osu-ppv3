@@ -6,7 +6,7 @@ import (
 	"unsafe"
 )
 
-const skillCount = 44
+const skillCount = 8
 
 type Skills struct {
 	Aim     AimSkills
@@ -57,41 +57,18 @@ func VectorToSkills(v [skillCount]float64) Skills {
 }
 
 type AimSkills struct {
-	DistancePrecision float64    // aiming correct distance towards the object
-	AnglePrecision    float64    // aiming correct angle towards the object
-	CursorSpeed       [4]float64 // different cursor speeds
-	Stamina           float64    // long circle chains
-
-	SpeedIncrease float64 // increase cursor speed
-	SpeedDecrease float64 // decrease cursor speed
-	SpeedStop     float64 // hold still / stacks / sliders
-
-	FlicksWideAngle  float64 // wide angle flicks
-	FlicksSharpAngle float64 // sharp angle flicks
-	FlicksRightAngle float64 // right angle flicks
-
-	Cheese float64 // cheese overlaps
-
-	AngleIncrease float64 // increase jump angle
-	AngleDecrease float64 // decrease jump angle
-
-	CW  float64 // clockwise flow
-	CCW float64 // counterclockwise flow
-
-	CWChange float64     // ability to switch circular direction
-	CWHold   float64     // ability to continue circular direction
-	Angles   [18]float64 // increments of 10 degrees
-
-	Spin float64
+	DistancePrecision float64 // aiming correct distance towards the object
+	AnglePrecision    float64 // aiming correct angle towards the object
+	Spin              float64 // spinners
 }
 
 type TappingSkills struct {
-	Accuracy float64 // high od
-	Speed    float64 // high bpm
+	Accuracy    float64 // high od
+	BurstSpeed  float64 // high bpm
+	StreamSpeed float64 // high bpm
+	HoldSliders float64 // ability to hold sliderss
 }
 
 type ReadingSkills struct {
-	LowAr    float64
-	Overlaps float64
-	Density  float64
+	LowAr float64
 }

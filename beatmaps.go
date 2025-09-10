@@ -138,14 +138,20 @@ type Owner struct {
 	Username string `json:"username"`
 }
 
-func FetchBeatmaps(ctx context.Context, ids []int) ([]Beatmap, error) {
+func FetchBeatmaps(ctx context.Context, ids []int) []Beatmap {
+	if len(ids) == 0 {
+		panic("")
+	}
 	start := time.Now()
 	var err error
 	for {
 		var beatmaps []Beatmap
 		beatmaps, err = tryFetchBeatmaps(ctx, ids)
 		if err == nil {
-			return beatmaps, nil
+			if len(beatmaps) == 0 {
+				panic("")
+			}
+			return beatmaps
 		}
 		time.Sleep(max(time.Second, min(time.Minute, time.Since(start))))
 		if strings.Contains(err.Error(), "Too Many Attempts") ||
@@ -155,7 +161,7 @@ func FetchBeatmaps(ctx context.Context, ids []int) ([]Beatmap, error) {
 			os.Exit(2)
 			continue
 		}
-		return nil, err
+		panic(err)
 	}
 }
 
@@ -209,6 +215,8 @@ func tryFetchBeatmaps(ctx context.Context, ids []int) ([]Beatmap, error) {
 	type beatmapsStruct struct {
 		Beatmaps []Beatmap `json:"beatmaps"`
 	}
+
+	fmt.Println("what ", string(body), ids)
 	var beatmaps beatmapsStruct
 	if err := json.Unmarshal(body, &beatmaps); err != nil {
 		return nil, fmt.Errorf("failed to unmarshal response: %w, body=%s", err, string(body))

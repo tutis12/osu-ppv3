@@ -1,11 +1,5 @@
 package main
 
-import (
-	"math"
-)
-
-const targetProbability = 1.0 / 40
-
 type sample struct {
 	SkillVector [skillCount]float64
 	PPIter      PPIter
@@ -19,20 +13,22 @@ func scaleSkills(skills [skillCount]float64, factor float64) [skillCount]float64
 }
 
 func GradientDescent(
-	start [skillCount]float64,
 	fn func(Skills) PPIter,
 ) PPIter {
 	scaleSample := func(x sample) sample {
 		var underExists, overExists bool
 		var underSample, overSample sample
-		if x.PPIter.ProbResult < targetProbability {
+		if x.PPIter.ProbResult < TargetProbability {
 			underExists = true
 			underSample = x
 		} else {
 			overExists = true
 			overSample = x
 		}
-		for range 1000 {
+		for range 100 {
+			if overExists && overSample.PPIter.ProbResult < TargetProbability+1e-5 {
+				return overSample
+			}
 			var nextVector [skillCount]float64
 			if !underExists {
 				nextVector = scaleSkills(overSample.SkillVector, 0.01)
@@ -47,35 +43,21 @@ func GradientDescent(
 				SkillVector: nextVector,
 				PPIter:      fn(VectorToSkills(nextVector)),
 			}
-			if nextSample.PPIter.ProbResult < targetProbability {
+			if nextSample.PPIter.ProbResult < TargetProbability {
 				underExists = true
 				underSample = nextSample
 			} else {
 				overExists = true
 				overSample = nextSample
 			}
-			if math.Abs(nextSample.PPIter.ProbResult-targetProbability) < 1e-7 {
-				break
-			}
 		}
-		if overExists && underExists {
-			if math.Abs(overSample.PPIter.ProbResult-targetProbability) <
-				math.Abs(underSample.PPIter.ProbResult-targetProbability) {
-				return overSample
-			} else {
-				return underSample
-			}
-		} else if overExists {
-			return overSample
-		} else {
-			return underSample
-		}
+		panic("skills didn't converge")
 	}
 
 	var ret sample
 	{
 		for i := range skillCount {
-			ret.SkillVector[i] = max(1, start[i])
+			ret.SkillVector[i] = 300
 		}
 		ret.PPIter = fn(VectorToSkills(ret.SkillVector))
 		ret = scaleSample(ret)

@@ -16,12 +16,11 @@ func ScrapeBeatmaps(toScrape []int) {
 			defer wg.Done()
 			ids := make([]int, min(50, len(toScrape)-index))
 			for i := range len(ids) {
-				ids[i] = toScrape[i] + i
+				ids[i] = toScrape[index+i]
 			}
-			beatmaps, err := FetchBeatmaps(context.Background(), ids)
-			if err != nil {
-				panic(err.Error())
-			}
+			fmt.Println("scraping", ids)
+			beatmaps := FetchBeatmaps(context.Background(), ids)
+			fmt.Println("got beatmaps", ids, beatmaps)
 			for _, beatmap := range beatmaps {
 				file, err := os.Create(fmt.Sprintf("../_beatmaps/%d", beatmap.ID))
 				if err != nil {
