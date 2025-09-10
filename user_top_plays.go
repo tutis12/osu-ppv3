@@ -119,25 +119,22 @@ func CalculateScore(
 	countMisses int,
 ) *BeatmapPPInfo {
 	_, beatmap := OpenBeatmap(beatmapId)
-	actions, err := ConvertBeatmapToActions(beatmap, mods)
+	mapConstants := GetBeatmapConstants(
+		beatmap,
+		mods,
+	)
+	actions, err := ConvertBeatmapToActions(
+		mapConstants,
+		beatmap,
+	)
 	if err != nil {
 		panic(err)
 	}
 
-	var hits, sliderends, sliderticks int
-	for _, action := range actions {
-		if action.Clickable {
-			hits++
-		} else if action.SliderEnd {
-			sliderends++
-		} else if action.SliderTick {
-			sliderticks++
-		}
-	}
 	info, err := CalculateBeatmapPPInfo(
 		beatmap,
+		mapConstants,
 		actions,
-		mods,
 		count100s,
 		count50s,
 		countMisses,

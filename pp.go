@@ -7,11 +7,7 @@ import (
 )
 
 type BeatmapPPInfo struct {
-	Iter                  PPIter
-	ApproachRate          float64
-	OverallDifficulty     float64
-	OverallDifficulty100s float64
-	OverallDifficulty50s  float64
+	Iter PPIter
 }
 
 type BeatmapIdentifier struct {
@@ -21,8 +17,8 @@ type BeatmapIdentifier struct {
 
 func CalculateBeatmapPPInfo(
 	beatmap *dotosu.Beatmap,
+	mapConstants MapConstants,
 	actions []*Action,
-	mods Modifiers,
 	count100s int,
 	count50s int,
 	countMisses int,
@@ -30,45 +26,12 @@ func CalculateBeatmapPPInfo(
 	countSliderTickMisses int,
 	countSpinnerMisses int,
 ) (*BeatmapPPInfo, error) {
-
 	fmt.Println(beatmap.Metadata.Title)
-	ar := beatmap.Difficulty.ApproachRate
-
-	od := beatmap.Difficulty.OverallDifficulty
-	if mods.Hardrock {
-		od = min(10, od*1.4)
-	}
-	if mods.Easy {
-		od = od / 2
-	}
-
-	if mods.Hardrock {
-		ar = min(10, ar*1.4)
-	}
-	if mods.Easy {
-		ar = ar / 2
-	}
-
-	preempt := ApproachRateToPreempt(ar) / mods.Rate
-	ar = PreemptToAR(preempt)
-
-	window300 := (80 - 6*od) / mods.Rate //+- this
-	window100 := (140 - 8*od) / mods.Rate
-	window50 := (200 - 10*od) / mods.Rate
-
-	od = (80 - window300) / 6
-	od100 := (140 - window100) / 8
-	od50 := (200 - window50) / 10
-
 	ppIter := GradientDescent(
 		func(skills Skills) PPIter {
 			iter := NewPPIter(
-				mods.Lazer,
+				mapConstants,
 				skills,
-				ar,
-				window300,
-				window100,
-				window50,
 			)
 			for _, action := range actions {
 				IterateAction(&iter, action)
@@ -86,6 +49,8 @@ func CalculateBeatmapPPInfo(
 			return iter
 		},
 	)
+
+	mods := mapConstants.Mods
 
 	modsStr := ""
 	if mods.Rate > 1 {
@@ -129,11 +94,7 @@ func CalculateBeatmapPPInfo(
 	)
 
 	return &BeatmapPPInfo{
-		Iter:                  ppIter,
-		ApproachRate:          ar,
-		OverallDifficulty:     od,
-		OverallDifficulty100s: od100,
-		OverallDifficulty50s:  od50,
+		Iter: ppIter,
 	}, nil
 }
 

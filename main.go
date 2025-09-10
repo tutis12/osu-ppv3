@@ -24,7 +24,7 @@ func main() {
 			panic(err)
 		}
 
-		file, err := os.Create(fmt.Sprintf("user_%d.txt", userId))
+		file, err := os.Create(fmt.Sprintf("users/%d.txt", userId))
 		if err != nil {
 			panic(err)
 		}

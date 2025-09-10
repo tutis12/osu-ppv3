@@ -43,8 +43,8 @@ func ProbabilitiesToAimAndTap(
 		action,
 		unstableRate,
 	)
-	atLeast300 = pAim * ProbErrLessThanX(unstableRate, it.Window300)
-	atLeast100 = pAim * ProbErrLessThanX(unstableRate, it.Window100)
-	atLeast50 = pAim * ProbErrLessThanX(unstableRate, it.Window50)
+	atLeast300 = pAim * ProbErrLessThanX(unstableRate, it.MapConstants.Window300)
+	atLeast100 = pAim * ProbErrLessThanX(unstableRate, it.MapConstants.Window100)
+	atLeast50 = pAim * ProbErrLessThanX(unstableRate, it.MapConstants.Window50)
 	return
 }

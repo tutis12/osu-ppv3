@@ -1,14 +1,10 @@
 package main
 
 type PPIter struct {
-	Lazer bool
-	PP    float64
+	MapConstants MapConstants
+	PP           float64
 
-	Skills       Skills
-	ApproachRate float64
-	Window300    float64
-	Window100    float64
-	Window50     float64
+	Skills Skills
 
 	ProbResult float64
 
@@ -47,7 +43,7 @@ func (it *PPIter) CalculateProbability(
 		prob100sOr50sOrMisses+prob50sOrMisses+probMisses-2,
 	)
 
-	if !it.Lazer {
+	if !it.MapConstants.Mods.Lazer {
 		it.ProbResult = standardJudgementsProb
 		return
 	}
@@ -61,21 +57,12 @@ func (it *PPIter) CalculateProbability(
 }
 
 func NewPPIter(
-	lazer bool,
+	mapConstants MapConstants,
 	skills Skills,
-	approachRate float64,
-	window300 float64,
-	window100 float64,
-	window50 float64,
 ) PPIter {
 	return PPIter{
-		Lazer:        lazer,
-		Skills:       skills,
-		ApproachRate: approachRate,
-		Window300:    window300,
-		Window100:    window100,
-		Window50:     window50,
-
+		MapConstants:           mapConstants,
+		Skills:                 skills,
 		ProbN100sOr50sOrMisses: NewKMisses(),
 		ProbN50sOrMisses:       NewKMisses(),
 		ProbNMisses:            NewKMisses(),
@@ -101,7 +88,7 @@ func IterateAction(
 			action,
 		)
 
-		if it.Lazer || action.Circle {
+		if it.MapConstants.Mods.Lazer || action.Circle {
 			it.ProbN100sOr50sOrMisses.Add(atLeast300)
 			it.ProbN50sOrMisses.Add(atLeast100)
 			it.ProbNMisses.Add(atLeast50)
@@ -119,11 +106,11 @@ func IterateAction(
 		)
 		actionProb := pAim
 		if action.Spinner {
-			actionProb /= (1 + it.Window50/it.Skills.Aim.Spin)
+			actionProb /= (1 + it.MapConstants.Window50/it.Skills.Aim.Spin)
 		} else {
 			actionProb /= (1 + 0.1/it.Skills.Tapping.HoldSliders)
 		}
-		if it.Lazer {
+		if it.MapConstants.Mods.Lazer {
 			if action.SliderTick {
 				it.ProbNSliderTickMisses.Add(actionProb)
 			} else if action.SliderEnd {

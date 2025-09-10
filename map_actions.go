@@ -21,18 +21,11 @@ type Action struct {
 	LastAims   []TimePos
 }
 
-func ConvertBeatmapToActions(beatmap *dotosu.Beatmap, mods Modifiers) ([]*Action, error) {
+func ConvertBeatmapToActions(
+	mapConstants MapConstants,
+	beatmap *dotosu.Beatmap,
+) ([]*Action, error) {
 	actions := make([]*Action, 0, len(beatmap.HitObjects))
-
-	cs := beatmap.Difficulty.CircleSize
-	if mods.Hardrock {
-		cs = min(cs*1.3, 10)
-	}
-	if mods.Easy {
-		cs = cs / 2
-	}
-
-	csInPixels := 54.4 - 4.48*cs
 
 	timingPoints := beatmap.TimingPoints
 	timingPointIndex := 0
@@ -61,7 +54,7 @@ objectLoop:
 						Y: float64(object.PosXY.Y),
 					},
 					Time:      float64(object.Time),
-					Radius:    csInPixels,
+					Radius:    mapConstants.CircleRadius,
 					Clickable: true,
 					Circle:    true,
 				},
@@ -85,7 +78,7 @@ objectLoop:
 						Y: float64(object.PosXY.Y),
 					},
 					Time:      float64(object.Time),
-					Radius:    csInPixels,
+					Radius:    mapConstants.CircleRadius,
 					Clickable: true,
 				},
 			)
@@ -118,7 +111,7 @@ objectLoop:
 						&Action{
 							Pos:        GetSliderPosition(samples, progress),
 							Time:       time,
-							Radius:     csInPixels * 2.4,
+							Radius:     mapConstants.CircleRadius * 2.4,
 							Clickable:  false,
 							SliderTick: true,
 						},
@@ -152,7 +145,7 @@ objectLoop:
 					&Action{
 						Pos:        sliderend,
 						Time:       repeatTime,
-						Radius:     csInPixels * 2.4,
+						Radius:     mapConstants.CircleRadius * 2.4,
 						Clickable:  false,
 						SliderEnd:  i == object.Slides-1,
 						SliderTick: i != object.Slides-1,
@@ -160,7 +153,7 @@ objectLoop:
 				)
 			}
 		case dotosu.Spinner:
-			if mods.SpunOut {
+			if mapConstants.Mods.SpunOut {
 				continue objectLoop
 			}
 			actions = append(
@@ -185,9 +178,17 @@ objectLoop:
 		}
 	}
 	for i := range actions {
-		actions[i].Time /= mods.Rate
+		actions[i].Time /= mapConstants.Mods.Rate
 	}
 
+	PrecalculateActionStuff(actions)
+
+	return actions, nil
+}
+
+func PrecalculateActionStuff(
+	actions []*Action,
+) {
 	clicks := make([]TimePos, fakeObjects)
 	aims := make([]TimePos, fakeObjects)
 	for i := range fakeObjects {
@@ -216,6 +217,4 @@ objectLoop:
 		}
 		aims = append(aims, timePos)
 	}
-
-	return actions, nil
 }
